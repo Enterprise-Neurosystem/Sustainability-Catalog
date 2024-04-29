@@ -1,4 +1,26 @@
 # Meeting Minutes for SustainabilityCatalog  - GitHub repo for creating the Catalog (Knowledge bank) for AI based Sunstainability solutions
+April 22
+Catalog Governance
+
+7 in all
+•	2 from ENG ( Only one from IBM) - ENG would nominate two people – Dinesh / Andy Kove. – Bill is going to finalize; Board meeting.
+•	1 from UNFCC – Bill will get this
+•	1 from Emerging Market - emerging market expert - Abhay
+•	1 from Sustainability expert - Sanjay
+•	1 AI expert - Sheeba
+•	1 Security and Compliance expert  - Anindita
+
+Process. – Need to define a process -   
+
+Calls – review – contents – approve/disapprove..
+Entries – Could be like Work together and approve initial and then work towards incrementals .
+
+Think about content to go into catalog..
+Anindita will connect -design and work on building the gihub repo.
+Abhay – Pulling him in search feature..
+
+_______________-
+
 April 15th -    Discussion on Catalog
 Discussed on new Domain name for Catalog/ Knowledge base and decision made - mlwithoutborders.org
  
