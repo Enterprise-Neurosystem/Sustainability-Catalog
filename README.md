@@ -10,10 +10,7 @@ Catalog Governance
 •	1 AI expert - Sheeba
 •	1 Security and Compliance expert  - Anindita
 
-Process. – Need to define a process -   
-
-Calls – review – contents – approve/disapprove..
-Entries – Could be like Work together and approve initial and then work towards incrementals .
+Process. – We need to define a process -   Calls – review – contents – approve/disapprove.. Initially for Entries, it Could be like Work together and approve initial and then work towards incrementals .
 
 Think about content to go into catalog..
 Anindita will connect -design and work on building the gihub repo.
