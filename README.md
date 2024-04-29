@@ -14,7 +14,7 @@ Process. – We need to define a process -   Calls – review – contents – a
 
 Think about content to go into catalog..
 Anindita will connect -design and work on building the gihub repo.
-Abhay – Pulling him in search feature..
+Abhay – Pulling him in for search feature..
 
 _______________-
 
