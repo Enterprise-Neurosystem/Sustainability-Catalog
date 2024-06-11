@@ -1,9 +1,11 @@
 # Meeting Minutes for SustainabilityCatalog  - June 10
 Dinesh had a formalized the approach for Data Cataloging.
+
     Data Sources related to Sustainable AI Solutions applicable to Emerging Economies
     AI Models (Foundation Models) related to Sustainable AI Solutions applicable to Emerging Economies
     Open Source Projects related to Sustainable AI Solutions applicable to Emerging Economies
     Publications/Papers related to Sustainable AI Solutions applicable to Emerging Economies
+    
 He also provided a list of links to arcticles, data, models and tools resources., to be added to Catalog. Sheeba will take them and publish on GitHub and then to Web URL mlwithoutborders.org
 
 # Meeting Minutes for SustainabilityCatalog  - GitHub repo for creating the Catalog (Knowledge bank) for AI based Sunstainability solutions
