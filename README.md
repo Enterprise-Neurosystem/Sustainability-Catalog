@@ -1,3 +1,6 @@
+#Follow Up action to call JUn 10th
+Attached ppt with source links to add to Data Catalog
+
 # Meeting Minutes for SustainabilityCatalog  - June 10
 Dinesh had a formalized the approach for Data Cataloging.
 
