@@ -1,4 +1,4 @@
-#Follow Up action to call JUn 10th
+#Follow Up action to call Jun 10th
 Attached ppt with source links to add to Data Catalog
 
 # Meeting Minutes for SustainabilityCatalog  - June 10
