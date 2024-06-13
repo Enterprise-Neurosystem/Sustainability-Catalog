@@ -1,0 +1,17 @@
+IBM NASA GeoSpatial Prithvi 100M 
+https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M
+IBM NASA GeoSpatial Prithvi 100M Burn Scar
+https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M-burn-scar
+IBM NASA GeoSpatial Prithvi 100M Multi-temporal Crop Classification 
+https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M-multi-temporal-crop-classification
+IBM NASA Geospatial Prithvi 100M Flood Model 
+https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M-sen1floods11
+Vegetation Classification Model
+https://huggingface.co/iammartian0/vegetation_classification_model
+Remote Sensing Models/DataSets
+https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models
+Waether and Climate Models 
+https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate?tab=readme-ov-file#dataset
+Text Mining in Sustainable Investing
+https://huggingface.co/nbroad/ESG-BERT
+Text mining in Healthcare: https://huggingface.co/ClinicalNLP/SDOHv7
