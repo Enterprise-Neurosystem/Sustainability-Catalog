@@ -1,10 +1,5 @@
-<a href="https://huggingface.co/datasets/ibm-nasa-geospatial/hls_burn_scars"> IBM NASA HLS Burn Scars </a>
-
-IBM NASA Multi-temporal Crop Classification
-https://huggingface.co/datasets/ibm-nasa-geospatial/multi-temporal-crop-classification
-Plant Diseases Classification DataSet
-https://huggingface.co/datasets/ayerr/plant-disease-classification
-NASA WorldView 
-https://worldview.earthdata.nasa.gov
-EU Copernicus Data Service
-https://dataspace.copernicus.eu
+1. IBM NASA HLS Burn Scars - https://huggingface.co/datasets/ibm-nasa-geospatial/hls_burn_scars
+2. IBM NASA Multi-temporal Crop Classification - https://huggingface.co/datasets/ibm-nasa-geospatial/multi-temporal-crop-classification
+3. Plant Diseases Classification DataSet- https://huggingface.co/datasets/ayerr/plant-disease-classification
+4. NASA WorldView  - https://worldview.earthdata.nasa.gov
+5. EU Copernicus Data Service - https://dataspace.copernicus.eu
