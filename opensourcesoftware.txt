@@ -1,3 +1,0 @@
-1. ENG Acoustics Software - https://github.com/Enterprise-Neurosystem/ai-signal-processing
-2. ENG APIary - https://github.com/Enterprise-Neurosystem/APIary
-3. HydroBench - https://github.com/HydroBench/Hydro

@@ -1,0 +1,348 @@
+datasets:
+  - name: MERRA-2
+    description: Modern-Era Retrospective Analysis for Research and Applications, Version 2 provides detailed climate data for research applications.
+    url: https://gmao.gsfc.nasa.gov/research/merra/
+    date: 2023-08-05
+  - name: GPM
+    description: Global Precipitation Measurement offers high-resolution precipitation data from satellite observations.
+    url: https://gpm.nasa.gov/
+    date: 2023-07-25
+  - name: ECMWF ERA5
+    description: High-resolution global climate data from the European Centre for Medium-Range Weather Forecasts.
+    url: https://www.ecmwf.int/en/forecasts/dataset/ecmwf-era5
+    date: 2023-07-10
+  - name: MODIS
+    description: Moderate Resolution Imaging Spectroradiometer provides satellite data for a wide range of Earth observations.
+    url: https://modis.gsfc.nasa.gov/
+    date: 2023-07-30
+  - name: Climate Data Initiative
+    description: A U.S. government initiative offering various climate datasets for public access and research.
+    url: https://www.data.gov/climate/
+    date: 2023-06-20
+  - name: WorldClim
+    description: Global climate data offering high-resolution climatic variables for research and modeling.
+    url: https://www.worldclim.org/
+    date: 2023-06-15
+  - name: NCEP CFSR
+    description: Climate Forecast System Reanalysis provides comprehensive historical climate data and forecasts.
+    url: https://www.esrl.noaa.gov/psd/data/gridded/data.cfsr.html
+    date: 2023-06-01
+  - name: Copernicus Climate Change Service (C3S)
+    description: Provides high-quality climate data and information services for Europe.
+    url: https://climate.copernicus.eu/
+    date: 2023-06-30
+  - name: CMIP6
+    description: Coupled Model Intercomparison Project Phase 6 offers data for climate model evaluation and analysis.
+    url: https://esgf-node.llnl.gov/projects/cmip6/
+    date: 2023-05-20
+
+models:
+  - name: Aurora
+    description: A foundation model of the atmosphere, pre-trained on large-scale atmospheric data for various weather tasks.
+    category: Foundation Models
+    publication: Microsoft Research AI for Science
+    year: 2024
+    resource:
+      paper: https://www.microsoft.com/en-us/research/publication/aurora-a-foundation-model-of-the-atmosphere/
+  - name: Pangu-Weather
+    description: Accurate medium-range global weather forecasting with 3D neural networks, offering advanced prediction capabilities.
+    category: Foundation Models
+    publication: Nature
+    year: 2023
+    resource:
+      paper: https://www.nature.com/articles/s41586-023-06185-3
+      code: https://github.com/198808xc/Pangu-Weather
+  - name: ClimaX
+    description: Foundation model for weather and climate, utilizing large-scale data for improved weather and climate predictions.
+    category: Foundation Models
+    publication: ICML
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2301.10343
+      code: https://github.com/microsoft/ClimaX
+  - name: W-MAE
+    description: Pre-trained weather model with masked autoencoder designed for multi-variable weather forecasting.
+    category: Foundation Models
+    publication: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2304.08754
+      code: https://github.com/Gufrannn/W-MAE
+  - name: FengWu
+    description: Advances skillful global medium-range weather forecasting, extending prediction capabilities beyond 10 days.
+    category: Foundation Models
+    publication: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2304.02948
+  - name: FuXi
+    description: Cascade machine learning forecasting system designed for accurate 15-day global weather forecasts.
+    category: Foundation Models
+    publication: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.12873
+      code: https://github.com/tpys/FuXi
+  - name: OceanGPT
+    description: Large language model tailored for ocean science tasks, enhancing understanding of oceanographic phenomena.
+    category: Foundation Models
+    publication: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2310.02031
+      code: https://huggingface.co/zjunlp/OceanGPT-7b
+  - name: GraphCast
+    description: Learning skillful medium-range global weather forecasting through a novel approach using deep learning techniques.
+    category: Foundation Models
+    publication: arXiv
+    year: 2022
+    resource:
+      paper: https://arxiv.org/abs/2212.12794
+      code: https://github.com/google-deepmind/graphcast
+  - name: FourCastNet
+    description: Global high-resolution weather model using adaptive Fourier neural operators for improved accuracy.
+    category: Foundation Models
+    publication: arXiv
+    year: 2022
+    resource:
+      paper: https://arxiv.org/abs/2202.11214
+      code: https://github.com/NVlabs/FourCastNet
+  - name: SatMAE
+    description: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery to enhance remote sensing analysis.
+    category: Remote Sensing
+    publication: NeurIPS2022
+    resource:
+      paper: https://proceedings.neurips.cc/paper_files/paper/2022/hash/01c561df365429f33fcd7a7faa44c985-Abstract-Conference.html
+      code_and_weights: https://github.com/sustainlab-group/SatMAE
+  - name: DINO-MM
+    description: Self-supervised Vision Transformers designed for Joint SAR-optical Representation Learning in remote sensing.
+    category: Remote Sensing
+    publication: IGARSS2022
+    resource:
+      paper: https://arxiv.org/abs/2204.05381
+      code_and_weights: https://github.com/zhu-xlab/DINO-MM
+  - name: GeCo
+    description: Geographical Supervision Correction enhances remote sensing representation learning through geographical context.
+    category: Remote Sensing
+    publication: TGRS2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9869651
+      code_and_weights: null
+  - name: RS-BYOL
+    description: Self-Supervised Learning for Invariant Representations From Multi-Spectral and SAR Images for remote sensing applications.
+    category: Remote Sensing
+    publication: JSTARS2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9880533
+      code_and_weights: null
+  - name: SeCo
+    description: Seasonal Contrast model for Unsupervised Pre-Training with Uncurated Remote Sensing Data to improve model robustness.
+    category: Remote Sensing
+    publication: ICCV2021
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2021/html/Manas_Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data_ICCV_2021_paper.html
+      code_and_weights: https://github.com/ServiceNow/seasonal-contrast
+  - name: GASSL
+    description: Geography-Aware Self-Supervised Learning enhances remote sensing representation with geographic context.
+    category: Remote Sensing
+    publication: ICCV2021
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2021/html/Ayush_Geography-Aware_Self-Supervised_Learning_ICCV_2021_paper.html
+      code_and_weights: https://github.com/sustainlab-group/geography-aware-ssl
+  - name: Self-Supervised Learning of Remote Sensing Scene Representations Using Contrastive Multiview Coding
+    description: Advanced self-supervised learning method for enhancing remote sensing scene representations using contrastive coding.
+    category: Remote Sensing
+    publication: CVPRW2021
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Stojnic_Self-Supervised_Learning_of_Remote_Sensing_Scene_Representations_Using_Contrastive_Multiview_CVPRW_2021_paper.html
+      code_and_weights: https://github.com/vladan-stojnic/CMC-RSSR
+  - name: GeoKR
+    description: Geographical Knowledge-Driven Representation Learning for Remote Sensing Images leveraging geographic knowledge for enhanced learning.
+    category: Remote Sensing
+    publication: TGRS2021
+
+publications:
+  - title: PCT-CycleGAN Paired Complementary Temporal Cycle-Consistent Adversarial Networks for Radar-Based Precipitation Nowcasting
+    venue: 32nd ACM International Conference on Information and Knowledge Management
+    year: 2023
+    resource:
+      paper: https://dl.acm.org/doi/abs/10.1145/3583780.3615006
+
+  - title: A Generative Adversarial Network for Climate Tipping Point Discovery (TIP-GAN)
+    venue: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2302.10274
+
+  - title: TemperatureGAN Generative Modeling of Regional Atmospheric Temperatures
+    venue: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.17248
+
+  - title: A Space-Time Partial Differential Equation Based Physics-Guided Neural Network for Sea Surface Temperature Prediction
+    venue: Remote Sensing
+    year: 2023
+    resource:
+      paper: https://www.mdpi.com/2072-4292/15/14/3498
+
+  - title: Skillful Radar-Based Heavy Rainfall Nowcasting Using Task-Segmented Generative Adversarial Network
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10182305
+
+  - title: Clgan A Generative Adversarial Network (GAN)-Based Video Prediction Model for Precipitation Nowcasting
+    venue: Geoscientific Model Development
+    year: 2023
+    resource:
+      paper: https://gmd.copernicus.org/articles/16/2737/2023/
+
+  - title: MSTCGAN Multiscale Time Conditional Generative Adversarial Network for Long-Term Satellite Image Sequence Prediction
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9791392
+
+  - title: Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9837952
+
+  - title: SPATE-GAN Improved Generative Modeling of Dynamic Spatio-Temporal Patterns with an Autoregressive Embedding Loss
+    venue: AAAI
+    year: 2022
+    resource:
+      paper: https://ojs.aaai.org/index.php/AAAI/article/view/20375
+      code: https://github.com/konstantinklemmer/spate-gan
+
+  - title: Physically Constrained Generative Adversarial Networks for Improving Precipitation Fields from Earth System Models
+    venue: Nature Machine Intelligence
+    year: 2022
+    resource:
+      paper: https://www.nature.com/articles/s42256-022-00540-1
+
+  - title: Experimental Study on Generative Adversarial Network for Precipitation Nowcasting
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9780397
+
+  - title: A Generative Deep Learning Approach to Stochastic Downscaling of Precipitation Forecasts
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2022
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003120
+
+  - title: Producing Realistic Climate Data with Generative Adversarial Networks
+    venue: Nonlinear Processes in Geophysics
+    year: 2021
+    resource:
+      paper: https://npg.copernicus.org/articles/28/347/2021/npg-28-347-2021-discussion.html
+      code: https://github.com/Cam-B04/Producing-realistic-climate-data-with-GANs
+
+  - title: Skillful Precipitation Nowcasting Using Deep Generative Models of Radar
+    venue: Nature
+    year: 2021
+    resource:
+      paper: https://www.nature.com/articles/s41586-021-03854-z
+      code: https://github.com/openclimatefix/skillful_nowcasting
+
+  - title: Physically-Consistent Generative Adversarial Networks for Coastal Flood Visualization
+    venue: arXiv
+    year: 2021
+    resource:
+      paper: https://arxiv.org/abs/2104.04785
+
+  - title: Algorithmic Hallucinations of Near-Surface Winds Statistical Downscaling with Generative Adversarial Networks to Convection-Permitting Scales
+    venue: Artificial Intelligence for the Earth Systems
+    year: 2023
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/aies/2/4/AIES-D-23-0015.1.xml
+
+  - title: Generative Modeling of Spatio-Temporal Weather Patterns with Extreme Event Conditioning
+    venue: arXiv
+    year: 2021
+    resource:
+      paper: https://arxiv.org/abs/2104.12469
+
+  - title: Physics-Guided Generative Adversarial Networks for Sea Subsurface Temperature Prediction
+    venue: IEEE Transactions on Neural Networks and Learning Systems
+    year: 2021
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9610615
+
+  - title: Very Short-Term Rainfall Prediction Using Ground Radar Observations and Conditional Generative Adversarial Networks
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2021
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9532007
+
+  - title: A Generative Adversarial Gated Recurrent Unit Model for Precipitation Nowcasting
+    venue: IEEE Geoscience and Remote Sensing Letters
+    year: 2019
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/8777193
+
+  - title: Stochastic Super-Resolution for Downscaling Time-Evolving Atmospheric Fields with a Generative Adversarial Network
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2020
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9246532
+      code: https://github.com/jleinonen/downscaling-rnn-gan
+
+  - title: MPL-GAN Toward Realistic Meteorological Predictive Learning Using Conditional GAN
+    venue: IEEE Access
+    year: 2020
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9094665
+
+  - title: Climate-StyleGAN Modeling Turbulent Climate Dynamics Using Style-GAN
+    venue: AI for Earth Science Workshop
+    year: 2020
+    resource:
+      paper: https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_53.pdf
+
+  - title: Progressive Growing of GANs for Improved Quality, Stability, and Variation
+    venue: arXiv
+    year: 2018
+    resource:
+      paper: https://arxiv.org/abs/1710.10196
+      code: https://github.com/tkarras/progressive_growing_of_gans
+
+  - title: Large Scale GAN Training for High Fidelity Natural Image Synthesis
+    venue: arXiv
+    year: 2018
+    resource:
+      paper: https://arxiv.org/abs/1809.11096
+      code: https://github.com/ajbrock/BigGAN-PyTorch
+
+  - title: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+    venue: arXiv
+    year: 2015
+    resource:
+      paper: https://arxiv.org/abs/1511.06434
+      code: https://github.com/Newmu/dcgan_code
+
+tools:
+  - name: Climate Prediction Toolkit
+    description: Provides advanced tools for climate modeling and prediction.
+    url: https://www.climateprediction.net/
+    date: 2024-01-15
+  - name: Earth System Model Simulator
+    description: Simulates various Earth system processes for climate and environmental research.
+    url: https://www.earthsystemmodelsimulator.org/
+    date: 2024-02-20
+  - name: ClimateDataProcessor
+    description: Tool for processing and analyzing climate data from various sources.
+    url: https://github.com/climate-data-processor
+    date: 2024-03-10
+  - name: Satellite Image Analysis Toolkit
+    description: Advanced toolkit for analyzing and interpreting satellite imagery.
+    url: https://www.satelliteimagerytools.org/
+    date: 2024-04-05
+  - name: Remote Sensing Data Analysis Suite
+    description: Comprehensive suite for processing and analyzing remote sensing data.
+    url: https://github.com/remote-sensing-data-analysis
+    date: 2024-05-12

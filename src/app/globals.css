@@ -1,0 +1,83 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optionally add custom styles */
+
+/* globals.css */
+@import "~carbon-components/css/carbon-components.min.css";
+/* Add other imports or custom styles here */
+
+/* src/app/globals.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Example font */
+}
+
+/* custom.css */
+.cds--tabs__nav-item--close-icon--selected {
+  display: none !important;
+}
+
+.cds--tabs__nav-item--close--hidden {
+  display: none !important;
+}
+
+.cds--tab--overflow-nav-button--hidden {
+  display: none !important;
+}
+
+.cds--tab--overflow-nav-button--hidden {
+  display: none !important;
+}
+
+.header {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+}
+
+
+.tabs-column {
+  background-color: #f8f8f8;
+  border-right: 1px solid #dcdcdc;
+  padding: 1rem;
+}
+
+.tab-item {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.tab-item[aria-selected="true"] {
+  font-weight: bold;
+  background-color: #e0e0e0;
+}
+
+.content-column {
+  padding: 1rem;
+  overflow-y: auto;
+}
+/* globals.css */
+.bg-primary-blue {
+  background-color: #004f9d; /* Example blue color */
+}

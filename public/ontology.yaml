@@ -1,0 +1,56 @@
+ontology:
+  categories:
+    - name: Weather Forecasting
+      subcategories:
+        - name: Nowcasting
+          subsubcategories:
+            - name: Radar-Based Nowcasting
+            - name: Deep Generative Models
+        - name: Rainfall Prediction
+          subsubcategories:
+            - name: Ground Radar Observations
+        - name: Downscaling
+          subsubcategories:
+            - name: Stochastic Downscaling
+            - name: Super-Resolution
+    - name: Climate Modeling
+      subcategories:
+        - name: Data Generation
+          subsubcategories:
+            - name: Generative Adversarial Networks
+        - name: Temperature Modeling
+          subsubcategories:
+            - name: Generative Adversarial Networks
+        - name: Turbulent Dynamics
+          subsubcategories:
+            - name: StyleGANs
+        - name: Tipping Points
+          subsubcategories:
+            - name: Generative Adversarial Networks
+    - name: Oceanography
+      subcategories:
+        - name: Sea Surface Temperature
+          subsubcategories:
+            - name: Physics-Guided Neural Networks
+        - name: Subsurface Temperature
+          subsubcategories:
+            - name: Physics-Guided GANs
+    - name: Satellite Imaging
+      subcategories:
+        - name: Long-Term Prediction
+          subsubcategories:
+            - name: Multiscale Time Conditional GANs
+    - name: Coastal Flood Modeling
+      subcategories:
+        - name: Visualization
+          subsubcategories:
+            - name: Generative Adversarial Networks
+    - name: GANs
+      subcategories:
+        - name: General GANs
+          subsubcategories:
+            - name: Progressive Growing
+            - name: High Fidelity Synthesis
+    - name: Tipping Points
+      subcategories:
+        - name: Generative Adversarial Networks
