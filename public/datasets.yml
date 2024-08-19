@@ -1,0 +1,736 @@
+datasets:
+  - name: MERRA-2
+    description: Modern-Era Retrospective Analysis for Research and Applications, Version 2 provides detailed climate data for research applications.
+    url: https://gmao.gsfc.nasa.gov/research/merra/
+    date: 2023-08-05
+    category: Climate Change
+    subcategory: Climate Prediction
+    subsubcategory: Climate Prediction Data
+
+  - name: GPM
+    description: Global Precipitation Measurement offers high-resolution precipitation data from satellite observations.
+    url: https://gpm.nasa.gov/
+    date: 2023-07-25
+    category: Climate Change
+    subcategory: Climate Prediction
+    subsubcategory: Precipitation Data
+
+  - name: ECMWF ERA5
+    description: High-resolution global climate data from the European Centre for Medium-Range Weather Forecasts.
+    url: https://www.ecmwf.int/en/forecasts/dataset/ecmwf-era5
+    date: 2023-07-10
+    category: Climate Change
+    subcategory: Climate Modeling
+    subsubcategory: Atmospheric Data
+
+  - name: MODIS
+    description: Moderate Resolution Imaging Spectroradiometer provides satellite data for a wide range of Earth observations.
+    url: https://modis.gsfc.nasa.gov/
+    date: 2023-07-30
+    category: Environmental Conservation
+    subcategory: Biodiversity Monitoring
+    subsubcategory: Satellite Observations
+
+  - name: Climate Data Initiative
+    description: A U.S. government initiative offering various climate datasets for public access and research.
+    url: https://www.data.gov/climate/
+    date: 2023-06-20
+    category: Climate Change
+    subcategory: Climate Modeling
+    subsubcategory: General Climate Data
+
+  - name: WorldClim
+    description: Global climate data offering high-resolution climatic variables for research and modeling.
+    url: https://www.worldclim.org/
+    date: 2023-06-15
+    category: Climate Change
+    subcategory: Climate Modeling
+    subsubcategory: High-Resolution Climatic Variables
+
+  - name: NCEP CFSR
+    description: Climate Forecast System Reanalysis provides comprehensive historical climate data and forecasts.
+    url: https://www.esrl.noaa.gov/psd/data/gridded/data.cfsr.html
+    date: 2023-06-01
+    category: Climate Change
+    subcategory: Climate Prediction
+    subsubcategory: Historical Climate Data
+
+  - name: Copernicus Climate Change Service (C3S)
+    description: Provides high-quality climate data and information services for Europe.
+    url: https://climate.copernicus.eu/
+    date: 2023-06-30
+    category: Climate Change
+    subcategory: Climate Modeling
+    subsubcategory: European Climate Data
+
+  - name: CMIP6
+    description: Coupled Model Intercomparison Project Phase 6 offers data for climate model evaluation and analysis.
+    url: https://esgf-node.llnl.gov/projects/cmip6/
+    date: 2023-05-20
+    category: Climate Change
+    subcategory: Climate Modeling
+    subsubcategory: Model Evaluation Data
+
+  - name: eBird
+    description: Provides data on bird sightings globally, useful for biodiversity monitoring and conservation efforts.
+    url: https://ebird.org/
+    date: 2023-04-15
+    category: Environmental Conservation
+    subcategory: Biodiversity Monitoring
+    subsubcategory: Bird Observation Data
+
+  - name: Global Forest Watch
+    description: Provides data and tools to monitor deforestation and forest changes worldwide.
+    url: https://www.globalforestwatch.org/
+    date: 2023-03-10
+    category: Environmental Conservation
+    subcategory: Deforestation Prevention
+    subsubcategory: Forest Monitoring Data
+
+  - name: AquaCrop
+    description: Tool for crop yield prediction and water use efficiency analysis based on climate data.
+    url: https://www.fao.org/aquacrop/en/
+    date: 2023-02-25
+    category: Sustainable Agriculture
+    subcategory: Crop Yield Prediction
+    subsubcategory: Yield Prediction Models
+
+  - name: SoilGrids
+    description: Global soil information system that provides soil property data at high resolution.
+    url: https://soilgrids.org/
+    date: 2023-01-20
+    category: Sustainable Agriculture
+    subcategory: Soil Health Monitoring
+    subsubcategory: Soil Property Data
+
+  - name: Urban Observatory
+    description: Provides data for smart city development, including air quality, waste management, and other urban metrics.
+    url: https://www.urbanobservatory.ac.uk/
+    date: 2023-05-15
+    category: Sustainable Cities
+    subcategory: Air Quality Monitoring
+    subsubcategory: Urban Air Quality Data
+
+  - name: Copernicus Emergency Management Service
+    description: Offers satellite-based data for disaster response and management, including flood and earthquake monitoring.
+    url: https://emergency.copernicus.eu/
+    date: 2023-07-01
+    category: Disaster Management
+    subcategory: Disaster Response
+    subsubcategory: Emergency Management Data
+
+
+models:
+  - name: Aurora
+    description: A foundation model of the atmosphere, pre-trained on large-scale atmospheric data for various weather tasks.
+    category: Climate Change
+    subcategory: Climate Modeling
+    subsubcategory: Atmospheric Data Models
+    publication: Microsoft Research AI for Science
+    year: 2024
+    resource:
+      paper: https://www.microsoft.com/en-us/research/publication/aurora-a-foundation-model-of-the-atmosphere/
+
+  - name: Pangu-Weather
+    description: Accurate medium-range global weather forecasting with 3D neural networks, offering advanced prediction capabilities.
+    category: Climate Change
+    subcategory: Climate Prediction
+    subsubcategory: Medium-Range Forecasting Models
+    publication: Nature
+    year: 2023
+    resource:
+      paper: https://www.nature.com/articles/s41586-023-06185-3
+      code: https://github.com/198808xc/Pangu-Weather
+
+  - name: ClimaX
+    description: Foundation model for weather and climate, utilizing large-scale data for improved weather and climate predictions.
+    category: Climate Change
+    subcategory: Climate Modeling
+    subsubcategory: Large-Scale Climate Models
+    publication: ICML
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2301.10343
+      code: https://github.com/microsoft/ClimaX
+
+  - name: W-MAE
+    description: Pre-trained weather model with masked autoencoder designed for multi-variable weather forecasting.
+    category: Climate Change
+    subcategory: Climate Prediction
+    subsubcategory: Multi-Variable Forecasting Models
+    publication: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2304.08754
+      code: https://github.com/Gufrannn/W-MAE
+
+  - name: FengWu
+    description: Advances skillful global medium-range weather forecasting, extending prediction capabilities beyond 10 days.
+    category: Climate Change
+    subcategory: Climate Prediction
+    subsubcategory: Extended Forecasting Models
+    publication: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2304.02948
+
+  - name: FuXi
+    description: Cascade machine learning forecasting system designed for accurate 15-day global weather forecasts.
+    category: Climate Change
+    subcategory: Climate Prediction
+    subsubcategory: Long-Term Forecasting Models
+    publication: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.12873
+      code: https://github.com/tpys/FuXi
+
+  - name: OceanGPT
+    description: Large language model tailored for ocean science tasks, enhancing understanding of oceanographic phenomena.
+    category: Environmental Conservation
+    subcategory: Biodiversity Monitoring
+    subsubcategory: Oceanographic Models
+    publication: arXiv
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2310.02031
+      code: https://huggingface.co/zjunlp/OceanGPT-7b
+
+  - name: GraphCast
+    description: Learning skillful medium-range global weather forecasting through a novel approach using deep learning techniques.
+    category: Climate Change
+    subcategory: Climate Prediction
+    subsubcategory: Deep Learning Forecasting Models
+    publication: arXiv
+    year: 2022
+    resource:
+      paper: https://arxiv.org/abs/2212.12794
+      code: https://github.com/google-deepmind/graphcast
+
+  - name: FourCastNet
+    description: Global high-resolution weather model using adaptive Fourier neural operators for improved accuracy.
+    category: Climate Change
+    subcategory: Climate Modeling
+    subsubcategory: High-Resolution Models
+    publication: arXiv
+    year: 2022
+    resource:
+      paper: https://arxiv.org/abs/2202.11214
+      code: https://github.com/NVlabs/FourCastNet
+
+  - name: SatMAE
+    description: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery to enhance remote sensing analysis.
+    category: Remote Sensing
+    subcategory: Satellite Imagery Analysis
+    subsubcategory: Multi-Spectral Transformers
+    publication: NeurIPS2022
+    resource:
+      paper: https://proceedings.neurips.cc/paper_files/paper/2022/hash/01c561df365429f33fcd7a7faa44c985-Abstract-Conference.html
+      code_and_weights: https://github.com/sustainlab-group/SatMAE
+
+  - name: DINO-MM
+    description: Self-supervised Vision Transformers designed for Joint SAR-optical Representation Learning in remote sensing.
+    category: Remote Sensing
+    subcategory: SAR-Optical Representation
+    subsubcategory: Self-Supervised Transformers
+    publication: IGARSS2022
+    resource:
+      paper: https://arxiv.org/abs/2204.05381
+      code_and_weights: https://github.com/zhu-xlab/DINO-MM
+
+  - name: GeCo
+    description: Geographical Supervision Correction enhances remote sensing representation learning through geographical context.
+    category: Remote Sensing
+    subcategory: Geographic Context Learning
+    subsubcategory: Geographic Supervision Models
+    publication: TGRS2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9869651
+      code_and_weights: null
+
+  - name: RS-BYOL
+    description: Self-Supervised Learning for Invariant Representations From Multi-Spectral and SAR Images for remote sensing applications.
+    category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: Invariant Representations
+    publication: JSTARS2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9880533
+      code_and_weights: null
+
+  - name: SeCo
+    description: Seasonal Contrast model for Unsupervised Pre-Training with Uncurated Remote Sensing Data to improve model robustness.
+    category: Remote Sensing
+    subcategory: Unsupervised Learning
+    subsubcategory: Seasonal Contrast Models
+    publication: ICCV2021
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2021/html/Manas_Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data_ICCV_2021_paper.html
+      code_and_weights: https://github.com/ServiceNow/seasonal-contrast
+
+  - name: GASSL
+    description: Geography-Aware Self-Supervised Learning enhances remote sensing representation with geographic context.
+    category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: Geography-Aware Models
+    publication: ICCV2021
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2021/html/Ayush_Geography-Aware_Self-Supervised_Learning_ICCV_2021_paper.html
+      code_and_weights: https://github.com/sustainlab-group/geography-aware-ssl
+
+  - name: Self-Supervised Learning of Remote Sensing Scene Representations Using Contrastive Multiview Coding
+    description: Advanced self-supervised learning method for enhancing remote sensing scene representations using contrastive coding.
+    category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: Contrastive Coding Models
+    publication: CVPRW2021
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Stojnic_Self-Supervised_Learning_of_Remote_Sensing_Scene_Representations_Using_Contrastive_Multiview_CVPRW_2021_paper.html
+      code_and_weights: https://github.com/vladan-stojnic/CMC-RSSR
+
+  - name: GeoKR
+    description: Geographical Knowledge-Driven Representation Learning for Remote Sensing Images leveraging geographic knowledge for enhanced learning.
+    category: Remote Sensing
+    subcategory: Geographic Knowledge Learning
+    subsubcategory: Knowledge-Driven Models
+    publication: TGRS2021
+    resource:
+      paper: https://ieeexplore.ieee.org/document/9342115
+      code_and_weights: null
+
+  # Additional Models for Remaining Categories
+
+  - name: SolarNet
+    description: Deep learning model designed for predicting solar energy production from meteorological data.
+    category: Renewable Energy
+    subcategory: Solar Energy
+    subsubcategory: Energy Production Prediction
+    publication: IEEE Transactions on Sustainable Energy
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/document/9745726
+      code: https://github.com/solar-net/solar-net
+
+  - name: WindPredictor
+    description: Machine learning model for accurate wind energy forecasting using historical wind data.
+    category: Renewable Energy
+    subcategory: Wind Energy
+    subsubcategory: Wind Forecasting Models
+    publication: Renewable Energy
+    year: 2023
+    resource:
+      paper: https://www.sciencedirect.com/science/article/pii/S0960148123001977
+      code: https://github.com/wind-predictor/wind-predictor
+
+  - name: AgriVision
+    description: Computer vision model for monitoring crop health and predicting yields based on satellite imagery.
+    category: Agriculture
+    subcategory: Crop Monitoring
+    subsubcategory: Yield Prediction Models
+    publication: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/document/9341580
+      code: https://github.com/agri-vision/agri-vision
+
+  - name: SoilNet
+    description: Predictive model for soil health and fertility using machine learning on soil property data.
+    category: Agriculture
+    subcategory: Soil Health
+    subsubcategory: Soil Fertility Prediction Models
+    publication: Soil Science Society of America Journal
+    year: 2022
+    resource:
+      paper: https://www.soils.org/publications/sssaj/articles/86/4/1220
+      code: https://github.com/soil-net/soil-net
+
+  - name: AquaTrack
+    description: Model for tracking water quality and predicting contamination in aquatic environments using sensor data.
+    category: Water Quality
+    subcategory: Contamination Prediction
+    subsubcategory: Aquatic Sensor Data Models
+    publication: Water Research
+    year: 2023
+    resource:
+      paper: https://www.sciencedirect.com/science/article/pii/S0043135423002122
+      code: https://github.com/aqua-track/aqua-track
+
+  - name: EcoNet
+    description: Environmental monitoring model using satellite data to track deforestation and habitat loss.
+    category: Environmental Conservation
+    subcategory: Deforestation Monitoring
+    subsubcategory: Habitat Loss Models
+    publication: Environmental Research Letters
+    year: 2023
+    resource:
+      paper: https://iopscience.iop.org/article/10.1088/1748-9326/acf33d
+      code: https://github.com/eco-net/eco-net
+
+publications:
+  - title: PCT-CycleGAN Paired Complementary Temporal Cycle-Consistent Adversarial Networks for Radar-Based Precipitation Nowcasting
+    venue: 32nd ACM International Conference on Information and Knowledge Management
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Nowcasting
+    subsubcategory: Radar-Based Nowcasting
+    resource:
+      paper: https://dl.acm.org/doi/abs/10.1145/3583780.3615006
+
+  - title: A Generative Adversarial Network for Climate Tipping Point Discovery (TIP-GAN)
+    venue: arXiv
+    year: 2023
+    category: Climate Modeling
+    subcategory: Tipping Points
+    subsubcategory: Generative Adversarial Networks
+    resource:
+      paper: https://arxiv.org/abs/2302.10274
+
+  - title: TemperatureGAN Generative Modeling of Regional Atmospheric Temperatures
+    venue: arXiv
+    year: 2023
+    category: Climate Modeling
+    subcategory: Temperature Modeling
+    subsubcategory: Generative Adversarial Networks
+    resource:
+      paper: https://arxiv.org/abs/2306.17248
+
+  - title: A Space-Time Partial Differential Equation Based Physics-Guided Neural Network for Sea Surface Temperature Prediction
+    venue: Remote Sensing
+    year: 2023
+    category: Oceanography
+    subcategory: Sea Surface Temperature
+    subsubcategory: Physics-Guided Neural Networks
+    resource:
+      paper: https://www.mdpi.com/2072-4292/15/14/3498
+
+  - title: Skillful Radar-Based Heavy Rainfall Nowcasting Using Task-Segmented Generative Adversarial Network
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Nowcasting
+    subsubcategory: Radar-Based Nowcasting
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10182305
+
+  - title: Clgan A Generative Adversarial Network (GAN)-Based Video Prediction Model for Precipitation Nowcasting
+    venue: Geoscientific Model Development
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Video Prediction
+    subsubcategory: Generative Adversarial Networks
+    resource:
+      paper: https://gmd.copernicus.org/articles/16/2737/2023/
+
+  - title: MSTCGAN Multiscale Time Conditional Generative Adversarial Network for Long-Term Satellite Image Sequence Prediction
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Satellite Imaging
+    subcategory: Long-Term Prediction
+    subsubcategory: Multiscale Time Conditional GANs
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9791392
+
+  - title: Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Radar Image Extrapolation
+    subsubcategory: Multiscale Fusion GANs
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9837952
+
+  - title: SPATE-GAN Improved Generative Modeling of Dynamic Spatio-Temporal Patterns with an Autoregressive Embedding Loss
+    venue: AAAI
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Spatio-Temporal Patterns
+    subsubcategory: Autoregressive Embedding Loss
+    resource:
+      paper: https://ojs.aaai.org/index.php/AAAI/article/view/20375
+      code: https://github.com/konstantinklemmer/spate-gan
+
+  - title: Physically Constrained Generative Adversarial Networks for Improving Precipitation Fields from Earth System Models
+    venue: Nature Machine Intelligence
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Precipitation Fields
+    subsubcategory: Physically Constrained GANs
+    resource:
+      paper: https://www.nature.com/articles/s42256-022-00540-1
+
+  - title: Experimental Study on Generative Adversarial Network for Precipitation Nowcasting
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Nowcasting
+    subsubcategory: Generative Adversarial Networks
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9780397
+
+  - title: A Generative Deep Learning Approach to Stochastic Downscaling of Precipitation Forecasts
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Downscaling
+    subsubcategory: Stochastic Downscaling
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003120
+
+  - title: Producing Realistic Climate Data with Generative Adversarial Networks
+    venue: Nonlinear Processes in Geophysics
+    year: 2021
+    category: Climate Modeling
+    subcategory: Data Generation
+    subsubcategory: Generative Adversarial Networks
+    resource:
+      paper: https://npg.copernicus.org/articles/28/347/2021/npg-28-347-2021-discussion.html
+      code: https://github.com/Cam-B04/Producing-realistic-climate-data-with-GANs
+
+  - title: Skillful Precipitation Nowcasting Using Deep Generative Models of Radar
+    venue: Nature
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Nowcasting
+    subsubcategory: Deep Generative Models
+    resource:
+      paper: https://www.nature.com/articles/s41586-021-03854-z
+      code: https://github.com/openclimatefix/skillful_nowcasting
+
+  - title: Physically-Consistent Generative Adversarial Networks for Coastal Flood Visualization
+    venue: arXiv
+    year: 2021
+    category: Coastal Flood Modeling
+    subcategory: Visualization
+    subsubcategory: Generative Adversarial Networks
+    resource:
+      paper: https://arxiv.org/abs/2104.04785
+
+  - title: Algorithmic Hallucinations of Near-Surface Winds Statistical Downscaling with Generative Adversarial Networks to Convection-Permitting Scales
+    venue: Artificial Intelligence for the Earth Systems
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Downscaling
+    subsubcategory: Statistical Downscaling
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/aies/2/4/AIES-D-23-0015.1.xml
+
+  - title: Generative Modeling of Spatio-Temporal Weather Patterns with Extreme Event Conditioning
+    venue: arXiv
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Extreme Events
+    subsubcategory: Spatio-Temporal Modeling
+    resource:
+      paper: https://arxiv.org/abs/2104.12469
+
+  - title: Physics-Guided Generative Adversarial Networks for Sea Subsurface Temperature Prediction
+    venue: IEEE Transactions on Neural Networks and Learning Systems
+    year: 2021
+    category: Oceanography
+    subcategory: Subsurface Temperature
+    subsubcategory: Physics-Guided GANs
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9610615
+
+  - title: Very Short-Term Rainfall Prediction Using Ground Radar Observations and Conditional Generative Adversarial Networks
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Rainfall Prediction
+    subsubcategory: Ground Radar Observations
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9532007
+
+  - title: A Generative Adversarial Gated Recurrent Unit Model for Precipitation Nowcasting
+    venue: IEEE Geoscience and Remote Sensing Letters
+    year: 2019
+    category: Weather Forecasting
+    subcategory: Nowcasting
+    subsubcategory: Gated Recurrent Units
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/8777193
+
+  - title: Stochastic Super-Resolution for Downscaling Time-Evolving Atmospheric Fields with a Generative Adversarial Network
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2020
+    category: Weather Forecasting
+    subcategory: Downscaling
+    subsubcategory: Super-Resolution
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9246532
+      code: https://github.com/jleinonen/downscaling-rnn-gan
+
+  - title: MPL-GAN Toward Realistic Meteorological Predictive Learning Using Conditional GAN
+    venue: IEEE Access
+    year: 2020
+    category: Weather Forecasting
+    subcategory: Predictive Learning
+    subsubcategory: Conditional GANs
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9094665
+
+  - title: Climate-StyleGAN Modeling Turbulent Climate Dynamics Using Style-GAN
+    venue: AI for Earth Science Workshop
+    year: 2020
+    category: Climate Modeling
+    subcategory: Turbulent Dynamics
+    subsubcategory: StyleGANs
+    resource:
+      paper: https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_53.pdf
+
+  - title: Progressive Growing of GANs for Improved Quality, Stability, and Variation
+    venue: arXiv
+    year: 2018
+    category: GANs
+    subcategory: General GANs
+    subsubcategory: Progressive Growing
+    resource:
+      paper: https://arxiv.org/abs/1710.10196
+      code: https://github.com/tkarras/progressive_growing_of_gans
+
+  - title: Large Scale GAN Training for High Fidelity Natural Image Synthesis
+    venue: arXiv
+    year: 2018
+    category: GANs
+    subcategory: General GANs
+    subsubcategory: High Fidelity Synthesis
+    resource:
+      paper: https://arxiv.org/abs/1809.11096
+      code: https://github.com/tkarras/largescale_gan_training
+
+tools:
+  - name: Climate Prediction Toolkit
+    description: Provides advanced tools for climate modeling and prediction.
+    url: https://www.climateprediction.net/
+    date: 2024-01-15
+    category: Climate Modeling
+    subcategory: Data Generation
+    subsubcategory: Generative Adversarial Networks
+
+  - name: Earth System Model Simulator
+    description: Simulates various Earth system processes for climate and environmental research.
+    url: https://www.earthsystemmodelsimulator.org/
+    date: 2024-02-20
+    category: Climate Modeling
+    subcategory: Data Generation
+    subsubcategory: Generative Adversarial Networks
+
+  - name: ClimateDataProcessor
+    description: Tool for processing and analyzing climate data from various sources.
+    url: https://github.com/climate-data-processor
+    date: 2024-03-10
+    category: Climate Modeling
+    subcategory: Temperature Modeling
+    subsubcategory: Generative Adversarial Networks
+
+  - name: Satellite Image Analysis Toolkit
+    description: Advanced toolkit for analyzing and interpreting satellite imagery.
+    url: https://www.satelliteimagerytools.org/
+    date: 2024-04-05
+    category: Satellite Imaging
+    subcategory: Long-Term Prediction
+    subsubcategory: Multiscale Time Conditional GANs
+
+  - name: Remote Sensing Data Analysis Suite
+    description: Comprehensive suite for processing and analyzing remote sensing data.
+    url: https://github.com/remote-sensing-data-analysis
+    date: 2024-05-12
+    category: Remote Sensing
+    subcategory: General GANs
+    subsubcategory: Progressive Growing
+
+  - name: Biodiversity Monitoring Tool
+    description: Tool for monitoring and analyzing biodiversity data from various sources.
+    url: https://www.biodiversitymonitoring.org/
+    date: 2024-06-01
+    category: Environmental Conservation
+    subcategory: Biodiversity Monitoring
+    subsubcategory: Remote Sensing Integration
+
+  - name: Deforestation Tracker
+    description: Tool for tracking and analyzing deforestation patterns using satellite data.
+    url: https://www.deforestationtracker.org/
+    date: 2024-07-15
+    category: Environmental Conservation
+    subcategory: Deforestation Prevention
+    subsubcategory: Satellite Imaging
+
+  - name: Water Resource Management System
+    description: Tool for managing and analyzing water resources and consumption data.
+    url: https://www.waterresourcemanagement.org/
+    date: 2024-08-05
+    category: Environmental Conservation
+    subcategory: Water Resource Management
+    subsubcategory: Data Analysis
+
+  - name: Solar Energy Optimizer
+    description: Tool for optimizing solar energy production and efficiency.
+    url: https://www.solarenergyoptimizer.org/
+    date: 2024-05-01
+    category: Renewable Energy
+    subcategory: Solar Energy
+    subsubcategory: Efficiency Analysis
+
+  - name: Wind Energy Simulator
+    description: Simulation tool for wind energy production and forecasting.
+    url: https://www.windenergysimulator.org/
+    date: 2024-06-10
+    category: Renewable Energy
+    subcategory: Wind Energy
+    subsubcategory: Production Forecasting
+
+  - name: Energy Storage Management System
+    description: Tool for managing and optimizing energy storage systems.
+    url: https://www.energystoragemanagement.org/
+    date: 2024-07-20
+    category: Renewable Energy
+    subcategory: Energy Storage
+    subsubcategory: Optimization
+
+  - name: Smart Grid Management System
+    description: Tool for managing and optimizing smart grid operations and data.
+    url: https://www.smartgridmanagement.org/
+    date: 2024-08-15
+    category: Sustainable Cities
+    subcategory: Smart Grids
+    subsubcategory: Optimization
+
+  - name: Urban Waste Management System
+    description: Comprehensive tool for urban waste management and analysis.
+    url: https://www.urbanwastemanagement.org/
+    date: 2024-09-01
+    category: Sustainable Cities
+    subcategory: Waste Management
+    subsubcategory: Data Analysis
+
+  - name: Air Quality Monitoring System
+    description: Tool for monitoring and analyzing air quality data in urban areas.
+    url: https://www.airqualitymonitoring.org/
+    date: 2024-10-05
+    category: Sustainable Cities
+    subcategory: Air Quality Monitoring
+    subsubcategory: Real-Time Analysis
+
+  - name: Flood Prediction Tool
+    description: Tool for predicting flood events based on meteorological and hydrological data.
+    url: https://www.floodprediction.org/
+    date: 2024-11-01
+    category: Disaster Management
+    subcategory: Flood Prediction
+    subsubcategory: Meteorological Data Analysis
+
+  - name: Earthquake Early Warning System
+    description: System for early warning and prediction of earthquake events.
+    url: https://www.earthquakewarning.org/
+    date: 2024-12-01
+    category: Disaster Management
+    subcategory: Earthquake Prediction
+    subsubcategory: Seismic Data Analysis
+
+  - name: Disaster Response Coordination Platform
+    description: Platform for coordinating and managing disaster response efforts.
+    url: https://www.disasterresponse.org/
+    date: 2024-12-15
+    category: Disaster Management
+    subcategory: Disaster Response
+    subsubcategory: Coordination and Logistics
