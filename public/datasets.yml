@@ -623,6 +623,14 @@ tools:
     subcategory: Temperature Modeling
     subsubcategory: Generative Adversarial Networks
 
+  - name: Data Preparation Toolkit
+    description: Tool for preparation (filtering and annotation) of climate data from various sources
+    url: https://github.com/IBM/data-prep-kit
+    date: 2024-08-20
+    category: Climate Modeling
+    subcategory: Data Generation
+    subsubcategory: Data Analysis 
+
   - name: Satellite Image Analysis Toolkit
     description: Advanced toolkit for analyzing and interpreting satellite imagery.
     url: https://www.satelliteimagerytools.org/
