@@ -1,56 +1,248 @@
-ontology:
-  categories:
-    - name: Weather Forecasting
-      subcategories:
-        - name: Nowcasting
-          subsubcategories:
-            - name: Radar-Based Nowcasting
-            - name: Deep Generative Models
-        - name: Rainfall Prediction
-          subsubcategories:
-            - name: Ground Radar Observations
-        - name: Downscaling
-          subsubcategories:
-            - name: Stochastic Downscaling
-            - name: Super-Resolution
-    - name: Climate Modeling
-      subcategories:
-        - name: Data Generation
-          subsubcategories:
-            - name: Generative Adversarial Networks
-        - name: Temperature Modeling
-          subsubcategories:
-            - name: Generative Adversarial Networks
-        - name: Turbulent Dynamics
-          subsubcategories:
-            - name: StyleGANs
-        - name: Tipping Points
-          subsubcategories:
-            - name: Generative Adversarial Networks
-    - name: Oceanography
-      subcategories:
-        - name: Sea Surface Temperature
-          subsubcategories:
-            - name: Physics-Guided Neural Networks
-        - name: Subsurface Temperature
-          subsubcategories:
-            - name: Physics-Guided GANs
-    - name: Satellite Imaging
-      subcategories:
-        - name: Long-Term Prediction
-          subsubcategories:
-            - name: Multiscale Time Conditional GANs
-    - name: Coastal Flood Modeling
-      subcategories:
-        - name: Visualization
-          subsubcategories:
-            - name: Generative Adversarial Networks
-    - name: GANs
-      subcategories:
-        - name: General GANs
-          subsubcategories:
-            - name: Progressive Growing
-            - name: High Fidelity Synthesis
-    - name: Tipping Points
-      subcategories:
-        - name: Generative Adversarial Networks
+sustainability:
+  environmental:
+    categories:
+      - climate_and_weather:
+          details:
+            - climate_change_mitigation_and_adaptation:
+                - carbon_reduction_strategies:
+                    - carbon_offsetting
+                    - reforestation_projects
+                - climate_resilience_planning:
+                    - flood_defense_systems
+                    - heat_wave_preparedness
+            - weather_forecasting:
+                - nowcasting:
+                    - radar_based_nowcasting
+                    - deep_generative_models
+                - rainfall_prediction:
+                    - ground_radar_observations
+                - downscaling:
+                    - stochastic_downscaling
+                    - super_resolution
+            - climate_modeling:
+                - data_generation:
+                    - generative_adversarial_networks
+                - temperature_modeling:
+                    - generative_adversarial_networks
+                - turbulent_dynamics:
+                    - stylegans
+            - oceanography:
+                - sea_surface_temperature:
+                    - physics_guided_neural_networks
+                - subsurface_temperature:
+                    - physics_guided_gans
+            - satellite_imaging:
+                - long_term_prediction:
+                    - multiscale_time_conditional_gans
+            - coastal_flood_modeling:
+                - visualization:
+                    - generative_adversarial_networks
+      - biodiversity_conservation:
+          details:
+            - endangered_species_protection:
+                - wildlife_reserves
+                - anti-poaching_efforts
+            - habitat_restoration:
+                - wetland_rehabilitation
+                - forest_replanting
+      - waste_management_and_recycling:
+          details:
+            - waste_reduction:
+                - zero_waste_initiatives
+                - product_design_for_recycling
+            - recycling_programs:
+                - curbside_recycling
+                - e-waste_recycling
+      - pollution_control:
+          details:
+            - air_quality_improvement:
+                - emission_standards
+                - air_pollution_monitoring
+            - water_quality_management:
+                - wastewater_treatment
+                - pollution_prevention
+  economic:
+    categories:
+      - business_practices:
+          details:
+            - corporate_social_responsibility:
+                - ethical_sourcing
+                - fair_trade_certification
+            - sustainable_supply_chains:
+                - transparency
+                - supplier_audits
+      - green_economics:
+          details:
+            - eco-friendly_investments:
+                - green_bonds
+                - impact_investing
+            - environmental_impact_assessment:
+                - life_cycle_assessment
+                - ecological_footprint_analysis
+      - circular_economy:
+          details:
+            - product_life_extension:
+                - repair_and_reuse
+                - refurbishment
+            - resource_recycling:
+                - closed_loop_systems
+                - material_recovery
+  social:
+    categories:
+      - community_development:
+          details:
+            - local_economic_development:
+                - small_business_support
+                - job_creation_programs
+            - affordable_housing:
+                - low_income_housing_projects
+                - housing_vouchers
+      - social_equity_and_justice:
+          details:
+            - diversity_and_inclusion:
+                - workforce_diversity
+                - inclusive_policies
+            - human_rights:
+                - labor_rights
+                - anti-discrimination_measures
+      - education_and_awareness:
+          details:
+            - environmental_education:
+                - school_programs
+                - public_awareness_campaigns
+            - community_engagement:
+                - stakeholder_dialogues
+                - participatory_planning
+  energy:
+    categories:
+      - renewable_energy:
+          details:
+            - solar_power:
+                - photovoltaic_panels
+                - solar_thermal_energy
+            - wind_power:
+                - onshore_wind_farms
+                - offshore_wind_turbines
+            - hydro_power:
+                - small_scale_hydropower
+                - pumped_storage
+      - energy_efficiency:
+          details:
+            - energy_star_certifications:
+                - appliances
+                - buildings
+            - building_retrofits:
+                - insulation_upgrades
+                - energy-efficient_windows
+      - energy_storage:
+          details:
+            - battery_technologies:
+                - lithium_ion_batteries
+                - solid_state_batteries
+            - pumped_hydro_storage:
+                - high_head_pumped_storage
+                - low_head_pumped_storage
+  agriculture:
+    categories:
+      - organic_farming:
+          details:
+            - organic_certification:
+                - USDA_Organic
+                - EU_Organic
+            - soil_health:
+                - composting
+                - crop_rotation
+      - agroecology:
+          details:
+            - agroforestry:
+                - alley_cropping
+                - forest_gardens
+            - integrated_pest_management:
+                - biological_control
+                - pest_resistant_crops
+      - precision_agriculture:
+          details:
+            - GPS-guided_equipment:
+                - auto-steer_tractors
+                - variable_rate_technology
+            - data_analytics:
+                - yield_mapping
+                - soil_sensing
+  transportation:
+    categories:
+      - public_transit_systems:
+          details:
+            - bus_and_rail_networks:
+                - light_rail
+                - metro_systems
+            - bike_sharing_programs:
+                - docked_bike_shares
+                - dockless_bike_shares
+      - electric_and_alternative_fuel_vehicles:
+          details:
+            - electric_vehicles:
+                - battery_electric_vehicles
+                - plug-in_hybrids
+            - hydrogen_fuel_cells:
+                - fuel_cell_vehicles
+                - hydrogen_refueling_stations
+      - sustainable_urban_transportation:
+          details:
+            - car_sharing_services:
+                - peer_to_peer_sharing
+                - fleet_sharing
+            - walking_and_cycling_infrastructure:
+                - pedestrian_zones
+                - dedicated_cycling_lanes
+  urban_development:
+    categories:
+      - green_building:
+          details:
+            - energy_efficient_design:
+                - passive_solar_design
+                - high_performance_insulation
+            - sustainable_materials:
+                - recycled_materials
+                - low_impact_building_materials
+      - urban_planning:
+          details:
+            - mixed_use_development:
+                - residential_and_commercial_mixed_use
+                - transit-oriented_development
+            - smart_city_initiatives:
+                - smart_grids
+                - intelligent_transportation_systems
+      - resilient_infrastructure:
+          details:
+            - flood_resilient_design:
+                - elevated_buildings
+                - stormwater_management_systems
+            - earthquake_resistant_structures:
+                - seismic_design_codes
+                - retrofitting_existing_buildings
+  water_management:
+    categories:
+      - integrated_water_resources_management:
+          details:
+            - watershed_management:
+                - river_basin_management
+                - catchment_area_planning
+            - cross_sectoral_planning:
+                - land_use_planning
+                - water_quality_management
+      - water_conservation:
+          details:
+            - efficient_irrigation_systems:
+                - drip_irrigation
+                - sprinkler_systems
+            - water_reuse_and_recycling:
+                - greywater_recycling
+                - rainwater_harvesting
+      - water_infrastructure:
+          details:
+            - urban_water_supply:
+                - water_distribution_networks
+                - potable_water_treatment
+            - rural_water_access:
+                - well_digging
+                - rainwater_catchment_systems
