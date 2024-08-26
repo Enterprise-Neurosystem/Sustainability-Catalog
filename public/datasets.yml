@@ -119,7 +119,6 @@ datasets:
     subcategory: Disaster Response
     subsubcategory: Emergency Management Data
 
-
 models:
   - name: Aurora
     description: A foundation model of the atmosphere, pre-trained on large-scale atmospheric data for various weather tasks.
@@ -298,8 +297,6 @@ models:
       paper: https://ieeexplore.ieee.org/document/9342115
       code_and_weights: null
 
-  # Additional Models for Remaining Categories
-
   - name: SolarNet
     description: Deep learning model designed for predicting solar energy production from meteorological data.
     category: Renewable Energy
@@ -365,8 +362,6 @@ models:
     resource:
       paper: https://iopscience.iop.org/article/10.1088/1748-9326/acf33d
       code: https://github.com/eco-net/eco-net
-
-# new data 
 
   - name: SeCo
     description: Seasonal Contrast- Unsupervised Pre-Training From Uncurated Remote Sensing Data.
@@ -463,7 +458,7 @@ models:
     publication: RS2022
     year: 2022
     resource:
-      paper: https://www.mdpi.com/2072-4292/14/22/5675#
+      paper: https://www.mdpi.com/2072-4292/14/22/5675
       code: https://github.com/ZhAnGToNG1/transfer_learning_cspt
 
 
@@ -705,7 +700,7 @@ models:
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2312.16385
-      code: https://engine-aiearth.aliyun.com/#/  
+      code: https://engine-aiearth.aliyun.com/
 
 
   - name: SAR-JEPA
@@ -993,8 +988,6 @@ models:
       paper: https://arxiv.org/abs/2408.08447
       code: null
 
-# Remote Sensing Vision Language
-
   - name: RSGPT
     description: A Remote Sensing Vision Language Model and Benchmark.
     category: Remote Sensing Vision Language
@@ -1016,7 +1009,6 @@ models:
     resource:
       paper: https://arxiv.org/abs/2306.11029
       code: https://github.com/ChenDelong1999/RemoteCLIP
-
 
   - name: GeoRSCLIP
     description: RS5M- A Large Scale Vision-Language Dataset for Remote Sensing Vision-Language Foundation Model.
@@ -1153,8 +1145,6 @@ models:
       paper: https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models/tree/main
       code: https://github.com/Luo-Z13/SkySenseGPT
 
-# Remote Sensing Generative Foundation Models
-
   - name: Seg2Sat
     description: Segmentation to aerial view using pretrained diffuser models.
     category: Remote Sensing Generative Foundation
@@ -1222,7 +1212,7 @@ models:
       paper: https://arxiv.org/abs/2405.13570
       code: https://jiupinjia.github.io/metaearth/
 
-# Remote Sensing Vision-Location Foundation Models
+
 
   - name: CSP
     description: Self-Supervised Contrastive Spatial Pre-Training for Geospatial-Visual Representations.
@@ -1258,7 +1248,7 @@ models:
       code: https://github.com/microsoft/satclip
 
 
-# Remote Sensing Vision-Audio Foundation Models
+
 
   - name: SARL
     description: Self-supervised audiovisual representation learning for remote sensing data.
@@ -1272,7 +1262,7 @@ models:
       code:  https://github.com/khdlr/SoundingEarth
 
 
-# Remote Sensing Task-specific Foundation Models
+
 
   - name: SS-MAE
     description: Spatial-Spectral Masked Auto-Encoder for Mulit-Source Remote Sensing Image Classification.
@@ -1397,7 +1387,7 @@ models:
       code: https://github.com/htcr/sam_road
 
 
-# Remote Sensing Agents
+
 
   - name: GeoLLM-QA
     description: Evaluating Tool-Augmented Agents in Remote Sensing Platforms.
@@ -1421,7 +1411,7 @@ models:
       paper: https://arxiv.org/abs/2406.07089
       code: null
 
-# Benchmarks for RSFMs
+
 
   - name: RPRSMB
     description: Revisiting pre-trained remote sensing model benchmarks- resizing and normalization matters.
@@ -1513,9 +1503,6 @@ models:
     resource:
       paper: https://arxiv.org/abs/2406.12384
       code: https://vrsbench.github.io/
-
-
-# end
 
 publications:
   - title: PCT-CycleGAN Paired Complementary Temporal Cycle-Consistent Adversarial Networks for Radar-Based Precipitation Nowcasting
