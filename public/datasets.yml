@@ -366,6 +366,1157 @@ models:
       paper: https://iopscience.iop.org/article/10.1088/1748-9326/acf33d
       code: https://github.com/eco-net/eco-net
 
+# new data 
+
+  - name: SeCo
+    description: Seasonal Contrast- Unsupervised Pre-Training From Uncurated Remote Sensing Data.
+    category: Remote Sensing
+    publication: ICCV2021
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2021/html/Manas_Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data_ICCV_2021_paper.html
+      code: https://github.com/ServiceNow/seasonal-contrast
+
+
+  - name: DINO-MM
+    description: Self-supervised Vision Transformers for Joint SAR-optical Representation Learning.
+    category: Remote Sensing
+    publication: IGARSS2022
+    year: 2022
+    resource:
+      paper: https://arxiv.org/abs/2204.05381
+      code: https://github.com/zhu-xlab/DINO-MM
+
+
+  - name: SatMAE  
+    description: SatMAE- Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery.
+    category: Remote Sensing
+    publication: NeurIPS2022
+    year: 2022
+    resource:
+      paper: https://proceedings.neurips.cc/paper_files/paper/2022/hash/01c561df365429f33fcd7a7faa44c985-Abstract-Conference.html
+      code: https://github.com/sustainlab-group/SatMAE
+
+
+  - name: RS-BYOL
+    description: Self-Supervised Learning for Invariant Representations From Multi-Spectral and SAR Images.
+    category: Remote Sensing
+    publication: JSTARS2022
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9880533
+      code: null
+
+
+  - name: GeCo  
+    description: Geographical Supervision Correction for Remote Sensing Representation Learning.
+    category: Remote Sensing
+    publication: TGRS2022
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9869651
+      code: null
+
+
+  - name: RingMo  
+    description: RingMo- A remote sensing foundation model with masked image modeling.
+    category: Remote Sensing
+    publication: TGRS2022
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9844015
+      code: https://github.com/comeony/RingMo
+
+
+  - name: RVSA  
+    description: Advancing plain vision transformer toward remote sensing foundation model.
+    category: Remote Sensing
+    publication: TGRS2022
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9956816
+      code: https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA
+
+
+  - name: RSP
+    description: An Empirical Study of Remote Sensing Pretraining.
+    category: Remote Sensing
+    publication: TGRS2022
+    year: 2022
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9782149
+      code: https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA
+
+
+  - name: MATTER  
+    description: Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks.
+    category: Remote Sensing
+    publication: CVPR2022
+    year: 2022
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2022/html/Akiva_Self-Supervised_Material_and_Texture_Representation_Learning_for_Remote_Sensing_Tasks_CVPR_2022_paper.html
+      code: null
+
+
+  - name: CSPT  
+    description: Consecutive Pre-Training- A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain.
+    category: Remote Sensing
+    publication: RS2022
+    year: 2022
+    resource:
+      paper: https://www.mdpi.com/2072-4292/14/22/5675#
+      code: https://github.com/ZhAnGToNG1/transfer_learning_cspt
+
+
+  - name: SVTLSC  
+    description: Self-supervised Vision Transformers for Land-cover Segmentation and Classification.
+    category: Remote Sensing
+    publication: CVPRW2022
+    year: 2022
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/html/Scheibenreif_Self-Supervised_Vision_Transformers_for_Land-Cover_Segmentation_and_Classification_CVPRW_2022_paper.html
+      code: https://github.com/HSG-AIML/SSLTransformerRS
+
+
+  - name: BFM
+    description: A billion-scale foundation model for remote sensing images.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2304.05215
+      code: null  
+
+
+  - name: TOV
+    description: TOV- The original vision model for optical remote sensing image understanding via self-supervised learning.
+    category: Remote Sensing
+    publication: JSTARS2023
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10110958
+      code: https://github.com/GeoX-Lab/G-RSIM/tree/main/TOV_v1   
+
+
+  - name: CMID
+    description: CMID- A Unified Self-Supervised Learning Framework for Remote Sensing Image Understanding.
+    category: Remote Sensing
+    publication: TGRS2023
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10105625
+      code: https://github.com/NJU-LHRS/official-CMID
+
+
+  - name: RingMo-Sense  
+    description: Remote Sensing Foundation Model for Spatiotemporal Prediction via Spatiotemporal Evolution Disentangling.
+    category: Remote Sensing
+    publication: TGRS2023
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10254320
+      code: null
+
+
+
+  - name: IaI-SimCL  
+    description: Multi-Modal Multi-Objective Contrastive Learning for Sentinel-1/2 Imagery.
+    category: Remote Sensing
+    publication: CVPRW2023
+    year: 2023
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2023W/EarthVision/html/Prexl_Multi-Modal_Multi-Objective_Contrastive_Learning_for_Sentinel-12_Imagery_CVPRW_2023_paper.html
+      code: null
+
+  - name: CACo
+    description: Change-Aware Sampling and Contrastive Learning for Satellite Images.
+    category: Remote Sensing
+    publication: CVPR2023
+    year: 2023
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2023/html/Mall_Change-Aware_Sampling_and_Contrastive_Learning_for_Satellite_Images_CVPR_2023_paper.html
+      code: https://github.com/utkarshmall13/CACo
+
+
+  - name: SatLas
+    description: A Large-Scale Dataset for Remote Sensing Image Understanding.
+    category: Remote Sensing
+    publication: ICCV2023
+    year: 2022
+    resource:
+      paper: https://arxiv.org/abs/2211.15660
+      code: https://github.com/allenai/satlas  
+
+
+  - name: GFM  
+    description: Towards Geospatial Foundation Models via Continual Pretraining.
+    category: Remote Sensing
+    publication: ICCV2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2302.04476
+      code: https://github.com/mmendiet/GFM
+
+
+  - name: Scale-MAE  
+    description: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning.
+    category: Remote Sensing
+    publication: ICCV2023
+    year: 2022
+    resource:
+      paper: https://arxiv.org/abs/2212.14532
+      code: https://github.com/bair-climate-initiative/scale-mae
+
+
+  - name: DINO-MC  
+    description: Self-supervised Contrastive Learning for Remote Sensing Imagery with Multi-sized Local Crops.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2303.06670
+      code: https://github.com/WennyXY/DINO-MC  
+
+
+  - name: CROMA
+    description: Remote Sensing Representations with Contrastive Radar-Optical Masked Autoencoders.
+    category: Remote Sensing
+    publication: NeurIPS2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/pdf/2311.00566
+      code: https://github.com/antofuller/CROMA
+
+
+  - name: Cross-Scale MAE
+    description: A Tale of Multiscale Exploitation in Remote Sensing.
+    category: Remote Sensing
+    publication: NeurIPS2023
+    year: 2023
+    resource:
+      paper: https://openreview.net/pdf?id=5oEVdOd6TV
+      code: https://github.com/aicip/Cross-Scale-MAE  
+
+
+  - name: DeCUR
+    description: Decoupling common & unique representations for multimodal self-supervision.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2309.05300
+      code: https://github.com/zhu-xlab/DeCUR  
+
+
+  - name: Presto
+    description: Lightweight, Pre-trained Transformers for Remote Sensing Timeseries.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2304.14065
+      code: https://github.com/nasaharvest/presto   
+
+
+  - name: CtxMIM
+    description: Context-Enhanced Masked Image Modeling for Remote Sensing Image Understanding.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2310.00022
+      code: null  
+
+
+  - name: FG-MAE
+    description: Feature Guided Masked Autoencoder for Self-supervised Learning in Remote Sensing.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2310.18653
+    code: https://github.com/zhu-xlab/FGMAE   
+
+
+  - name: Prithvi
+    description: Foundation Models for Generalist Geospatial Artificial Intelligence.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2310.18660
+      code: https://huggingface.co/ibm-nasa-geospatial
+
+
+  - name: RingMo-lite
+    description:  A Remote Sensing Multi-task Lightweight Network with CNN-Transformer Hybrid Framework.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2309.09003
+      code: null  
+
+
+
+  - name: SCRSFMRC
+    description:  A Self-Supervised Cross-Modal Remote Sensing Foundation Model with Multi-Domain Representation and Cross-Domain Fusion.
+    category: Remote Sensing
+    publication: IGARSS2023
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10282433
+      code: null
+
+
+  - name: EarthPT
+    description:  A foundation model for Earth Observation.
+    category: Remote Sensing
+    publication: NeurIPS2023 CCAI workshop
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2309.07207
+      code: https://github.com/aspiaspace/EarthPT  
+
+
+  - name: USat
+    description:  A Unified Self-Supervised Encoder for Multi-Sensor Satellite Imagery.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2312.02199
+      code: https://github.com/stanfordmlgroup/USat  
+
+
+  - name: FoMo-Bench
+    description:  A multi-modal, multi-scale and multi-task Forest Monitoring Benchmark for remote sensing foundation models.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2312.10114
+      code: https://github.com/RolnickLab/FoMo-Bench  
+
+
+  - name: AIEarth
+    description:  Analytical Insight of Earth- A Cloud-Platform of Intelligent Computing for Geospatial Big Data.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2312.16385
+      code: https://engine-aiearth.aliyun.com/#/  
+
+
+  - name: SAR-JEPA
+    description:  Self-Supervised Learning for SAR ATR with a Knowledge-Guided Predictive Architecture.
+    category: Remote Sensing
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2311.15153v4
+      code: https://github.com/waterdisappear/SAR-JEPA
+
+
+  - name: Clay
+    description:  Clay Foundation Model.
+    category: Remote Sensing
+    publication: Not Available
+    year: 2023
+    resource:
+      paper: null
+      code: https://clay-foundation.github.io/model/                    
+
+
+  - name: Hydro
+    description:  Hydro--A Foundation Model for Water in Satellite Imagery.
+    category: Remote Sensing
+    publication: Not Available
+    year: 2024
+    resource:
+      paper: null
+      code: https://github.com/isaaccorley/hydro-foundation-model  
+
+
+  - name: U-BARN
+    description:  Self-Supervised Spatio-Temporal Representation Learning of Satellite Image Time Series.
+    category: Remote Sensing
+    publication: JSTARS2024
+    year: 2024
+    resource:
+      paper: https://ieeexplore.ieee.org/document/10414422
+      code: https://src.koda.cnrs.fr/iris.dumeur/ssl_ubarn   
+
+
+  - name: GeRSP
+    description:  Generic Knowledge Boosted Pre-training For Remote Sensing Images.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.04614
+      code: https://github.com/floatingstarZ/GeRSP      
+
+
+  - name: SwiMDiff
+    description:  Scene-wide Matching Contrastive Learning with Diffusion Constraint for Remote Sensing Image.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.05093
+      code: null
+
+
+  - name: OFA-Net
+    description:  One for All- Toward Unified Foundation Models for Earth Vision.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.07527
+      code: null
+
+
+  - name: SMLFR
+    description:  Enerative ConvNet Foundation Model With Sparse Modeling and Low-Frequency Reconstruction for Remote Sensing Image Interpretation.
+    category: Remote Sensing
+    publication: TGRS2024
+    year: 2024
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10378718
+      code: https://github.com/HIT-SIRS/SMLFR
+
+
+  - name: SpectralGPT
+    description:  SpectralGPT- Spectral Foundation Model.
+    category: Remote Sensing
+    publication: TPAMI2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2311.07113
+      code: https://github.com/danfenghong/IEEE_TPAMI_SpectralGPT
+
+
+  - name: S2MAE
+    description:  S2MAE- A Spatial-Spectral Pretraining Foundation Model for Spectral Remote Sensing Data.
+    category: Remote Sensing
+    publication: CVPR2024
+    year: 2024
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2024/papers/Li_S2MAE_A_Spatial-Spectral_Pretraining_Foundation_Model_for_Spectral_Remote_Sensing_CVPR_2024_paper.pdf
+      code: null
+
+
+  - name: SatMAE++  
+    description:  Rethinking Transformers Pre-training for Multi-Spectral Satellite Imagery.
+    category: Remote Sensing
+    publication: CVPR2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2403.05419
+      code: https://github.com/techmn/satmae_pp
+
+
+
+  - name: msGFM
+    description:  Bridging Remote Sensors with Multisensor Geospatial Foundation Models.
+    category: Remote Sensing
+    publication: CVPR2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2404.01260
+      code: https://github.com/boranhan/Geospatial_Foundation_Models
+
+
+
+  - name: SkySense  
+    description:  A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery.
+    category: Remote Sensing
+    publication: CVPR2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2312.10115
+      code: null
+
+
+  - name: MTP
+    description:  Advancing Remote Sensing Foundation Model via Multi-Task Pretraining.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2403.13430
+      code: https://github.com/ViTAE-Transformer/MTP
+
+
+  - name: DOFA  
+    description:  Neural Plasticity-Inspired Foundation Model for Observing the Earth Crossing Modalities.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2403.15356
+      code: https://github.com/zhu-xlab/DOFA
+
+
+  - name: PIS
+    description:  Pretrain A Remote Sensing Foundation Model by Promoting Intra-instance Similarity.
+    category: Remote Sensing
+    publication: Not Available
+    year: 2024
+    resource:
+      paper: null
+      code: https://github.com/ShawnAn-WHU/PIS
+
+
+
+  - name: MMEarth
+    description:  Exploring Multi-Modal Pretext Tasks For Geospatial Representation Learning.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2405.02771
+      code: https://vishalned.github.io/mmearth/
+
+
+  - name: SARATR-X  
+    description:  A Foundation Model for Synthetic Aperture Radar Images Target Recognition.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2405.09365
+      code: https://github.com/waterdisappear/SARATR-X
+
+
+  - name: LeMeViT
+    description:  Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation.
+    category: Remote Sensing
+    publication: IJCAI2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2405.09789
+      code: https://github.com/ViTAE-Transformer/LeMeViT/tree/main?tab=readme-ov-file
+
+
+  - name: SoftCon
+    description:  Multi-Label Guided Soft Contrastive Learning for Efficient Earth Observation Pretraining.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2405.20462
+      code: https://github.com/zhu-xlab/softcon?tab=readme-ov-file
+
+
+
+  - name: RS-DFM
+    description:  A Remote Sensing Distributed Foundation Model for Diverse Downstream Tasks.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2406.07032
+      code: null
+
+
+
+  - name: A2-MAE
+    description:  A spatial-temporal-spectral unified remote sensing pre-training method based on anchor-aware masked autoencoder.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2406.08079
+      code: null
+
+
+
+  - name: HyperSIGMA
+    description:  Hyperspectral Intelligence Comprehension Foundation Model.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2406.11519
+      code: https://github.com/WHU-Sigma/HyperSIGMA?tab=readme-ov-file
+
+
+  - name: SelectiveMAE
+    description:  Scaling Efficient Masked Autoencoder Learning on Large Remote Sensing Dataset.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2406.11933
+      code: https://github.com/Fengxiang23/SelectiveMAE
+
+
+  - name: OmniSat
+    description:  Self-Supervised Modality Fusion for Earth Observation.
+    category: Remote Sensing
+    publication: ECCV2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/pdf/2404.08351
+      code: https://github.com/gastruc/OmniSat?tab=readme-ov-file
+
+
+  - name: MM-VSF
+    description:  Towards a Knowledge guided Multimodal Foundation Model for Spatio-Temporal Remote Sensing Applications.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/pdf/2407.19660
+      code: null
+
+
+  - name: MA3E
+    description:  Masked Angle-Aware Autoencoder for Remote Sensing Images.
+    category: Remote Sensing
+    publication: ECCV2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2408.01946
+      code: https://github.com/benesakitam/MA3E
+
+
+  - name: SpectralEarth
+    description:   Training Hyperspectral Foundation Models at Scale.
+    category: Remote Sensing
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2408.08447
+      code: null
+
+# Remote Sensing Vision Language
+
+  - name: RSGPT
+    description: A Remote Sensing Vision Language Model and Benchmark.
+    category: Remote Sensing Vision Language
+    subcategory: Computer Vision
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2307.15266
+      code: https://github.com/Lavender105/RSGPT
+
+  - name: RemoteCLIP
+    description: A Vision Language Foundation Model for Remote Sensing.
+    category: Remote Sensing Vision Language
+    subcategory: Computer Vision
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.11029
+      code: https://github.com/ChenDelong1999/RemoteCLIP
+
+
+  - name: GeoRSCLIP
+    description: RS5M- A Large Scale Vision-Language Dataset for Remote Sensing Vision-Language Foundation Model.
+    category: Remote Sensing Vision Language
+    subcategory: Computer Vision
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.11300
+      code: https://github.com/om-ai-lab/RS5M?tab=readme-ov-file
+
+  - name: GRAFT
+    description: RS5M- Remote Sensing Vision-Language Foundation Models without Annotations via Ground Remote Alignment.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: ICLR2024
+    year: 2024
+    resource:
+      paper: https://openreview.net/pdf?id=w9tc699w3Z
+      code: null
+
+  - name: CNT
+    description: Charting New Territories- Exploring the Geographic and Geospatial Capabilities of Multimodal LLMs.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2311.14656
+      code: https://github.com/jonathan-roberts1/charting-new-territories
+
+  - name: RSC
+    description: Remote Sensing ChatGPT- Solving Remote Sensing Tasks with ChatGPT and Visual Models.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.09083
+      code: https://github.com/HaonanGuo/Remote-Sensing-ChatGPT
+
+  - name: SkyEyeGPT
+    description: Unifying Remote Sensing Vision-Language Tasks via Instruction Tuning with Large Language Model.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.09712
+      code: https://github.com/ZhanYang-nwpu/SkyEyeGPT
+
+
+  - name: EarthGPT
+    description: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.09712
+      code: null
+
+  - name: SkyCLIP
+    description: SkyScript- A Large and Semantically Diverse Vision-Language Dataset for Remote Sensing.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: AAAI2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2312.12856
+      code: https://github.com/wangzhecheng/SkyScript
+
+  - name: GeoChat
+    description: Grounded Large Vision-Language Model for Remote Sensing.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: CVPR2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2311.15826
+      code: https://github.com/mbzuai-oryx/GeoChat
+
+
+  - name: LHRS-Bot
+    description: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2402.02544
+      code: https://github.com/NJU-LHRS/LHRS-Bot
+
+
+  - name: H2RSVLM
+    description: Towards Helpful and Honest Remote Sensing Large Vision Language Model.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2403.20213
+      code: https://github.com/opendatalab/H2RSVLM
+
+  - name: RS-LLaVA
+    description: Large Vision Language Model for Joint Captioning and Question Answering in Remote Sensing Imagery.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: RS2024
+    year: 2024
+    resource:
+      paper: https://www.mdpi.com/2072-4292/16/9/1477
+      code: https://github.com/BigData-KSU/RS-LLaVA?tab=readme-ov-file
+
+  - name: SkySenseGPT
+    description: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding.
+    category: Remote Sensing Vision Language
+    subcategory: Ground Remote Alignment
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models/tree/main
+      code: https://github.com/Luo-Z13/SkySenseGPT
+
+# Remote Sensing Generative Foundation Models
+
+  - name: Seg2Sat
+    description: Segmentation to aerial view using pretrained diffuser models.
+    category: Remote Sensing Generative Foundation
+    subcategory: Earth-observation
+    subsubcategory: Diffusion-models
+    publication: Github
+    year: 2023
+    resource:
+      paper: null
+      code: https://github.com/RubenGres/Seg2Sat
+
+
+  - name: GYOS
+    description: Satellite Image Generation Conditioned on Maps.
+    category: Remote Sensing Generative Foundation
+    subcategory: Earth-observation
+    subsubcategory: Satellite Image
+    publication: NeurIPSW2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2308.16648
+      code: https://github.com/toastyfrosty/map-sat
+
+  - name: GeoRSSD
+    description: RS5M- A Large Scale Vision-Language Dataset for Remote Sensing Vision-Language Foundation Model.
+    category: Remote Sensing Generative Foundation
+    subcategory: Earth-observation
+    subsubcategory: Stable Diffusion
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.11300
+      code: https://huggingface.co/Zilun/GeoRSSD
+
+  - name: DiffusionSat
+    description: A Generative Foundation Model for Satellite Imagery.
+    category: Remote Sensing Generative Foundation
+    subcategory: Earth-observation
+    subsubcategory: Stable Diffusion
+    publication: ICLR2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2312.03606
+      code: https://github.com/samar-khanna/DiffusionSat
+
+  - name: CRS-Diff
+    description: Controllable Generative Remote Sensing Foundation Model.
+    category: Remote Sensing Generative Foundation
+    subcategory: Earth-observation
+    subsubcategory:  Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2403.11614
+      code: null
+
+  - name: MetaEarth
+    description: A Generative Foundation Model for Global-Scale Remote Sensing Image Generation.
+    category: Remote Sensing Generative Foundation
+    subcategory: Earth-observation
+    subsubcategory:  Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2405.13570
+      code: https://jiupinjia.github.io/metaearth/
+
+# Remote Sensing Vision-Location Foundation Models
+
+  - name: CSP
+    description: Self-Supervised Contrastive Spatial Pre-Training for Geospatial-Visual Representations.
+    category: Remote Sensing Vision-Location Foundation
+    subcategory: Earth-observation
+    subsubcategory:  Geospatial-Visual
+    publication: ICML2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2305.01118
+      code: https://gengchenmai.github.io/csp-website/
+
+  - name: GeoCLIP
+    description: Clip-Inspired Alignment between Locations and Images for Effective Worldwide Geo-localization.
+    category: Remote Sensing Vision-Location Foundation
+    subcategory: GPS-Embeddingsn
+    subsubcategory:  Geolocation-Estimation
+    publication: NeurIPS2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2309.16020
+      code: https://github.com/VicenteVivan/geo-clip
+
+  - name: SatCLIP
+    description: Global, General-Purpose Location Embeddings with Satellite Imagery.
+    category: Remote Sensing Vision-Location Foundation
+    subcategory: Satellite Imagery
+    subsubcategory:  Geolocation-Estimation
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2311.17179
+      code: https://github.com/microsoft/satclip
+
+
+# Remote Sensing Vision-Audio Foundation Models
+
+  - name: SARL
+    description: Self-supervised audiovisual representation learning for remote sensing data.
+    category: Remote Sensing Vision-Audio Foundation
+    subcategory: Self & Multi-modal learning
+    subsubcategory:  Representation learning
+    publication: JAG2022
+    year: 2022
+    resource:
+      paper: https://www.sciencedirect.com/science/article/pii/S1569843222003181
+      code:  https://github.com/khdlr/SoundingEarth
+
+
+# Remote Sensing Task-specific Foundation Models
+
+  - name: SS-MAE
+    description: Spatial-Spectral Masked Auto-Encoder for Mulit-Source Remote Sensing Image Classification.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Image Classification
+    subsubcategory:  Masked image modeling
+    publication: TGRS2023
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/document/10314566
+      code:  https://github.com/summitgao/SS-MAE?tab=readme-ov-file
+
+  - name: TTP
+    description: Bitemporal Features Integration with Foundation Model for Remote Sensing Image Change Detection.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Change Detection
+    subsubcategory: Time Travelling Pixels
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2312.16202
+      code: https://github.com/KyanChen/TTP
+
+  - name: CSMAE
+    description: Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Image Retrieval
+    subsubcategory: Masked-autoencoder
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.07782
+      code: https://github.com/jakhac/CSMAE
+
+  - name: RSPrompter
+    description:  Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Instance Segmentation
+
+    publication: TGRS2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2306.16269
+      code: https://github.com/KyanChen/RSPrompter
+
+  - name: BAN
+    description: A New Learning Paradigm for Foundation Model-based Remote Sensing Change Detection.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Change Detection
+    subsubcategory: Remote-sensing-image
+    publication: TGRS2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2312.01163
+      code: https://github.com/likyoo/BAN
+
+  - name: SAM
+    description: Change Detection Between Optical Remote Sensing Imagery and Map Data via Segment Anything Model (SAM).
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Change Detection (Optical)
+    subsubcategory: OSM data
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.09019
+      code: null
+
+  - name: AnyChange
+    description: Segment Any Change.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Zero-shot Change Detection
+    subsubcategory: Pattern Recognition
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2402.01188
+      code: null
+
+
+  - name: RS-CapRet
+    description: Large Language Models for Captioning and Retrieving Remote Sensing Images.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Image Caption Retrieval
+    subsubcategory: Text-image Retrieval
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2402.06475
+      code: null
+
+  - name: TSP
+    description: Task Specific Pretraining with Noisy Labels for Remote sensing Image Segmentation.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Image Segmentation 
+    subsubcategory: Noisy labels
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2402.16164
+      code: null
+
+  - name: RSBuilding
+    description: Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Building Extraction
+    subsubcategory: Change Detection
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2403.07564
+      code: https://github.com/Meize0729/RSBuilding
+
+  - name: SAM-Road
+    description: Segment Anything Model for Road Network Graph Extraction.
+    category: Remote Sensing Task-specific Foundation
+    subcategory: Road Extraction
+    subsubcategory: Graph-neural-networks
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2403.16051
+      code: https://github.com/htcr/sam_road
+
+
+# Remote Sensing Agents
+
+  - name: GeoLLM-QA
+    description: Evaluating Tool-Augmented Agents in Remote Sensing Platforms.
+    category: Remote Sensing Agents
+    subcategory: Computation and Language
+    subsubcategory: Tool-augmented
+    publication: ICLR 2024 ML4RS Workshop
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2405.00709
+      code: null
+
+  - name: RS-Agent
+    description: Automating Remote Sensing Tasks through Intelligent Agents.
+    category: Remote Sensing Agents
+    subcategory: Large Language Models
+    subsubcategory: Pattern Recognition 
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2406.07089
+      code: null
+
+# Benchmarks for RSFMs
+
+  - name: RPRSMB
+    description: Revisiting pre-trained remote sensing model benchmarks- resizing and normalization matters.
+    category: Benchmarks for RSFMs
+    subcategory: Classification
+    subsubcategory: Pattern Recognition 
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2305.13456
+      code: https://github.com/isaaccorley/resize-is-all-you-need
+
+
+  - name: GEO-Bench
+    description: Toward Foundation Models for Earth Monitoring.
+    category: Benchmarks for RSFMs
+    subcategory: Classification 
+    subsubcategory: Segmentation 
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.03831
+      code: https://github.com/ServiceNow/geo-bench
+
+
+  - name: GEO-Bench
+    description: Toward Foundation Models for Earth Monitoring.
+    category: Benchmarks for RSFMs
+    subcategory: Classification 
+    subsubcategory: Segmentation 
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.03831
+      code: https://github.com/ServiceNow/geo-bench
+
+
+  - name: FoMo-Bench
+    description:  A multi-modal, multi-scale and multi-task Forest Monitoring Benchmark for remote sensing foundation models.
+    category: Benchmarks for RSFMs
+    subcategory: Classification & Segmentation & Detection
+    subsubcategory: Forest monitoring 
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2312.10114
+      code: null
+
+  - name: PhilEO
+    description:  PhilEO Bench- Evaluating Geo-Spatial Foundation Models.
+    category: Benchmarks for RSFMs
+    subcategory: Segmentation & Regression estimation
+    subsubcategory: Geo-Spatial
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.04464
+      code: https://github.com/91097luke/phileo-bench
+
+  - name: SkySense
+    description:  A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery.
+    category: Benchmarks for RSFMs
+    subcategory: Multi-Modal Segmentation
+    subsubcategory: Time-insensitive LandCover Mapping 
+    publication: CVPR2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2312.10115
+      code: null
+
+  - name: VLEO-Bench
+    description:  Good at captioning, bad at counting- Benchmarking GPT-4V on Earth observation data.
+    category: Benchmarks for RSFMs
+    subcategory: Location Recognition & Captioning & Scene
+    subsubcategory: lassification & Counting & Detection & Change detection
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2401.17600
+      code: https://vleo.danielz.ch/
+
+  - name: VRSBench
+    description:  A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding.
+    category: Benchmarks for RSFMs
+    subcategory: Image Captioning & Object Referring
+    subsubcategory: Visual Question Answering
+    publication: Arxiv2024
+    year: 2024
+    resource:
+      paper: https://arxiv.org/abs/2406.12384
+      code: https://vrsbench.github.io/
+
+
+# end
+
 publications:
   - title: PCT-CycleGAN Paired Complementary Temporal Cycle-Consistent Adversarial Networks for Radar-Based Precipitation Nowcasting
     venue: 32nd ACM International Conference on Information and Knowledge Management
