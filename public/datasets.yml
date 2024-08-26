@@ -607,45 +607,45 @@ tools:
     subcategory: Data Generation
     subsubcategory: Generative Adversarial Networks
 
-  - name: Earth System Model Simulator
-    description: Simulates various Earth system processes for climate and environmental research.
-    url: https://www.earthsystemmodelsimulator.org/
+  - name: Virtual Earth System Laboratory
+    description: The Virtual Earth System Laboratory provides real-time simulations of glaciers, ice sheets, and sea levels using advanced models to analyze climate impacts and earth processes.
+    url: https://sealevel.nasa.gov/data_tools/2/
     date: 2024-02-20
-    category: Climate Modeling
-    subcategory: Data Generation
-    subsubcategory: Generative Adversarial Networks
+    category: Earth Science
+    subcategory: Simulations
+    subsubcategory: Cryosphere
 
-  - name: ClimateDataProcessor
-    description: Tool for processing and analyzing climate data from various sources.
-    url: https://github.com/climate-data-processor
+  - name: Climate Data Operators
+    description: CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data. Supported data formats are GRIB 1/2, netCDF 3/4, SERVICE, EXTRA and IEG. There are more than 600 operators available.
+    url: https://code.mpimet.mpg.de/projects/cdo
     date: 2024-03-10
-    category: Climate Modeling
-    subcategory: Temperature Modeling
-    subsubcategory: Generative Adversarial Networks
+    category: Climate Data Operators
+    subcategory: Command Line Tools
+    subsubcategory: Data Manipulation
 
-  - name: Data Preparation Toolkit
-    description: Tool for preparation (filtering and annotation) of climate data from various sources
+  - name: IBM Data Preparation Toolkit
+    description: Data Prep Kit simplifies big data preparation for LLMs by offering modular transforms for unstructured data, enabling efficient and scalable data processing.
     url: https://github.com/IBM/data-prep-kit
     date: 2024-08-20
-    category: Climate Modeling
-    subcategory: Data Generation
-    subsubcategory: Data Analysis 
+    category: Data Prep Kit
+    subcategory: LLM Modules
+    subsubcategory: Transforms
 
-  - name: Satellite Image Analysis Toolkit
-    description: Advanced toolkit for analyzing and interpreting satellite imagery.
-    url: https://www.satelliteimagerytools.org/
+  - name: U.S. Climate Resiliance Toolkit
+    description: This framework helps you document climate hazards that could harm the things you care about, decide which situations you most want to avoid, and come up with workable solutions to reduce your climate-related risks.
+    url: https://toolkit.climate.gov/
     date: 2024-04-05
-    category: Satellite Imaging
-    subcategory: Long-Term Prediction
-    subsubcategory: Multiscale Time Conditional GANs
+    category: Climate Framework 
+    subcategory: Risk Management
+    subsubcategory: Hazard Documentation
 
-  - name: Remote Sensing Data Analysis Suite
-    description: Comprehensive suite for processing and analyzing remote sensing data.
-    url: https://github.com/remote-sensing-data-analysis
+  - name: Remote Sensing Toolkit (NASA)
+    description: The Remote Sensing Toolkit provides access to NASA's data and analysis tools, promoting the commercialization and application of remote-sensing data for research, business, and conservation.
+    url: https://software.nasa.gov/remotesensing/
     date: 2024-05-12
-    category: Remote Sensing
-    subcategory: General GANs
-    subsubcategory: Progressive Growing
+    category: Remote Sensing Toolkit
+    subcategory: Data Access
+    subsubcategory: Analysis Tools
 
   - name: Biodiversity Monitoring Tool
     description: Tool for monitoring and analyzing biodiversity data from various sources.
@@ -655,49 +655,41 @@ tools:
     subcategory: Biodiversity Monitoring
     subsubcategory: Remote Sensing Integration
 
-  - name: Deforestation Tracker
-    description: Tool for tracking and analyzing deforestation patterns using satellite data.
-    url: https://www.deforestationtracker.org/
+  - name: Global Forest Watch (GFW)
+    description: Global Forest Watch (GFW) is an online platform that provides data and tools for monitoring forests. By harnessing cutting-edge technology, GFW allows anyone to access near real-time information about where and how forests are changing around the world.
+    url: https://www.globalforestwatch.org/
     date: 2024-07-15
     category: Environmental Conservation
     subcategory: Deforestation Prevention
     subsubcategory: Satellite Imaging
 
-  - name: Water Resource Management System
-    description: Tool for managing and analyzing water resources and consumption data.
-    url: https://www.waterresourcemanagement.org/
-    date: 2024-08-05
+  - name: MODFLOW 6
+    description: USGS Modular Hydrologic Model
+    url: https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model
+    date: 2024-05-23
     category: Environmental Conservation
     subcategory: Water Resource Management
-    subsubcategory: Data Analysis
+    subsubcategory: Hydrologic Model
 
-  - name: Solar Energy Optimizer
-    description: Tool for optimizing solar energy production and efficiency.
-    url: https://www.solarenergyoptimizer.org/
-    date: 2024-05-01
-    category: Renewable Energy
-    subcategory: Solar Energy
-    subsubcategory: Efficiency Analysis
+  - name: USGS Web Tools
+    description: The USGS Web Tools provide a suite of online resources designed for accessing, visualizing, and analyzing a wide range of geological and hydrological data. 
+    url: https://www.usgs.gov/products/web-tools
+    date: 2024-05-0
+    category: Web Tools
+    subcategory: Data Analysis
+    subsubcategory: Data Visualization
 
-  - name: Wind Energy Simulator
-    description: Simulation tool for wind energy production and forecasting.
-    url: https://www.windenergysimulator.org/
-    date: 2024-06-10
-    category: Renewable Energy
-    subcategory: Wind Energy
-    subsubcategory: Production Forecasting
-
-  - name: Energy Storage Management System
-    description: Tool for managing and optimizing energy storage systems.
-    url: https://www.energystoragemanagement.org/
+  - name: OpenEMS
+    description: Open Source Energy Management System
+    url: https://github.com/OpenEMS/openems
     date: 2024-07-20
     category: Renewable Energy
-    subcategory: Energy Storage
+    subcategory: Energy Management
     subsubcategory: Optimization
 
-  - name: Smart Grid Management System
-    description: Tool for managing and optimizing smart grid operations and data.
-    url: https://www.smartgridmanagement.org/
+  - name: Power System Blocks
+    description: The open source set of Power System Blocks in Java, dedicated to grid analysis and simulation.
+    url: https://www.powsybl.org/index.html
     date: 2024-08-15
     category: Sustainable Cities
     subcategory: Smart Grids
@@ -711,34 +703,11 @@ tools:
     subcategory: Waste Management
     subsubcategory: Data Analysis
 
-  - name: Air Quality Monitoring System
-    description: Tool for monitoring and analyzing air quality data in urban areas.
-    url: https://www.airqualitymonitoring.org/
-    date: 2024-10-05
-    category: Sustainable Cities
-    subcategory: Air Quality Monitoring
-    subsubcategory: Real-Time Analysis
-
-  - name: Flood Prediction Tool
-    description: Tool for predicting flood events based on meteorological and hydrological data.
-    url: https://www.floodprediction.org/
+  - name: Flooding Analysis Tool
+    description: The NASA Flooding Analysis Tool enables users to assess future high-tide flooding risks due to sea level rise by analyzing tide gauge data and climate projections for specific locations and scenarios.
+    url: https://sealevel.nasa.gov/data_tools/15/
     date: 2024-11-01
     category: Disaster Management
-    subcategory: Flood Prediction
-    subsubcategory: Meteorological Data Analysis
+    subcategory: Flooding Analysis Tool
+    subsubcategory: Location-Specific Projections
 
-  - name: Earthquake Early Warning System
-    description: System for early warning and prediction of earthquake events.
-    url: https://www.earthquakewarning.org/
-    date: 2024-12-01
-    category: Disaster Management
-    subcategory: Earthquake Prediction
-    subsubcategory: Seismic Data Analysis
-
-  - name: Disaster Response Coordination Platform
-    description: Platform for coordinating and managing disaster response efforts.
-    url: https://www.disasterresponse.org/
-    date: 2024-12-15
-    category: Disaster Management
-    subcategory: Disaster Response
-    subsubcategory: Coordination and Logistics
