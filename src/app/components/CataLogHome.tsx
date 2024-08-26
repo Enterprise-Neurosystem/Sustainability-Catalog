@@ -65,7 +65,7 @@ const CataLogHome = ({ datasets, models, tools, publications }) => {
               <Tab className="tab-item">Data Sources</Tab>
               <Tab className="tab-item">AI Models</Tab>
               <Tab className="tab-item">Publications</Tab>
-              <Tab className="tab-item">General AI Tools</Tab>
+              <Tab className="tab-item">AI Tools</Tab>
             </TabList>
             <TabPanels>
               <TabPanel>
