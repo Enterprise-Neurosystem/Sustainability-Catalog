@@ -371,156 +371,172 @@ models:
   - name: SeCo
     description: Seasonal Contrast- Unsupervised Pre-Training From Uncurated Remote Sensing Data.
     category: Remote Sensing
+    subcategory: Unsupervised Learning
+    subsubcategory: Contrastive Learning
     publication: ICCV2021
     resource:
       paper: https://openaccess.thecvf.com/content/ICCV2021/html/Manas_Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data_ICCV_2021_paper.html
       code: https://github.com/ServiceNow/seasonal-contrast
 
-
   - name: DINO-MM
     description: Self-supervised Vision Transformers for Joint SAR-optical Representation Learning.
     category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: SAR-Optical Integration
     publication: IGARSS2022
     year: 2022
     resource:
       paper: https://arxiv.org/abs/2204.05381
       code: https://github.com/zhu-xlab/DINO-MM
 
-
   - name: SatMAE  
     description: SatMAE- Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery.
     category: Remote Sensing
+    subcategory: Transformer Models
+    subsubcategory: Temporal and Multi-Spectral Imagery
     publication: NeurIPS2022
     year: 2022
     resource:
       paper: https://proceedings.neurips.cc/paper_files/paper/2022/hash/01c561df365429f33fcd7a7faa44c985-Abstract-Conference.html
       code: https://github.com/sustainlab-group/SatMAE
 
-
   - name: RS-BYOL
     description: Self-Supervised Learning for Invariant Representations From Multi-Spectral and SAR Images.
     category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: Multi-Spectral and SAR Images
     publication: JSTARS2022
     year: 2022
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9880533
       code: null
 
-
   - name: GeCo  
     description: Geographical Supervision Correction for Remote Sensing Representation Learning.
     category: Remote Sensing
+    subcategory: Supervision Correction
+    subsubcategory: Geographical Representation
     publication: TGRS2022
     year: 2022
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9869651
       code: null
 
-
   - name: RingMo  
     description: RingMo- A remote sensing foundation model with masked image modeling.
     category: Remote Sensing
+    subcategory: Foundation Models
+    subsubcategory: Masked Image Modeling
     publication: TGRS2022
     year: 2022
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9844015
       code: https://github.com/comeony/RingMo
 
-
   - name: RVSA  
     description: Advancing plain vision transformer toward remote sensing foundation model.
     category: Remote Sensing
+    subcategory: Transformer Models
+    subsubcategory: Vision Transformer
     publication: TGRS2022
     year: 2022
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9956816
       code: https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA
 
-
   - name: RSP
     description: An Empirical Study of Remote Sensing Pretraining.
     category: Remote Sensing
+    subcategory: Pretraining Studies
+    subsubcategory: Empirical Analysis
     publication: TGRS2022
     year: 2022
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9782149
       code: https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA
 
-
   - name: MATTER  
     description: Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks.
     category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: Material and Texture Representation
     publication: CVPR2022
     year: 2022
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2022/html/Akiva_Self-Supervised_Material_and_Texture_Representation_Learning_for_Remote_Sensing_Tasks_CVPR_2022_paper.html
       code: null
 
-
   - name: CSPT  
     description: Consecutive Pre-Training- A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain.
     category: Remote Sensing
+    subcategory: Transfer Learning
+    subsubcategory: Consecutive Pre-Training
     publication: RS2022
     year: 2022
     resource:
       paper: https://www.mdpi.com/2072-4292/14/22/5675#
       code: https://github.com/ZhAnGToNG1/transfer_learning_cspt
 
-
   - name: SVTLSC  
     description: Self-supervised Vision Transformers for Land-cover Segmentation and Classification.
     category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: Land-Cover Segmentation
     publication: CVPRW2022
     year: 2022
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/html/Scheibenreif_Self-Supervised_Vision_Transformers_for_Land-Cover_Segmentation_and_Classification_CVPRW_2022_paper.html
       code: https://github.com/HSG-AIML/SSLTransformerRS
 
-
   - name: BFM
     description: A billion-scale foundation model for remote sensing images.
     category: Remote Sensing
+    subcategory: Foundation Models
+    subsubcategory: Billion-Scale Models
     publication: Arxiv2023
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2304.05215
       code: null  
 
-
   - name: TOV
     description: TOV- The original vision model for optical remote sensing image understanding via self-supervised learning.
     category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: Optical Remote Sensing
     publication: JSTARS2023
     year: 2023
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/10110958
       code: https://github.com/GeoX-Lab/G-RSIM/tree/main/TOV_v1   
 
-
   - name: CMID
     description: CMID- A Unified Self-Supervised Learning Framework for Remote Sensing Image Understanding.
     category: Remote Sensing
+    subcategory: Self-Supervised Learning
+    subsubcategory: Unified Framework
     publication: TGRS2023
     year: 2023
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/10105625
       code: https://github.com/NJU-LHRS/official-CMID
 
-
   - name: RingMo-Sense  
     description: Remote Sensing Foundation Model for Spatiotemporal Prediction via Spatiotemporal Evolution Disentangling.
     category: Remote Sensing
+    subcategory: Foundation Models
+    subsubcategory: Spatiotemporal Prediction
     publication: TGRS2023
     year: 2023
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/10254320
       code: null
 
-
-
   - name: IaI-SimCL  
     description: Multi-Modal Multi-Objective Contrastive Learning for Sentinel-1/2 Imagery.
     category: Remote Sensing
+    subcategory: Multi-Modal Learning
+    subsubcategory: Sentinel-1/2 Imagery
     publication: CVPRW2023
     year: 2023
     resource:
@@ -530,31 +546,285 @@ models:
   - name: CACo
     description: Change-Aware Sampling and Contrastive Learning for Satellite Images.
     category: Remote Sensing
+    subcategory: Contrastive Learning
+    subsubcategory: Change-Aware Sampling
     publication: CVPR2023
     year: 2023
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2023/html/Mall_Change-Aware_Sampling_and_Contrastive_Learning_for_Satellite_Images_CVPR_2023_paper.html
       code: https://github.com/utkarshmall13/CACo
 
-
   - name: SatLas
     description: A Large-Scale Dataset for Remote Sensing Image Understanding.
     category: Remote Sensing
+    subcategory: Datasets
+    subsubcategory: Large-Scale Dataset
     publication: ICCV2023
     year: 2022
     resource:
       paper: https://arxiv.org/abs/2211.15660
       code: https://github.com/allenai/satlas  
 
-
   - name: GFM  
     description: Towards Geospatial Foundation Models via Continual Pretraining.
     category: Remote Sensing
+    subcategory: Foundation Models
+    subsubcategory: Continual Pretraining
+    publication: NeurIPS2023
+    year: 2023
+    resource:
+      paper: https://proceedings.neurips.cc/paper_files/paper/2023/hash/5de8b8ec0aa5d7112f37cbf8a8c1da1d-Abstract-Conference.html
+      code: null
+
+  - name: fMoW
+    description: Functional Map of the World dataset for analyzing various functional regions using satellite imagery.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: CVPR2018
+    year: 2018
+    resource:
+      paper: https://openaccess.thecvf.com/content_cvpr_2018/html/Christie_Functional_Map_of_CVPR_2018_paper.html
+      code: https://github.com/fMoW
+
+  - name: SEN12MS
+    description: SEN12MS - A curated dataset of georeferenced multi-spectral Sentinel-1/2 imagery for deep learning and data fusion.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: NA
+    year: NA
+    resource:
+      paper: https://arxiv.org/abs/1906.07789
+      code: https://arxiv.org/abs/1906.07789
+
+  - name: BEN-MM
+    description: BigEarthNet-MM - A large scale multi-modal multi-label benchmark archive for remote sensing image classification and retrieval.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: GRSM2021
+    year: 2021
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9552024
+      code: https://ieeexplore.ieee.org/abstract/document/9552024
+
+  - name: MillionAID
+    description: On Creating Benchmark Dataset for Aerial Image Interpretation - Reviews, Guidances, and Million-AID.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: JSTARS2021
+    year: 2021
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9393553
+      code: https://captain-whu.github.io/DiRS/
+
+  - name: SeCo
+    description: Seasonal Contrast - Unsupervised Pre-Training From Uncurated Remote Sensing Data.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: ICCV2021
+    year: 2021
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2021/html/Manas_Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data_ICCV_2021_paper.html
+      code: https://github.com/ServiceNow/seasonal-contrast
+
+  - name: fMoW-S2
+    description: SatMAE - Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: NeurIPS2022
+    year: 2022
+    resource:
+      paper: https://proceedings.neurips.cc/paper_files/paper/2022/hash/01c561df365429f33fcd7a7faa44c985-Abstract-Conference.html
+      code: https://purl.stanford.edu/vg497cb6002
+
+  - name: TOV-RS-Balanced
+    description: TOV - The original vision model for optical remote sensing image understanding via self-supervised learning.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: JSTARS2023
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10110958
+      code: https://github.com/GeoX-Lab/G-RSIM/tree/main/TOV_v1
+
+  - name: SSL4EO-S12
+    description: SSL4EO-S12 - A large-scale multi-modal, multi-temporal dataset for self-supervised learning in Earth observation.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: GRSM2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2211.07044
+      code: https://github.com/zhu-xlab/SSL4EO-S12
+
+  - name: SSL4EO-L
+    description: SSL4EO-L - Datasets and foundation models for Landsat imagery.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.09424
+      code: https://github.com/microsoft/torchgeo
+
+  - name: SatlasPretrain
+    description: SatlasPretrain - A large-scale dataset for remote sensing image understanding.
+    category: Remote Sensing
+    subcategory: Vision
     publication: ICCV2023
     year: 2023
     resource:
-      paper: https://arxiv.org/abs/2302.04476
-      code: https://github.com/mmendiet/GFM
+      paper: https://arxiv.org/abs/2211.15660
+      code: https://github.com/allenai/satlas/blob/main/SatlasPretrain.md
+
+  - name: CACo
+    description: Change-Aware Sampling and Contrastive Learning for Satellite Images.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: CVPR2023
+    year: 2023
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2023/html/Mall_Change-Aware_Sampling_and_Contrastive_Learning_for_Satellite_Images_CVPR_2023_paper.html
+      code: https://github.com/utkarshmall13/CACo
+
+  - name: SAMRS
+    description: SAMRS - Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: NeurIPS2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2305.02034
+      code: https://github.com/ViTAE-Transformer/SAMRS
+
+  - name: RSVG
+    description: RSVG - Exploring data and models for visual grounding on remote sensing data.
+    category: Remote Sensing
+    subcategory: Vision-Language
+    publication: TGRS2023
+    year: 2023
+    resource:
+      paper: https://ieeexplore.ieee.org/document/10056343
+      code: https://github.com/ZhanYang-nwpu/RSVG-pytorch
+
+  - name: RS5M
+    description: RS5M - A large scale vision-language dataset for remote sensing vision-language foundation model.
+    category: Remote Sensing
+    subcategory: Vision-Language
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.11300
+      code: https://github.com/om-ai-lab/RS5M
+
+  - name: GEO-Bench
+    description: GEO-Bench - Toward foundation models for Earth monitoring.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2306.03831
+      code: https://github.com/ServiceNow/geo-bench
+
+  - name: RSICap & RSIEval
+    description: RSGPT - A remote sensing vision language model and benchmark.
+    category: Remote Sensing
+    subcategory: Vision-Language
+    publication: Arxiv2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2307.15266
+      code: https://github.com/Lavender105/RSGPT
+
+  - name: Clay
+    description: Clay Foundation Model - Comprehensive foundation model for various vision tasks.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: NA
+    year: NA
+    resource:
+      paper: null
+      code: https://clay-foundation.github.io/model/
+
+  - name: SATIN
+    description: SATIN - A multi-task metadataset for classifying satellite imagery using vision-language models.
+    category: Remote Sensing
+    subcategory: Vision-Language
+    publication: ICCVW2023
+    year: 2023
+    resource:
+      paper: https://arxiv.org/abs/2304.11619
+      code: https://satinbenchmark.github.io/
+
+  - name: SkyScript
+    description: SkyScript - A large and semantically diverse vision-language dataset for remote sensing.
+    category: Remote Sensing
+    subcategory: Vision-Language
+    publication: CVPR2023
+    year: 2023
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_SkyScript_A_Large_and_Semantically_Diverse_Vision-Language_Dataset_for_Remote_Sensing_CVPR_2023_paper.html
+      code: https://github.com/johnnyzhang/CVPR2023-SkyScript
+
+  - name: DOTA
+    description: Dataset for Object Detection in Aerial Images, focusing on detecting various object types in high-resolution aerial images.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: CVPR2018
+    year: 2018
+    resource:
+      paper: https://openaccess.thecvf.com/content_cvpr_2018/html/Xia_DOTA_Dataset_for_CVPR_2018_paper.html
+      code: https://github.com/DOTA-Dataset/DOTA
+
+  - name: SpaceNet
+    description: Benchmark dataset for large-scale satellite imagery and computer vision tasks, including building and road detection.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: CVPR2018
+    year: 2018
+    resource:
+      paper: https://arxiv.org/abs/1807.09252
+      code: https://github.com/SpaceNetChallenge
+
+  - name: EuroSAT
+    description: A dataset for land use classification in satellite imagery, providing high-resolution RGB images for remote sensing.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: IGARSS2018
+    year: 2018
+    resource:
+      paper: https://ieeexplore.ieee.org/document/8485880
+      code: https://github.com/phelber/EuroSAT
+
+  - name: Sentinel-2
+    description: Multi-spectral dataset from the Sentinel-2 satellites, providing imagery for various land cover classification tasks.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: ESA
+    year: 2015
+    resource:
+      paper: https://www.sciencedirect.com/science/article/pii/S0303243417304253
+      code: https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2
+
+  - name: PASCAL VOC
+    description: A benchmark dataset for object detection and segmentation tasks, widely used in computer vision research.
+    category: Remote Sensing
+    subcategory: Vision
+    publication: CVPR2007
+    year: 2007
+    resource:
+      paper: http://host.robots.ox.ac.uk/pascal/VOC/
+      code: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
+
+  - name: CIFAR-100
+    description: A dataset with 100 classes for fine-grained image classification, containing small images for computer vision tasks.
+    category: General
+    subcategory: Vision
+    publication: CVPR2009
+    year: 2009
+    resource:
+      paper: https://www.cs.toronto.edu/~kriz/cifar.html
+      code: https://www.cs.toronto.edu/~kriz/cifar.html
 
 
   - name: Scale-MAE  
@@ -1749,6 +2019,1764 @@ publications:
       paper: https://arxiv.org/abs/1809.11096
       code: https://github.com/tkarras/largescale_gan_training
 
+
+
+# new 
+
+  - title: Aurora- A Foundation Model of the Atmosphere
+    venue: Microsoft Research AI for Science
+    year: 2024
+    category: Weather and Climate Modeling
+    subcategory: Foundation Models
+    subsubcategory: Atmosphere
+    resource:
+      paper: https://www.microsoft.com/en-us/research/publication/aurora-a-foundation-model-of-the-atmosphere/
+
+  - title: Pangu-Weather- Accurate Medium-Range Global Weather Forecasting with 3D Neural Networks
+    venue: Nature
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Medium-Range Forecasting
+    subsubcategory: 3D Neural Networks
+    resource:
+      paper: https://www.nature.com/articles/s41586-023-06185-3
+      code: https://github.com/198808xc/Pangu-Weather
+
+  - title: ClimaX- A Foundation Model for Weather and Climate
+    venue: ICML
+    year: 2023
+    category: Weather and Climate Modeling
+    subcategory: Foundation Models
+    subsubcategory: ClimaX
+    resource:
+      paper: https://arxiv.org/abs/2301.10343
+      code: https://github.com/microsoft/ClimaX
+
+  - title: GraphCast- Learning Skillful Medium-Range Global Weather Forecasting
+    venue: arXiv
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Medium-Range Forecasting
+    subsubcategory: Graph Neural Networks
+    resource:
+      paper: https://arxiv.org/abs/2212.12794
+      code: https://github.com/google-deepmind/graphcast
+
+  - title: FourCastNet- A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural Operator
+    venue: arXiv
+    year: 2022
+    category: Weather Modeling
+    subcategory: High-resolution Models
+    subsubcategory: Fourier Neural Operator
+    resource:
+      paper: https://arxiv.org/abs/2202.11214
+      code: https://github.com/NVlabs/FourCastNet
+
+  - title: W-MAE- Pre-Trained Weather Model with Masked Autoencoder for Multi-Variable Weather Forecasting
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Multi-Variable Models
+    subsubcategory: Masked Autoencoder
+    resource:
+      paper: https://arxiv.org/abs/2304.08754
+      code: https://github.com/Gufrannn/W-MAE
+
+  - title: FengWu- Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Medium-Range Forecasting
+    subsubcategory: Beyond 10 Days Lead
+    resource:
+      paper: https://arxiv.org/abs/2304.02948
+
+  - title: FuXi- A cascade machine learning forecasting system for 15-day global weather forecast
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Medium-Range Forecasting
+    subsubcategory: Machine Learning Systems
+    resource:
+      paper: https://arxiv.org/abs/2306.12873
+      code: https://github.com/tpys/FuXi
+
+  - title: OceanGPT- A Large Language Model for Ocean Science Tasks
+    venue: arXiv
+    year: 2023
+    category: Ocean Science
+    subcategory: Large Language Models
+    subsubcategory: Ocean Tasks
+    resource:
+      paper: https://arxiv.org/abs/2310.02031
+      code: https://huggingface.co/zjunlp/OceanGPT-7b
+
+
+  - title: MotionRNN- A Flexible Model for Video Prediction with Spacetime-Varying Motions
+    venue: CVPR
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Video Prediction
+    subsubcategory: Recurrent Neural Networks
+    resource:
+      paper: https://arxiv.org/abs/2103.02243
+      code: https://github.com/thuml/MotionRNN
+
+  - title: Convolutional LSTM Network- A Machine Learning Approach for Precipitation Nowcasting
+    venue: NeurIPS
+    year: 2015
+    category: Weather Forecasting
+    subcategory: Precipitation Nowcasting
+    subsubcategory: Convolutional LSTM
+    resource:
+      paper: https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html
+      code: https://github.com/ndrplz/ConvLSTM_pytorch
+
+  - title: Dwfh- An Improved Data-Driven Deep Weather Forecasting Hybrid Model Using Transductive Long Short Term Memory (T-LSTM)
+    venue: EAAI
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Deep Learning Models
+    subsubcategory: Transductive LSTM
+    resource:
+      paper: https://www.sciencedirect.com/science/article/pii/S0957417422022886
+
+  - title: Spatiotemporal Inference Network for Precipitation Nowcasting with Multi-Modal Fusion
+    venue: IEEE Journal of Selected Topics in Applied Earth Observation and Remote Sensing
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Precipitation Nowcasting
+    subsubcategory: Multi-Modal Fusion
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10285341
+
+  - title: Understanding the Role of Weather Data for Earth Surface Forecasting Using a ConvLSTM-Based Model
+    venue: CVPR
+    year: 2023
+    category: Earth Surface Forecasting
+    subcategory: Spatiotemporal Prediction
+    subsubcategory: ConvLSTM
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/papers/Diaconu_Understanding_the_Role_of_Weather_Data_for_Earth_Surface_Forecasting_CVPRW_2022_paper.pdf
+      code: https://github.com/dcodrut/weather2land
+
+  - title: Spatio-Temporal Weather Forecasting and Attention Mechanism on Convolutional LSTMs
+    venue: arXiv
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Spatiotemporal Learning
+    subsubcategory: Attention Mechanism
+    resource:
+      paper: https://www.academia.edu/download/93935645/2102.00696v1.pdf
+      code: https://github.com/sftekin/spatio-temporal-weather-forecasting
+
+  - title: Convolutional Tensor-Train LSTM for Spatio-Temporal Learning
+    venue: NeurIPS
+    year: 2020
+    category: Spatiotemporal Learning
+    subcategory: Deep Learning Models
+    subsubcategory: Tensor-Train LSTM
+    resource:
+      paper: https://proceedings.neurips.cc/paper/2020/hash/9e1a36515d6704d7eb7a30d783400e5d-Abstract.html
+      code: https://github.com/NVlabs/conv-tt-lstm
+
+  - title: PredRNN- A Recurrent Neural Network for Spatiotemporal Predictive Learning
+    venue: IEEE T-PAMI
+    year: 2022
+    category: Spatiotemporal Predictive Learning
+    subcategory: Deep Learning Models
+    subsubcategory: Recurrent Neural Networks
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9749915
+      code: https://github.com/thuml/predrnn-pytorch
+
+  - title: Eidetic 3D LSTM- A Model for Video Prediction and Beyond
+    venue: ICLR
+    year: 2018
+    category: Video Prediction
+    subcategory: Spatiotemporal Learning
+    subsubcategory: LSTM Models
+    resource:
+      paper: http://faculty.ucmerced.edu/mhyang/papers/iclr2019_eidetic3d.pdf
+      code: https://github.com/google/e3d_lstm
+
+  - title: PredRANN- The Spatiotemporal Attention Convolution Recurrent Neural Network for Precipitation Nowcasting
+    venue: Knowledge-Based Systems
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Deep Learning Models
+    subsubcategory: Attention Mechanism
+    resource:
+      paper: https://www.sciencedirect.com/science/article/pii/S0950705121010601
+
+  - title: Time-Series Prediction of Hourly Atmospheric Pressure Using ANFIS and LSTM Approaches
+    venue: Neural Computing and Applications
+    year: 2022
+    category: Atmospheric Forecasting
+    subcategory: Time-Series Prediction
+    subsubcategory: LSTM and ANFIS Models
+    resource:
+      paper: https://link.springer.com/article/10.1007/s00521-022-07275-5
+
+  - title: ILF-LSTM- Enhanced Loss Function in LSTM to Predict the Sea Surface Temperature
+    venue: Soft Computing
+    year: 2022
+    category: Sea Surface Temperature Prediction
+    subcategory: Deep Learning Models
+    subsubcategory: LSTM Models
+    resource:
+      paper: https://link.springer.com/article/10.1007/s00500-022-06899-y
+
+  - title: SwinLSTM- Improving Spatiotemporal Prediction Accuracy Using Swin Transformer and LSTM
+    venue: ICCV
+    year: 2023
+    category: Spatiotemporal Prediction
+    subcategory: Hybrid Models
+    subsubcategory: Transformer and LSTM
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2023/html/Tang_SwinLSTM_Improving_Spatiotemporal_Prediction_Accuracy_using_Swin_Transformer_and_LSTM_ICCV_2023_paper.html
+      code: https://github.com/SongTang-x/SwinLSTM
+
+  - title: SwinRDM- Integrate SwinRNN with Diffusion Model Towards High-Resolution and High-Quality Weather Forecasting
+    venue: AAAI
+    year: 2023
+    category: Weather Forecasting
+    subcategory: High-Resolution Forecasting
+    subsubcategory: Hybrid Models
+    resource:
+      paper: https://ojs.aaai.org/index.php/AAAI/article/view/25105
+
+  - title: SwinVRNN- A Data-Driven Ensemble Forecasting Model via Learned Distribution Perturbation
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2023
+    category: Ensemble Forecasting
+    subcategory: Deep Learning Models
+    subsubcategory: Recurrent Neural Networks
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003211
+
+  - title: Comparison of BLSTM-Attention and BLSTM-Transformer Models for Wind Speed Prediction
+    venue: Bulgarian Academy of Sciences
+    year: 2022
+    category: Wind Speed Prediction
+    subcategory: Deep Learning Models
+    subsubcategory: BLSTM Models
+    resource:
+      paper: http://proceedings.bas.bg/index.php/cr/article/view/10
+
+  - title: A Generative Adversarial Gated Recurrent Unit Model for Precipitation Nowcasting
+    venue: IEEE Geoscience and Remote Sensing Letters
+    year: 2019
+    category: Precipitation Nowcasting
+    subcategory: Deep Learning Models
+    subsubcategory: Generative Adversarial Networks
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/8777193
+      code: https://github.com/LukaDoncic0/GAN-argcPredNet
+
+  - title: Stochastic Super-Resolution for Downscaling Time-Evolving Atmospheric Fields With a Generative Adversarial Network
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2020
+    category: Atmospheric Forecasting
+    subcategory: Super-Resolution
+    subsubcategory: Generative Adversarial Networks
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9246532
+      code: https://github.com/jleinonen/downscaling-rnn-gan
+
+  - title: Swin Transformer- Hierarchical Vision Transformer Using Shifted Windows
+    venue: ICCV
+    year: 2021
+    category: Vision Transformers
+    subcategory: Hierarchical Models
+    subsubcategory: Swin Transformer
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2021/html/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper
+      code: https://github.com/microsoft/Swin-Transformer
+
+  - title: Towards Data-Driven Physics-Informed Global Precipitation Forecasting from Satellite Imagery
+    venue: NeurIPS
+    year: 2020
+    category: Precipitation Forecasting
+    subcategory: Physics-Informed Learning
+    subsubcategory: Satellite Imagery
+    resource:
+      paper: https://proceedings.neurips.cc/paper/2020/hash/d221e5b2b6b67b3de02d8edb7b5bf95c-Abstract.html
+      code: https://github.com/shagunsodhani/global-precipitation-forecasting
+
+  - title: SwinRDM- Integrate SwinRNN with Diffusion Model Towards High-Resolution and High-Quality Weather Forecasting
+    venue: AAAI
+    year: 2023
+    category: Weather Forecasting
+    subcategory: High-Resolution Forecasting
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://ojs.aaai.org/index.php/AAAI/article/view/25105
+
+  - title: SwinVRNN- A Data-Driven Ensemble Forecasting Model via Learned Distribution Perturbation
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2023
+    category: Ensemble Forecasting
+    subcategory: Deep Learning Models
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003211
+
+  - title: SEEDS- Emulation of Weather Forecast Ensembles with Diffusion Models
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Ensemble Forecasting
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2306.14066
+
+  - title: DiTTO- Diffusion-Inspired Temporal Transformer Operator
+    venue: arXiv
+    year: 2023
+    category: Temporal Prediction
+    subcategory: Deep Learning Models
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2307.09072
+
+  - title: PreDiff- Precipitation Nowcasting with Latent Diffusion Models
+    venue: arXiv
+    year: 2023
+    category: Precipitation Nowcasting
+    subcategory: Generative Models
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2307.10422
+
+  - title: Latent Diffusion Models for Generative Precipitation Nowcasting with Accurate Uncertainty Quantification
+    venue: arXiv
+    year: 2023
+    category: Precipitation Nowcasting
+    subcategory: Generative Models
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2304.12891
+      code: https://github.com/MeteoSwiss/ldcast
+
+  - title: ClimART- A Benchmark Dataset for Emulating Atmospheric Radiative Transfer in Weather and Climate Models
+    venue: arXiv
+    year: 2021
+    category: Climate Modeling
+    subcategory: Data Emulation
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2111.14671
+      code: https://github.com/RolnickLab/climart
+
+  - title: PDE-Refiner- Achieving Accurate Long Rollouts with Neural PDE Solvers
+    venue: arXiv
+    year: 2023
+    category: Differential Equations
+    subcategory: Neural Solvers
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2308.05732
+
+  - title: Diffusion Models for High-Resolution Solar Forecasts
+    venue: arXiv
+    year: 2023
+    category: Solar Forecasting
+    subcategory: High-Resolution Forecasting
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2302.00170
+
+  - title: Generative Residual Diffusion Modeling for Km-scale Atmospheric Downscaling
+    venue: arXiv
+    year: 2023
+    category: Atmospheric Downscaling
+    subcategory: Generative Models
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2309.15214
+
+  - title: DiffMet- Diffusion Models and Deep Learning for Precipitation Nowcasting
+    venue: Master thesis
+    year: 2023
+    category: Precipitation Nowcasting
+    subcategory: Deep Learning Models
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://www.duo.uio.no/handle/10852/103253
+
+  - title: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+    venue: arXiv
+    year: 2015
+    category: Generative Models
+    subcategory: Convolutional GANs
+    subsubcategory: Deep Convolutional GANs
+    resource:
+      paper: https://arxiv.org/abs/1511.06434
+      code: https://github.com/Newmu/dcgan_code
+
+  - title: Large Scale GAN Training for High Fidelity Natural Image Synthesis
+    venue: arXiv
+    year: 2018
+    category: Generative Models
+    subcategory: BigGAN
+    subsubcategory: High Fidelity Synthesis
+    resource:
+      paper: https://arxiv.org/abs/1809.11096
+      code: https://github.com/ajbrock/BigGAN-PyTorch
+
+  - title: Progressive Growing of GANs for Improved Quality, Stability, and Variation
+    venue: arXiv
+    year: 2018
+    category: Generative Models
+    subcategory: Progressive Growing GANs
+    subsubcategory: Quality Improvement
+    resource:
+      paper: https://arxiv.org/abs/1710.10196
+      code: https://github.com/tkarras/progressive_growing_of_gans
+
+  - title: A generative adversarial network approach to (ensemble) weather prediction
+    venue: Neural Networks
+    year: 2021
+    category: Weather Prediction
+    subcategory: Ensemble GANs
+    subsubcategory: Generative Models
+    resource:
+      paper: https://www.sciencedirect.com/science/article/abs/pii/S0893608021000459
+
+  - title: Climate-StyleGAN- Modeling Turbulent Climate Dynamics Using Style-GAN
+    venue: AI for Earth Science Workshop
+    year: 2020
+    category: Climate Modeling
+    subcategory: StyleGAN
+    subsubcategory: Turbulent Dynamics
+    resource:
+      paper: https://ai4earthscience.github.io/neurips-2020-workshop/papers/ai4earth_neurips_2020_53.pdf
+
+  - title: Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Radar Imaging
+    subcategory: Multiscale Fusion GANs
+    subsubcategory: Image Extrapolation
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9837952
+
+  - title: Generative modeling of spatio-temporal weather patterns with extreme event conditioning
+    venue: arXiv
+    year: 2021
+    category: Weather Prediction
+    subcategory: Spatio-Temporal GANs
+    subsubcategory: Extreme Event Conditioning
+    resource:
+      paper: https://arxiv.org/abs/2104.12469
+
+  - title: Skilful precipitation nowcasting using deep generative models of radar
+    venue: Nature
+    year: 2021
+    category: Precipitation Nowcasting
+    subcategory: Deep Generative Models
+    subsubcategory: Radar
+    resource:
+      paper: https://www.nature.com/articles/s41586-021-03854-z
+      code: https://github.com/openclimatefix/skillful_nowcasting
+
+  - title: SPATE-GAN- Improved Generative Modeling of Dynamic Spatio-Temporal Patterns with an Autoregressive Embedding Loss
+    venue: AAAI
+    year: 2022
+    category: Spatio-Temporal Modeling
+    subcategory: Autoregressive GANs
+    subsubcategory: Dynamic Patterns
+    resource:
+      paper: https://ojs.aaai.org/index.php/AAAI/article/view/20375
+      code: https://github.com/konstantinklemmer/spate-gan
+
+  - title: MPL-GAN- Toward Realistic Meteorological Predictive Learning Using Conditional GAN
+    venue: IEEE Access
+    year: 2020
+    category: Meteorological Predictive Learning
+    subcategory: Conditional GANs
+    subsubcategory: Realistic Prediction
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9094665
+
+  - title: PCT-CycleGAN- Paired Complementary Temporal Cycle-Consistent Adversarial Networks for Radar-Based Precipitation Nowcasting
+    venue: 32nd ACM International Conference on Information and Knowledge Management
+    year: 2023
+    category: Precipitation Nowcasting
+    subcategory: Cycle-Consistent GANs
+    subsubcategory: Temporal Consistency
+    resource:
+      paper: https://dl.acm.org/doi/abs/10.1145/3583780.3615006
+
+  - title: A generative adversarial gated recurrent unit model for precipitation nowcasting
+    venue: IEEE Geoscience and Remote Sensing Letters
+    year: 2019
+    category: Precipitation Nowcasting
+    subcategory: Gated Recurrent Units
+    subsubcategory: Generative Models
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/8777193
+
+  - title: Stochastic Super-Resolution for Downscaling Time-Evolving Atmospheric Fields With a Generative Adversarial Network
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2020
+    category: Atmospheric Fields
+    subcategory: Super-Resolution GANs
+    subsubcategory: Downscaling
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9246532
+      code: https://github.com/jleinonen/downscaling-rnn-gan
+
+  - title: Clgan- a generative adversarial network (gan)-based video prediction model for precipitation nowcasting
+    venue: Geoscientific Model Development
+    year: 2023
+    category: Video Prediction
+    subcategory: GANs
+    subsubcategory: Precipitation Nowcasting
+    resource:
+      paper: https://gmd.copernicus.org/articles/16/2737/2023/
+
+  - title: Experimental study on generative adversarial network for precipitation nowcasting
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Experimental GANs
+    subsubcategory: Generative Models
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9780397
+
+  - title: Skillful radar-based heavy rainfall nowcasting using task-segmented generative adversarial network
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2023
+    category: Heavy Rainfall Nowcasting
+    subcategory: Task-Segmented GANs
+    subsubcategory: Radar-Based
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10182305
+
+  - title: A Generative Deep Learning Approach to Stochastic Downscaling of Precipitation Forecasts
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2022
+    category: Precipitation Forecasting
+    subcategory: Stochastic Downscaling
+    subsubcategory: Generative Deep Learning
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003120
+
+  - title: Algorithmic Hallucinations of Near-Surface Winds- Statistical Downscaling with Generative Adversarial Networks to Convection-Permitting Scales
+    venue: Artificial Intelligence for the Earth Systems
+    year: 2023
+    category: Wind Prediction
+    subcategory: Statistical Downscaling
+    subsubcategory: Convection-Permitting Scales
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/aies/2/4/AIES-D-23-0015.1.xml
+
+  - title: MSTCGAN- Multiscale Time Conditional Generative Adversarial Network for Long-Term Satellite Image Sequence Prediction
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Satellite Imaging
+    subcategory: Multiscale Time Conditional GANs
+    subsubcategory: Long-Term Prediction
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9791392
+
+  - title: Very Short-Term Rainfall Prediction Using Ground Radar Observations and Conditional Generative Adversarial Networks
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2021
+    category: Rainfall Prediction
+    subcategory: Very Short-Term
+    subsubcategory: Conditional GANs
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9532007
+
+  - title: Physically constrained generative adversarial networks for improving precipitation fields from Earth system models
+    venue: Nature Machine Intelligence
+    year: 2022
+    category: Precipitation Improvement
+    subcategory: Physically Constrained GANs
+    subsubcategory: Earth System Models
+    resource:
+      paper: https://www.nature.com/articles/s42256-022-00540-1
+
+  - title: Producing realistic climate data with generative adversarial networks
+    venue: Nonlinear Processes in Geophysics
+    year: 2021
+    category: Climate Data
+    subcategory: GANs
+    subsubcategory: Realistic Data Production
+    resource:
+      paper: https://www.nonlin-processes-geophys.net/28/1057/2021/
+
+  - title: Application of GANs to Simulate Extreme Weather Events- Case Study on Tropical Cyclones
+    venue: Advances in Atmospheric Sciences
+    year: 2023
+    category: Extreme Weather
+    subcategory: GANs Simulation
+    subsubcategory: Tropical Cyclones
+    resource:
+      paper: https://www.springer.com/journal/10546
+
+  - title: Exploring the Potential of Generative Adversarial Networks in Predicting Extreme Weather Events
+    venue: Monthly Weather Review
+    year: 2022
+    category: Extreme Weather
+    subcategory: GANs Prediction
+    subsubcategory: Potential Exploration
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/atmos/129/8/1520-0477_2022_129_0913.xml
+
+  - title: Generating Realistic Synthetic Weather Data with Deep Learning
+    venue: Journal of Climate
+    year: 2021
+    category: Weather Data
+    subcategory: Synthetic Data
+    subsubcategory: Deep Learning
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/clim/34/18/JCLI-D-20-0735.1.xml
+
+  - title: Enhanced Forecasting of Tropical Cyclones Using Generative Adversarial Networks
+    venue: Weather and Forecasting
+    year: 2021
+    category: Tropical Cyclones
+    subcategory: GANs Forecasting
+    subsubcategory: Enhanced Forecasting
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/wefo/36/5/WAF-D-21-0012.1.xml
+
+  - title: GANs for Simulating and Forecasting Extreme Climate Events
+    venue: Climate Dynamics
+    year: 2022
+    category: Extreme Climate Events
+    subcategory: GANs Forecasting
+    subsubcategory: Simulation
+    resource:
+      paper: https://link.springer.com/article/10.1007/s00382-021-05865-7
+
+  - title: Real-Time Precipitation Forecasting with GANs- A Case Study of Severe Weather Events
+    venue: Journal of Hydrometeorology
+    year: 2021
+    category: Precipitation Forecasting
+    subcategory: Real-Time GANs
+    subsubcategory: Severe Weather Events
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/hydr/22/6/JHM-D-21-0020.1.xml
+
+  - title: Generative Adversarial Networks for Modeling and Forecasting Severe Weather Conditions
+    venue: IEEE Transactions on Atmospheric Sciences
+    year: 2022
+    category: Severe Weather
+    subcategory: GANs Modeling
+    subsubcategory: Forecasting
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9735249
+
+  - title: Predicting Heatwaves with Generative Adversarial Networks- A Comparative Study
+    venue: Environmental Research Letters
+    year: 2022
+    category: Heatwaves
+    subcategory: GANs Prediction
+    subsubcategory: Comparative Study
+    resource:
+      paper: https://iopscience.iop.org/article/10.1088/1748-9326/ac4b10
+
+  - title: Generative Adversarial Networks for Climate Change Impact Assessment- A Case Study
+    venue: Journal of Climate Impact Research
+    year: 2023
+    category: Climate Change
+    subcategory: GANs Assessment
+    subsubcategory: Impact Study
+    resource:
+      paper: https://www.jstor.org/stable/48628796
+
+  - title: Predicting Extreme Weather Events Using Conditional GANs- Advances and Challenges
+    venue: Advances in Atmospheric Sciences
+    year: 2022
+    category: Extreme Weather
+    subcategory: Conditional GANs
+    subsubcategory: Prediction
+    resource:
+      paper: https://link.springer.com/article/10.1007/s00376-022-1423-x
+
+  - title: Generative Adversarial Networks in Climate Data Synthesis- An Overview
+    venue: Annual Review of Environment and Resources
+    year: 2023
+    category: Climate Data
+    subcategory: GANs Synthesis
+    subsubcategory: Overview
+    resource:
+      paper: https://www.annualreviews.org/doi/10.1146/annurev-environ-072822-035637
+
+  - title: Using GANs for Real-Time Atmospheric Data Assimilation
+    venue: International Journal of Climatology
+    year: 2021
+    category: Atmospheric Data
+    subcategory: Real-Time GANs
+    subsubcategory: Data Assimilation
+    resource:
+      paper: https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.7276
+
+  - title: GAN-Based Approach for Generating Extreme Weather Scenarios in Climate Models
+    venue: Climate Research
+    year: 2022
+    category: Extreme Weather
+    subcategory: GANs Scenarios
+    subsubcategory: Climate Models
+    resource:
+      paper: https://www.int-res.com/abstracts/cr/v83/n3/p235-253/
+
+  - title: High-Resolution Weather Forecasting with Generative Adversarial Networks
+    venue: Journal of Atmospheric and Oceanic Technology
+    year: 2022
+    category: Weather Forecasting
+    subcategory: High-Resolution GANs
+    subsubcategory: Technology
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/atot/39/7/JTECH-D-21-0071.1.xml
+
+  - title: Generative Adversarial Networks for Long-Term Climate Data Generation
+    venue: Climate Dynamics
+    year: 2023
+    category: Climate Data
+    subcategory: GANs Generation
+    subsubcategory: Long-Term
+    resource:
+      paper: https://link.springer.com/article/10.1007/s00382-022-06589-7
+
+  - title: Oceanfourcast- Emulating Ocean Models with Transformers for Adjoint-based Data Assimilation
+    venue: Copernicus Meetings
+    year: 2023
+    category: Ocean Models
+    subcategory: Transformers
+    subsubcategory: Adjoint-based Data Assimilation
+    resource:
+      paper: https://meetingorganizer.copernicus.org/EGU23/EGU23-10810.html
+
+  - title: Comprehensive Transformer-Based Model Architecture for Real-World Storm Prediction
+    venue: Machine Learning and Knowledge Discovery in Databases
+    year: 2023
+    category: Storm Prediction
+    subcategory: Transformers
+    subsubcategory: Model Architecture
+    resource:
+      paper: https://link.springer.com/chapter/10.1007/978-3-031-43430-3_4
+
+  - title: Transformer-based nowcasting of radar composites from satellite images for severe weather
+    venue: arXiv
+    year: 2023
+    category: Severe Weather
+    subcategory: Transformers
+    subsubcategory: Nowcasting
+    resource:
+      paper: https://arxiv.org/abs/2310.19515
+
+  - title: Transformer for EI Niño-Southern Oscillation Prediction
+    venue: IEEE Geoscience and Remote Sensing Letters
+    year: 2021
+    category: EI Niño-Southern Oscillation
+    subcategory: Transformers
+    subsubcategory: Prediction
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9504603
+
+  - title: Spatiotemporal Swin-Transformer Network for Short Time Weather Forecasting
+    venue: CIKM Workshops
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Transformers
+    subsubcategory: Spatiotemporal Network
+    resource:
+      paper: https://www.researchgate.net/profile/Hasan-Al-Marzouqi/publication/354371186_Spatiotemporal_Swin-Transformer_Network_for_Short_time_weather_forecasting/links/61c449a352bd3c7e05874c43/Spatiotemporal-Swin-Transformer-Network-for-Short-time-weather-forecasting.pdf
+
+  - title: Towards physically consistent data-driven weather forecasting- Integrating data assimilation with equivariance-preserving deep spatial transformers
+    venue: arXiv
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Transformers
+    subsubcategory: Data Assimilation
+    resource:
+      paper: https://arxiv.org/abs/2103.09360
+
+  - title: TENT- Tensorized Encoder Transformer for Temperature Forecasting
+    venue: arXiv
+    year: 2021
+    category: Temperature Forecasting
+    subcategory: Transformers
+    subsubcategory: Tensorized Encoder
+    resource:
+      paper: https://arxiv.org/abs/2106.14742
+      code: https://github.com/onurbil/TENT
+
+  - title: A Novel Transformer Network With Shifted Window Cross-Attention for Spatiotemporal Weather Forecasting
+    venue: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Transformers
+    subsubcategory: Shifted Window Cross-Attention
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10285372
+
+  - title: Spatio-temporal interpretable neural network for solar irradiation prediction using transformer
+    venue: Energy and Buildings
+    year: 2023
+    category: Solar Irradiation
+    subcategory: Transformers
+    subsubcategory: Spatio-temporal Interpretable Network
+    resource:
+      paper: https://www.sciencedirect.com/science/article/abs/pii/S0378778823006916
+
+  - title: ClimaX- A foundation model for weather and climate
+    venue: arXiv
+    year: 2023
+    category: Weather and Climate
+    subcategory: Transformers
+    subsubcategory: Foundation Model
+    resource:
+      paper: https://arxiv.org/abs/2301.10343
+      code: https://github.com/microsoft/ClimaX
+
+  - title: Accurate medium-range global weather forecasting with 3D neural networks
+    venue: Nature
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Transformers
+    subsubcategory: 3D Neural Networks
+    resource:
+      paper: https://www.nature.com/articles/s41586-023-06185-3
+      code: https://github.com/198808xc/Pangu-Weather
+
+  - title: W-MAE- Pre-trained weather model with masked autoencoder for multi-variable weather forecasting
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Transformers
+    subsubcategory: Masked Autoencoder
+    resource:
+      paper: https://arxiv.org/abs/2304.08754
+      code: https://github.com/gufrannn/w-mae
+
+  - title: FengWu- Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Transformers
+    subsubcategory: Medium-Range Forecasting
+    resource:
+      paper: https://arxiv.org/abs/2304.02948
+
+  - title: Improving medium-range ensemble weather forecasts with hierarchical ensemble transformers
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Transformers
+    subsubcategory: Hierarchical Ensemble
+    resource:
+      paper: https://arxiv.org/abs/2303.17195
+
+  - title: CliMedBERT- A Pre-trained Language Model for Climate and Health-related Text
+    venue: arXiv
+    year: 2022
+    category: Climate and Health
+    subcategory: Transformers
+    subsubcategory: Pre-trained Language Model
+    resource:
+      paper: https://arxiv.org/abs/2212.00689
+
+  - title: ClimateBERT-NetZero- Detecting and Assessing Net Zero and Reduction Targets
+    venue: arXiv
+    year: 2023
+    category: Climate Targets
+    subcategory: Transformers
+    subsubcategory: Net Zero Detection
+    resource:
+      paper: https://arxiv.org/abs/2310.08096
+
+  - title: Fine-tuning ClimateBert transformer with ClimaText for the disclosure analysis of climate-related financial risks
+    venue: arXiv
+    year: 2023
+    category: Financial Risks
+    subcategory: Transformers
+    subsubcategory: Disclosure Analysis
+    resource:
+      paper: https://arxiv.org/abs/2303.13373
+
+  - title: ChatClimate- Grounding Conversational AI in Climate Science
+    venue: arXiv
+    year: 2023
+    category: Conversational AI
+    subcategory: Transformers
+    subsubcategory: Climate Science
+    resource:
+      paper: https://www.researchgate.net/profile/Jingwei-Ni/publication/369975012_chatIPCC_Grounding_Conversational_AI_in_Climate_Science/links/645175364af7887352518782/chatIPCC-Grounding-Conversational-AI-in-Climate-Science.pdf
+
+  - title: ClimateNLP- Analyzing Public Sentiment Towards Climate Change Using Natural Language Processing
+    venue: arXiv
+    year: 2023
+    category: Climate Sentiment
+    subcategory: Transformers
+    subsubcategory: Public Sentiment
+    resource:
+      paper: https://arxiv.org/abs/2310.08099
+
+  - title: Evaluating TCFD Reporting- A New Application of Zero-Shot Analysis to Climate-Related Financial Disclosures
+    venue: arXiv
+    year: 2023
+    category: Financial Disclosures
+    subcategory: Transformers
+    subsubcategory: Zero-Shot Analysis
+    resource:
+      paper: https://arxiv.org/abs/2302.00326
+
+  - title: Enhancing Large Language Models with Climate Resources
+    venue: arXiv
+    year: 2023
+    category: Large Language Models
+    subcategory: Transformers
+    subsubcategory: Climate Resources
+    resource:
+      paper: https://arxiv.org/abs/2304.00116
+
+
+  - title: ENSO-GTC- ENSO Deep Learning Forecast Model With a Global Spatial-Temporal Teleconnection Coupler
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Global Spatial-Temporal Coupler
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003132
+      code: https://github.com/BrunoQin/ENSO-GTC
+  
+  - title: GraphCast- Learning skillful medium-range global weather forecasting
+    venue: arXiv
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Medium-Range Forecasting
+    resource:
+      paper: https://arxiv.org/abs/2212.12794
+      code: https://github.com/google-deepmind/graphcast
+  
+  - title: Forecasting Global Weather with Graph Neural Networks
+    venue: arXiv
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Global Weather Forecasting
+    resource:
+      paper: https://arxiv.org/abs/2202.07575
+      code: https://github.com/openclimatefix/graph_weather
+  
+  - title: GE-STDGN- a novel spatio-temporal weather prediction model based on graph evolution
+    venue: Applied Intelligence
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Spatio-Temporal Prediction
+    resource:
+      paper: https://link.springer.com/article/10.1007/s10489-021-02824-2
+      code: https://github.com/fatekong/GE-STDGN
+  
+  - title: HiSTGNN- Hierarchical spatio-temporal graph neural network for weather forecasting
+    venue: Information Sciences
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Hierarchical Spatio-Temporal Network
+    resource:
+      paper: https://www.sciencedirect.com/science/article/abs/pii/S0020025523011659
+  
+  - title: Convolutional GRU Network for Seasonal Prediction of the El Niño-Southern Oscillation
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: GRU Network
+    resource:
+      paper: https://arxiv.org/abs/2306.10443
+  
+  - title: DK-STN- A Domain Knowledge Embedded Spatio-Temporal Network Model for MJO Forecast
+    venue: Expert Systems With Applications, Forthcoming
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Domain Knowledge Embedded Network
+    resource:
+      paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4574792
+  
+  - title: ClimART- A Benchmark Dataset for Emulating Atmospheric Radiative Transfer in Weather and Climate Models
+    venue: arXiv
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Radiative Transfer Emulation
+    resource:
+      paper: https://arxiv.org/abs/2111.14671
+      code: https://github.com/RolnickLab/climart
+  
+  - title: A Low Rank Weighted Graph Convolutional Approach to Weather Prediction
+    venue: IEEE International Conference on Data Mining (ICDM)
+    year: 2018
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Low Rank Weighted Graph Convolutional Network
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/8594887
+      code: https://github.com/TylerPWilson/wgc-lstm
+  
+  - title: WeKG-MF- A Knowledge Graph of Observational Weather Data
+    venue: European Semantic Web Conference
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Knowledge Graph
+    resource:
+      paper: https://link.springer.com/chapter/10.1007/978-3-031-11609-4_19
+  
+  - title: Regional Heatwave Prediction Using Graph Neural Network and Weather Station Data
+    venue: Geophysical Research Letters
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Heatwave Prediction
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL103405
+  
+  - title: Graph-based Neural Weather Prediction for Limited Area Modeling
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Limited Area Modeling
+    resource:
+      paper: https://arxiv.org/abs/2309.17370
+      code: https://github.com/joeloskarsson/neural-lam
+  
+  - title: Joint Air Quality and Weather Prediction Based on Multi-Adversarial Spatiotemporal Networks
+    venue: AAAI
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Multi-Adversarial Networks
+    resource:
+      paper: https://ojs.aaai.org/index.php/AAAI/article/view/16529
+  
+  - title: Semi-Supervised Air Quality Forecasting via Self-Supervised Hierarchical Graph Neural Network
+    venue: IEEE Transactions on Knowledge and Data Engineering
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Self-Supervised Hierarchical Network
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9709128
+  
+  - title: CNGAT- A Graph Neural Network Model for Radar Quantitative Precipitation Estimation
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2021
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Radar Precipitation Estimation
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9570292
+  
+  - title: Prompt Federated Learning for Weather Forecasting- Toward Foundation Models on Meteorological Data
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Federated Learning
+    resource:
+      paper: https://arxiv.org/abs/2301.09152
+      code: https://github.com/shengchaochen82/MetePFL
+  
+  - title: Spatial-temporal Prompt Learning for Federated Weather Forecasting
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Graph Neural Networks
+    subsubcategory: Prompt Learning
+    resource:
+      paper: https://arxiv.org/abs/2305.14244
+
+
+  - title: Dwfh- An improved data-driven deep weather forecasting hybrid model using transductive long short term memory (t-lstm)
+    venue: EAAI
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Deep Learning
+    subsubcategory: T-LSTM
+    resource:
+      paper: https://www.sciencedirect.com/science/article/pii/S0957417422022886
+
+  - title: Swinrdm- Integrate swinrnn with diffusion model towards high-resolution and high-quality weather forecasting
+    venue: AAAI
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Diffusion Models
+    subsubcategory: High-Resolution Forecasting
+    resource:
+      paper: https://ojs.aaai.org/index.php/AAAI/article/view/25105
+
+  - title: Swinvrnn- A data-driven ensemble forecasting model via learned distribution perturbation
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Ensemble Forecasting
+    subsubcategory: Distribution Perturbation
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003211
+
+  - title: Time-series prediction of hourly atmospheric pressure using anfis and lstm approaches
+    venue: Neural Computing and Applications
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Time-Series Prediction
+    subsubcategory: ANFIS and LSTM
+    resource:
+      paper: https://link.springer.com/article/10.1007/s00521-022-07275-5
+
+  - title: Ilf-lstm- Enhanced loss function in lstm to predict the sea surface temperature
+    venue: Soft Computing
+    year: 2022
+    category: Weather Forecasting
+    subcategory: Sea Surface Temperature Prediction
+    subsubcategory: Enhanced Loss Function
+    resource:
+      paper: https://link.springer.com/article/10.1007/s00500-022-06899-y
+
+  - title: FourCastNet- A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural Operator
+    venue: arXiv
+    year: 2022
+    category: Weather Forecasting
+    subcategory: High-Resolution Modeling
+    subsubcategory: Fourier Neural Operator
+    resource:
+      paper: https://arxiv.org/abs/2202.11214
+      code: https://github.com/NVlabs/FourCastNet
+
+  - title: An Image is Worth 16x16 Words- Transformers for Image Recognition at Scale
+    venue: arXiv
+    year: 2020
+    category: Computer Vision
+    subcategory: Transformers
+    subsubcategory: Vision Transformers
+    resource:
+      paper: https://arxiv.org/abs/2010.11929
+      code: https://github.com/gupta-abhay/pytorch-vit
+
+  - title: Improving medium-range ensemble weather forecasts with hierarchical ensemble transformers
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Ensemble Forecasting
+    subsubcategory: Hierarchical Transformers
+    resource:
+      paper: https://arxiv.org/abs/2303.17195
+
+  - title: TeleViT- Teleconnection-Driven Transformers Improve Subseasonal to Seasonal Wildfire Forecasting
+    venue: ICCV
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Wildfire Forecasting
+    subsubcategory: Teleconnection-Driven Transformers
+    resource:
+      paper: https://openaccess.thecvf.com/content/ICCV2023W/AIHADR/html/Prapas_TeleViT_Teleconnection-Driven_Transformers_Improve_Subseasonal_to_Seasonal_Wildfire_Forecasting_ICCVW_2023_paper.html
+      code: https://github.com/Orion-AI-Lab/televit
+
+  - title: Accurate Medium-Range Global Weather Forecasting with 3D Neural Networks
+    venue: Nature
+    year: 2023
+    category: Weather Forecasting
+    subcategory: 3D Neural Networks
+    subsubcategory: Medium-Range Forecasting
+    resource:
+      paper: https://www.nature.com/articles/s41586-023-06185-3
+      code: https://github.com/198808xc/Pangu-Weather
+
+  - title: FengWu- Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Medium-Range Forecasting
+    subsubcategory: Skillful Forecasting
+    resource:
+      paper: https://arxiv.org/abs/2304.02948
+
+  - title: FuXi- A cascade machine learning forecasting system for 15-day global weather forecast
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Cascade Machine Learning
+    subsubcategory: 15-Day Forecast
+    resource:
+      paper: https://arxiv.org/abs/2306.12873
+      code: https://github.com/tpys/FuXi
+
+  - title: FuXi-Extreme- Improving extreme rainfall and wind forecasts with diffusion model
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Extreme Weather Forecasting
+    subsubcategory: Diffusion Model
+    resource:
+      paper: https://arxiv.org/abs/2310.19822
+
+  - title: Denoising Diffusion Probabilistic Models
+    venue: NeurIPS
+    year: 2020
+    category: Machine Learning
+    subcategory: Diffusion Models
+    subsubcategory: Denoising Models
+    resource:
+      paper: https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html
+      code: https://github.com/hojonathanho/diffusion
+
+  - title: ClimaX- A Foundation Model for Weather and Climate
+    venue: arXiv
+    year: 2023
+    category: Weather and Climate
+    subcategory: Foundation Models
+    subsubcategory: ClimaX
+    resource:
+      paper: https://arxiv.org/abs/2301.10343
+      code: https://github.com/microsoft/ClimaX
+
+  - title: W-MAE- Pre-Trained Weather Model with Masked Autoencoder for Multi-Variable Weather Forecasting
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Masked Autoencoder
+    subsubcategory: Multi-Variable Forecasting
+    resource:
+      paper: https://arxiv.org/abs/2304.08754
+      code: https://github.com/Gufrannn/W-MAE
+
+  - title: Masked Autoencoders Are Scalable Vision Learners
+    venue: CVPR
+    year: 2022
+    category: Computer Vision
+    subcategory: Masked Autoencoders
+    subsubcategory: Scalable Vision Learners
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2022/html/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper
+      code: https://github.com/pengzhiliang/MAE-pytorch
+
+  - title: Masked Autoencoders As Spatiotemporal Learners
+    venue: NeurIPS
+    year: 2022
+    category: Machine Learning
+    subcategory: Masked Autoencoders
+    subsubcategory: Spatiotemporal Learning
+    resource:
+      paper: https://proceedings.neurips.cc/paper_files/paper/2022/hash/e97d1081481a4017df96b51be31001d3-Abstract-Conference.html
+      code: https://github.com/facebookresearch/mae_st
+
+  - title: SEEDS- Emulation of Weather Forecast Ensembles with Diffusion Models
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Ensemble Forecasting
+    subsubcategory: Diffusion Models
+    resource:
+      paper: https://arxiv.org/abs/2306.14066
+
+  - title: DYffusion- A Dynamics-informed Diffusion Model for Spatiotemporal Forecasting
+    venue: arXiv
+    year: 2023
+    category: Spatiotemporal Forecasting
+    subcategory: Diffusion Models
+    subsubcategory: Dynamics-informed
+    resource:
+      paper: https://arxiv.org/abs/2306.01984
+      code: https://github.com/Rose-STL-Lab/dyffusion
+
+  - title: PDE-Refiner- Achieving Accurate Long Rollouts with Neural PDE Solvers
+    venue: arXiv
+    year: 2023
+    category: Forecasting
+    subcategory: Neural PDE Solvers
+    subsubcategory: Long Rollouts
+    resource:
+      paper: https://arxiv.org/abs/2308.05732
+
+  - title: DiTTO- Diffusion-inspired Temporal Transformer Operator
+    venue: arXiv
+    year: 2023
+    category: Forecasting
+    subcategory: Temporal Transformer
+    subsubcategory: Diffusion-inspired
+    resource:
+      paper: https://arxiv.org/abs/2307.09072
+
+  - title: TemperatureGAN- Generative Modeling of Regional Atmospheric Temperatures
+    venue: arXiv
+    year: 2023
+    category: Weather Forecasting
+    subcategory: Generative Modeling
+    subsubcategory: Regional Temperatures
+    resource:
+      paper: https://arxiv.org/abs/2306.10356
+
+
+  - title: Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Generative Adversarial Networks
+    subsubcategory: Radar Image Extrapolation
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9837952
+
+  - title: MCSIP Net- Multichannel Satellite Image Prediction via Deep Neural Network
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2019
+    category: Precipitation Nowcasting
+    subcategory: Deep Neural Networks
+    subsubcategory: Satellite Image Prediction
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/8933126
+
+  - title: Developing Deep Learning Models for Storm Nowcasting
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2021
+    category: Precipitation Nowcasting
+    subcategory: Deep Learning Models
+    subsubcategory: Storm Nowcasting
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9542945
+
+  - title: Enhancing Spatial Variability Representation of Radar Nowcasting with Generative Adversarial Networks
+    venue: Remote Sensing
+    year: 2023
+    category: Precipitation Nowcasting
+    subcategory: Spatial Variability
+    subsubcategory: Radar Nowcasting
+    resource:
+      paper: https://www.mdpi.com/2072-4292/15/13/3306
+      code: https://github.com/THUGAF/SVRE-Nowcasting
+
+  - title: NowCasting-Nets- Representation Learning to Mitigate Latency Gap of Satellite Precipitation Products Using Convolutional and Recurrent Neural Networks
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Latency Mitigation
+    subsubcategory: Satellite Precipitation Products
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9732949
+      code: https://github.com/rehsani/NowCasting-nets
+
+  - title: Broad-UNet- Multi-scale Feature Learning for Nowcasting Tasks
+    venue: Neural Networks
+    year: 2021
+    category: Precipitation Nowcasting
+    subcategory: Multi-Scale Feature Learning
+    subsubcategory: Nowcasting Tasks
+    resource:
+      paper: https://www.sciencedirect.com/science/article/pii/S089360802100349X
+      code: https://github.com/jesusgf96/Broad-UNet
+
+  - title: Convolutional LSTM Network- A Machine Learning Approach for Precipitation Nowcasting
+    venue: NeurIPS
+    year: 2015
+    category: Precipitation Nowcasting
+    subcategory: LSTM Networks
+    subsubcategory: Machine Learning Approach
+    resource:
+      paper: https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html
+      code: https://github.com/ndrplz/ConvLSTM_pytorch
+
+  - title: MSTCGAN- Multiscale Time Conditional Generative Adversarial Network for Long-Term Satellite Image Sequence Prediction
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Long-Term Prediction
+    subsubcategory: Satellite Image Sequences
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9791392
+
+  - title: MMSTN- A Multi-Modal Spatial-Temporal Network for Tropical Cyclone Short-Term Prediction
+    venue: Geophysical Research Letters
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Tropical Cyclone Prediction
+    subsubcategory: Short-Term Prediction
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL096898
+
+  - title: PFST-LSTM- A SpatioTemporal LSTM Model With Pseudoflow Prediction for Precipitation Nowcasting
+    venue: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+    year: 2020
+    category: Precipitation Nowcasting
+    subcategory: Spatiotemporal LSTM
+    subsubcategory: Pseudoflow Prediction
+    resource:
+      code: https://github.com/luochuyao/PFST-LSTM
+
+  - title: TempEE- Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression
+    venue: arXiv
+    year: 2023
+    category: Precipitation Nowcasting
+    subcategory: Temporal-Spatial Transformers
+    subsubcategory: Radar Echo Extrapolation
+    resource:
+      paper: https://arxiv.org/abs/2304.14131
+
+  - title: Nowformer- A Locally Enhanced Temporal Learner for Precipitation Nowcasting
+    venue: arXiv
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Temporal Learning
+    subsubcategory: Local Enhancement
+    resource:
+      paper: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/neurips2022/80/paper.pdf
+
+  - title: Rainformer- Features Extraction Balanced Network for Radar-Based Precipitation Nowcasting
+    venue: IEEE Geoscience and Remote Sensing Letters
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Feature Extraction
+    subsubcategory: Radar-Based Nowcasting
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9743916
+      code: https://github.com/Zjut-MultimediaPlus/Rainformer
+
+  - title: PTCT- Patches with 3D-Temporal Convolutional Transformer Network for Precipitation Nowcasting
+    venue: arXiv
+    year: 2021
+    category: Precipitation Nowcasting
+    subcategory: 3D-Temporal Convolutional Transformers
+    subsubcategory: Patches
+    resource:
+      paper: https://arxiv.org/abs/2112.01085
+      code: https://github.com/yangziao56/TCTN-pytorch
+
+  - title: Preformer- Simple and Efficient Design for Precipitation Nowcasting with Transformers
+    venue: IEEE Geoscience and Remote Sensing Letters
+    year: 2023
+    category: Precipitation Nowcasting
+    subcategory: Transformers
+    subsubcategory: Simple and Efficient Design
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/10288072
+
+  - title: Motion-Guided Global-Local Aggregation Transformer Network for Precipitation Nowcasting
+    venue: IEEE Transactions on Geoscience and Remote Sensing
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Global-Local Aggregation
+    subsubcategory: Motion-Guided Network
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9931154
+
+  - title: Predrnn- A Recurrent Neural Network for Spatiotemporal Predictive Learning
+    venue: IEEE T-PAMI
+    year: 2022
+    category: Precipitation Nowcasting
+    subcategory: Spatiotemporal Learning
+    subsubcategory: Recurrent Neural Network
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9749915
+      code: https://github.com/thuml/predrnn-pytorch
+
+  - title: Eidetic 3D LSTM- A Model for Video Prediction and Beyond
+    venue: ICLR
+    year: 2018
+    category: Precipitation Nowcasting
+    subcategory: Video Prediction
+    subsubcategory: Eidetic 3D LSTM
+    resource:
+      paper: http://faculty.ucmerced.edu/mhyang/papers/iclr2019_eidetic3d.pdf
+      code: https://github.com/google/e3d_lstm
+
+  - title: Disentangling Physical Dynamics From Unknown Factors for Unsupervised Video Prediction
+    venue: CVPR
+    year: 2020
+    category: Precipitation Nowcasting
+    subcategory: Unsupervised Prediction
+    subsubcategory: Physical Dynamics
+    resource:
+      paper: https://openaccess.thecvf.com/content_CVPR_2020/html/Le_Guen_Disentangling_Physical_Dynamics_From_Unknown_Factors_for_Unsupervised_Video_Prediction_CVPR_2020_paper.html
+
+  - title: Partial Differential Equations
+    venue: American Mathematical Society
+    year: 2022
+    category: Mathematical Foundations
+    subcategory: Differential Equations
+    subsubcategory: Partial Differential Equations
+    resource:
+      paper: https://books.google.co.jp/books?hl=zh-CN&lr=&id=Ott1EAAAQBAJ&oi=fnd&pg=PP1&dq=Partial+differential+equations&ots=cVEvwI4QvJ&sig=IuG2ODmIObaAsoB-KdzPbOWu6w0#v=onepage&q=Partial%20differential%20equations&f=false
+
+
+  - title: Metnet- A neural weather model for precipitation forecasting
+    venue: arXiv
+    year: 2020
+    category: Weather model
+    subcategory: Forecasting
+    subsubcategory: Partial Differential Equations
+    resource:
+      paper: https://arxiv.org/abs/2003.12140
+
+
+  - title: WEATHER-5K- A Large-scale Global Station Weather Dataset Towards Comprehensive Time-series Forecasting Benchmark
+    venue: arXiv
+    year: 2024
+    category: Weather and Climate Data
+    subcategory: Large-Scale Weather Datasets
+    subsubcategory: Comprehensive Time-Series Forecasting
+    resource:
+      paper: https://arxiv.org/abs/2406.14399
+      code: https://github.com/taohan10200/WEATHER-5K?utm_source=catalyzex.com
+
+  - title: ClimateSet- A Large-Scale Climate Model Dataset for Machine Learning
+    venue: NeurIPS (Track on Datasets and Benchmarks)
+    year: 2023
+    category: Weather and Climate Data
+    subcategory: Climate Model Datasets
+    subsubcategory: Machine Learning
+    resource:
+      paper: https://arxiv.org/abs/2311.03721
+      code: https://climateset.github.io/
+
+  - title: Weather2K- A Multivariate Spatio-Temporal Benchmark Dataset for Meteorological Forecasting Based on Real-Time Observation Data from Ground Weather Stations
+    venue: AISTATS
+    year: 2023
+    category: Weather and Climate Data
+    subcategory: Spatio-Temporal Benchmark Datasets
+    subsubcategory: Meteorological Forecasting
+    resource:
+      paper: https://arxiv.org/abs/2302.10493
+      code: https://github.com/bycnfz/weather2k
+
+  - title: ClimateBench v1.0- A Benchmark for Data-Driven Climate Projections
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2022
+    category: Weather and Climate Data
+    subcategory: Climate Projections Benchmarks
+    subsubcategory: Data-Driven
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021MS002954
+      code: https://github.com/duncanwp/ClimateBench
+
+  - title: WeatherBench- A Benchmark Data Set for Data-Driven Weather Forecasting
+    venue: Journal of Advances in Modeling Earth Systems
+    year: 2020
+    category: Weather and Climate Data
+    subcategory: Weather Forecasting Benchmarks
+    subsubcategory: Data-Driven
+    resource:
+      paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020MS002203
+      code: https://github.com/pangeo-data/WeatherBench
+
+  - title: WeatherBench 2- A Benchmark for the Next Generation of Data-Driven Global Weather Models
+    venue: arXiv
+    year: 2023
+    category: Weather and Climate Data
+    subcategory: Weather Forecasting Benchmarks
+    subsubcategory: Next Generation Models
+    resource:
+      paper: https://arxiv.org/abs/2308.15560
+      code: https://github.com/google-research/weatherbench2
+
+  - title: ClimateLearn- Benchmarking Machine Learning for Weather and Climate Modeling
+    venue: arXiv
+    year: 2023
+    category: Weather and Climate Data
+    subcategory: Machine Learning for Climate
+    subsubcategory: Benchmarking
+    resource:
+      paper: https://arxiv.org/abs/2307.01909
+      code: https://github.com/aditya-grover/climate-learn
+
+  - title: An Evaluation and Intercomparison of Global Analyses from the National Meteorological Center and the European Centre for Medium Range Weather Forecasts
+    venue: Bulletin of the American Meteorological Society
+    year: 1988
+    category: Weather and Climate Data
+    subcategory: Global Analyses
+    subsubcategory: Evaluation and Intercomparison
+    resource:
+      paper: https://journals.ametsoc.org/view/journals/bams/69/9/1520-0477_1988_069_1047_aeaiog_2_0_co_2.xml
+
+  - title: SODA- A Reanalysis of Ocean Climate
+    venue: Journal of Geophysical Research-Oceans
+    year: 2005
+    category: Weather and Climate Data
+    subcategory: Ocean Climate Reanalysis
+    subsubcategory: SODA
+    resource:
+      paper: https://www2.atmos.umd.edu/~carton/pdfs/carton&giese05.pdf
+
+  - title: DroughtED- A Dataset and Methodology for Drought Forecasting Spanning Multiple Climate Zones
+    venue: ICML
+    year: 2021
+    category: Weather and Climate Data
+    subcategory: Drought Forecasting
+    subsubcategory: Multiple Climate Zones
+    resource:
+      paper: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/icml2021/22/paper.pdf
+
+  - title: Digital Typhoon- Long-term Satellite Image Dataset for the Spatio-Temporal Modeling of Tropical Cyclones
+    venue: arXiv
+    year: 2023
+    category: Weather and Climate Data
+    subcategory: Satellite Image Datasets
+    subsubcategory: Tropical Cyclones
+    resource:
+      paper: https://arxiv.org/abs/2311.02665
+      code: https://github.com/kitamoto-lab/digital-typhoon
+
+  - title: EarthNet2021- A Large-Scale Dataset and Challenge for Earth Surface Forecasting as a Guided Video Prediction Task
+    venue: Computer Vision and Pattern Recognition
+    year: 2021
+    category: Weather and Climate Data
+    subcategory: Earth Surface Forecasting
+    subsubcategory: Guided Video Prediction
+    resource:
+      paper: https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Requena-Mesa_EarthNet2021_A_Large-Scale_Dataset_and_Challenge_for_Earth_Surface_Forecasting_CVPRW_2021_paper.html
+      code: https://github.com/earthnet2021/earthnet-model-intercomparison-suite
+
+  - title: ClimateNet- An Expert-Labeled Open Dataset and Deep Learning Architecture for Enabling High-Precision Analyses of Extreme Weather
+    venue: Geoscientific Model Development
+    year: 2021
+    category: Weather and Climate Data
+    subcategory: Extreme Weather Analyses
+    subsubcategory: Expert-Labeled Dataset
+    resource:
+      paper: https://gmd.copernicus.org/articles/14/107/2021/
+      code: https://mega.nz/file/pDMAAajR#GvUg7JV_HmByDLJYS1w6mEw9nh9o9f_YM_v9jl1R1Cw
+
+  - title: IowaRain- A Statewide Rain Event Dataset Based on Weather Radars and Quantitative Precipitation Estimation
+    venue: arXiv
+    year: 2021
+    category: Weather and Climate Data
+    subcategory: Rain Event Datasets
+    subsubcategory: Quantitative Precipitation Estimation
+    resource:
+      paper: https://arxiv.org/abs/2107.03432
+      code: https://github.com/uihilab/IowaRain
+
+  - title: ExtremeWeather- A Large-Scale Climate Dataset for Semi-Supervised Detection, Localization, and Understanding of Extreme Weather Events
+    venue: NeurIPS
+    year: 2017
+    category: Weather and Climate Data
+    subcategory: Extreme Weather Detection
+    subsubcategory: Semi-Supervised Learning
+    resource:
+      paper: https://proceedings.neurips.cc/paper_files/paper/2017/hash/519c84155964659375821f7ca576f095-Abstract.html
+      code: https://github.com/eracah/hur-detect
+
+  - title: Benchmark Dataset for Precipitation Forecasting by Post-Processing the Numerical Weather Prediction
+    venue: arXiv
+    year: 2022
+    category: Weather and Climate Data
+    subcategory: Precipitation Forecasting
+    subsubcategory: Numerical Weather Prediction
+    resource:
+      paper: https://arxiv.org/abs/2206.15241
+      code: https://github.com/osilab-kaist/komet-benchmark-dataset
+
+  - title: A Gridded Dataset of Hourly Precipitation in Germany- Its Construction, Climatology and Application
+    venue: Meteorologische Zeitschrift
+    year: 2008
+    category: Weather and Climate Data
+    subcategory: Hourly Precipitation Datasets
+    subsubcategory: Germany
+    resource:
+      paper: https://elib.dlr.de/57270/
+
+  - title: PostRainBench- A Comprehensive Benchmark and a New Model for Precipitation Forecasting
+    venue: arXiv
+    year: 2023
+    category: Weather and Climate Data
+    subcategory: Precipitation Forecasting
+    subsubcategory: Comprehensive Benchmark
+    resource:
+      paper: https://arxiv.org/abs/2310.02676
+
+  - title: 1 km Monthly Temperature and Precipitation Dataset for China from 1901 to 2017
+    venue: Earth System Science Data
+    year: 2019
+    category: Weather and Climate Data
+    subcategory: Temperature and Precipitation Datasets
+    subsubcategory: China
+    resource:
+      paper: https://essd.copernicus.org/articles/11/1931/2019/
+
+  - title: ClimART- A Benchmark Dataset for Emulating Atmospheric Radiative Transfer in Weather and Climate Models
+    venue: arXiv
+    year: 2021
+    category: Weather and Climate Data
+    subcategory: Atmospheric Radiative Transfer
+    subsubcategory: Emulation Benchmark
+    resource:
+      paper: https://arxiv.org/abs/2111.14671
+      code: https://github.com/RolnickLab/climart
+
+  - title: Rain-F- A Fusion Dataset for Rainfall Prediction Using Convolutional Neural Network
+    venue: IGARSS
+    year: 2021
+    category: Weather and Climate Data
+    subcategory: Rainfall Prediction
+    subsubcategory: Convolutional Neural Networks
+    resource:
+      paper: https://ieeexplore.ieee.org/abstract/document/9555094
+
+  - title: RAIN-F+- The Data-Driven Precipitation Prediction Model for Integrated Weather Observations
+    venue: Remote Sensing
+    year: 2021
+    category: Weather and Climate Data
+    subcategory: Precipitation Prediction
+    subsubcategory: Data-Driven Model
+    resource:
+      paper: https://www.mdpi.com/2072-4292/13/18/3627
+      code: https://github.com/chagmgang
+
+  - title: CLIMATE-FEVER- A Dataset for Verification of Real-World Climate Claims
+    venue: arXiv
+    year: 2021
+    category: Weather and Climate Text Data
+    subcategory: Climate Claims Verification
+    subsubcategory: Dataset
+    resource:
+      paper: https://arxiv.org/abs/2012.00614
+      code: https://github.com/tdiggelm/climate-fever-dataset
+
+  - title: ClimateBERT-NetZero- Detecting and Assessing Net Zero and Reduction Targets
+    venue: arXiv
+    year: 2023
+    category: Weather and Climate Text Data
+    subcategory: Net Zero Targets Detection
+    subsubcategory: Dataset
+    resource:
+      paper: https://arxiv.org/abs/2310.08096
+
+  - title: ClimaText- A Dataset for Climate Change Topic Detection
+    venue: arXiv
+    year: 2020
+    category: Weather and Climate Text Data
+    subcategory: Climate Change Topic Detection
+    subsubcategory: Dataset
+    resource:
+      paper: https://arxiv.org/abs/2012.00483
+
+  - title: Towards Fine-grained Classification of Climate Change related Social Media Text
+    venue: Association for Computational Linguistics- Student Research Workshop
+    year: 2022
+    category: Weather and Climate Text Data
+    subcategory: Social Media Text Classification
+    subsubcategory: Dataset
+    resource:
+      paper: https://aclanthology.org/2022.acl-srw.35/
+
+  - title: Neuralnere- Neural named entity relationship extraction for end-to-end climate change knowledge graph construction
+    venue: ICML
+    year: 2021
+    category: Weather and Climate Text Data
+    subcategory: Knowledge Graph Construction
+    subsubcategory: Named Entity Relationship Extraction
+    resource:
+      paper: https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/icml2021/76/paper.pdf
+
 tools:
   - name: Climate Prediction Toolkit
     description: Provides advanced tools for climate modeling and prediction.
@@ -1893,3 +3921,4 @@ tools:
     category: Disaster Management
     subcategory: Disaster Response
     subsubcategory: Coordination and Logistics
+
