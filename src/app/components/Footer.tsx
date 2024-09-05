@@ -1,6 +1,7 @@
 // src/components/Footer.tsx
 'use client';
 import React from 'react';
+import Link from 'next/link';
 
 const Footer: React.FC = () => {
   return (
@@ -10,21 +11,21 @@ const Footer: React.FC = () => {
           <div>
             <p>&copy; 2024 AI Sustainability Catalog</p>
             <p>
-              <a href="/about" className="text-white hover:underline">
-                About Us
-              </a>
+              <Link href="/about" className="text-white hover:underline">
+                  <a>About Us</a>
+              </Link>
             </p>
           </div>
           <div>
             <p>
-              <a href="/privacy" className="text-white hover:underline">
-                Privacy Policy
-              </a>
+              <Link href="/privacy" className="text-white hover:underline">
+                  <a>Privacy Policy</a>
+              </Link>
             </p>
             <p>
-              <a href="/terms" className="text-white hover:underline">
-                Terms of Service
-              </a>
+              <Link href="/terms" className="text-white hover:underline">
+                  <a>Terms of Service</a>
+              </Link>
             </p>
           </div>
         </div>

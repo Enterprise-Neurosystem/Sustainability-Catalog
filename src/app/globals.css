@@ -77,6 +77,14 @@ body {
   padding: 1rem;
   overflow-y: auto;
 }
+
+.content-text {
+  padding: 1rem;
+  overflow-y: auto;
+  margin-right: 150px;
+  margin-left: 150px
+}
+
 /* globals.css */
 .bg-primary-blue {
   background-color: #004f9d; /* Example blue color */

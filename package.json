@@ -17,6 +17,7 @@
     "@carbon/layout": "^11.23.0",
     "@carbon/react": "^1.64.0",
     "@carbon/themes": "^11.37.0",
+    "@heroicons/react": "^2.1.5",
     "@types/styled-components": "^5.1.34",
     "autoprefixer": "^10.4.19",
     "carbon-components": "^10.58.15",
