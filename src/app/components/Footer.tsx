@@ -11,19 +11,19 @@ const Footer: React.FC = () => {
           <div>
             <p>&copy; 2024 AI Sustainability Catalog</p>
             <p>
-              <Link href="/about" className="text-white hover:underline">
+              <Link legacyBehavior href="/about" className="text-white hover:underline">
                   <a>About Us</a>
               </Link>
             </p>
           </div>
           <div>
             <p>
-              <Link href="/privacy" className="text-white hover:underline">
+              <Link legacyBehavior href="/privacy" className="text-white hover:underline">
                   <a>Privacy Policy</a>
               </Link>
             </p>
             <p>
-              <Link href="/terms" className="text-white hover:underline">
+              <Link legacyBehavior href="/terms" className="text-white hover:underline">
                   <a>Terms of Service</a>
               </Link>
             </p>
