@@ -1,6 +1,11 @@
 // src/app/AIModels.tsx
 import React from 'react';
 
+interface SDG {
+  number: number;
+  name: string;
+}
+
 export interface Model {
   name: string;
   description: string;
@@ -13,6 +18,7 @@ export interface Model {
     paper?: string;
     code?: string;
   };
+  sdg?: SDG[];
 }
 
 export interface Models {
@@ -65,6 +71,18 @@ const AIModels: React.FC<Models> = ({ models }) => {
               </a>
             )}
           </div>
+          {model.sdg && model.sdg.length > 0 && (
+            <div className="flex flex-wrap items-center mb-2">
+              {model.sdg.map((goal, idx) => (
+                <div 
+                  key={idx} 
+                  className="bg-blue-100 text-blue-800 rounded px-3 py-1 text-xs mr-2 mb-1"
+                >
+                  UN SDG {goal.number}: {goal.name}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       ))}
     </div>

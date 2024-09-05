@@ -11,7 +11,7 @@ export default function Page() {
           <div className="content-text" >
               <p>Page under construction.</p>
           </div>
-          <Link href="/" className="mt-4 rounded-md bg-blue-500 px-4 py-2 text-sm text-white transition-colors hover:bg-blue-400">
+          <Link legacyBehavior href="/" className="mt-4 rounded-md bg-blue-500 px-4 py-2 text-sm text-white transition-colors hover:bg-blue-400">
               Home
           </Link>
       </main>

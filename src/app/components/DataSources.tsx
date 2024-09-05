@@ -2,6 +2,11 @@
 
 import React from 'react';
 
+export interface SDG {
+  number: number;
+  name: string;
+}
+
 export interface Dataset {
   name: string;
   description: string;
@@ -10,6 +15,7 @@ export interface Dataset {
   category?: string;
   subcategory?: string;
   subsubcategory?: string;
+  sdgs?: SDG[];
 }
 
 export interface Datasets {
@@ -40,6 +46,16 @@ const DataSources: React.FC<Datasets> = ({ datasets }) => {
               </div>
             )}
           </div>
+          {/* Render multiple SDG numbers and names */}
+          {dataset.sdgs && (
+            <div className="flex flex-wrap items-center mb-2">
+              {dataset.sdgs.map((sdg, sdgIndex) => (
+                <div key={sdgIndex} className="bg-blue-200 text-blue-800 rounded px-3 py-1 text-xs mb-2 mr-2 inline-block">
+                  UN SDG {sdg.number}: {sdg.name}
+                </div>
+              ))}
+            </div>
+          )}
           <p className="text-sm text-gray-500 mb-2">Date: {new Date(dataset.date).toLocaleDateString()}</p>
           <a href={dataset.url} className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
             View Dataset
@@ -48,6 +64,6 @@ const DataSources: React.FC<Datasets> = ({ datasets }) => {
       ))}
     </div>
   );
-}
+};
 
 export default DataSources;
