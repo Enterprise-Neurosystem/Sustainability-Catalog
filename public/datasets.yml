@@ -6,6 +6,9 @@ datasets:
     category: Climate Change
     subcategory: Climate Prediction
     subsubcategory: Climate Prediction Data
+    sdgs:
+      - number: 13
+        name: Climate Action
 
   - name: GPM
     description: Global Precipitation Measurement offers high-resolution precipitation data from satellite observations.
@@ -14,6 +17,9 @@ datasets:
     category: Climate Change
     subcategory: Climate Prediction
     subsubcategory: Precipitation Data
+    sdgs:
+      - number: 6
+        name: Clean Water and Sanitation
 
   - name: ECMWF ERA5
     description: High-resolution global climate data from the European Centre for Medium-Range Weather Forecasts.
@@ -22,6 +28,9 @@ datasets:
     category: Climate Change
     subcategory: Climate Modeling
     subsubcategory: Atmospheric Data
+    sdgs:
+      - number: 13
+        name: Climate Action
 
   - name: MODIS
     description: Moderate Resolution Imaging Spectroradiometer provides satellite data for a wide range of Earth observations.
@@ -30,6 +39,20 @@ datasets:
     category: Environmental Conservation
     subcategory: Biodiversity Monitoring
     subsubcategory: Satellite Observations
+    sdgs:
+      - number: 15
+        name: Life on Land
+
+  - name: Landsat 8
+    description: Landsat 8 provides satellite imagery for environmental monitoring, land-use changes, and climate change research.
+    url: https://www.usgs.gov/landsat-missions/landsat-8
+    date: 2023-08-01
+    category: Environmental Conservation
+    subcategory: Land Use
+    subsubcategory: Satellite Imagery
+    sdgs:
+      - number: 15
+        name: Life on Land
 
   - name: Climate Data Initiative
     description: A U.S. government initiative offering various climate datasets for public access and research.
@@ -38,6 +61,9 @@ datasets:
     category: Climate Change
     subcategory: Climate Modeling
     subsubcategory: General Climate Data
+    sdgs:
+      - number: 13
+        name: Climate Action
 
   - name: WorldClim
     description: Global climate data offering high-resolution climatic variables for research and modeling.
@@ -46,6 +72,9 @@ datasets:
     category: Climate Change
     subcategory: Climate Modeling
     subsubcategory: High-Resolution Climatic Variables
+    sdgs:
+      - number: 13
+        name: Climate Action
 
   - name: NCEP CFSR
     description: Climate Forecast System Reanalysis provides comprehensive historical climate data and forecasts.
@@ -54,6 +83,9 @@ datasets:
     category: Climate Change
     subcategory: Climate Prediction
     subsubcategory: Historical Climate Data
+    sdgs:
+      - number: 13
+        name: Climate Action
 
   - name: Copernicus Climate Change Service (C3S)
     description: Provides high-quality climate data and information services for Europe.
@@ -62,6 +94,9 @@ datasets:
     category: Climate Change
     subcategory: Climate Modeling
     subsubcategory: European Climate Data
+    sdgs:
+      - number: 13
+        name: Climate Action
 
   - name: CMIP6
     description: Coupled Model Intercomparison Project Phase 6 offers data for climate model evaluation and analysis.
@@ -70,6 +105,9 @@ datasets:
     category: Climate Change
     subcategory: Climate Modeling
     subsubcategory: Model Evaluation Data
+    sdgs:
+      - number: 13
+        name: Climate Action
 
   - name: eBird
     description: Provides data on bird sightings globally, useful for biodiversity monitoring and conservation efforts.
@@ -78,6 +116,9 @@ datasets:
     category: Environmental Conservation
     subcategory: Biodiversity Monitoring
     subsubcategory: Bird Observation Data
+    sdgs:
+      - number: 15
+        name: Life on Land
 
   - name: Global Forest Watch
     description: Provides data and tools to monitor deforestation and forest changes worldwide.
@@ -86,6 +127,9 @@ datasets:
     category: Environmental Conservation
     subcategory: Deforestation Prevention
     subsubcategory: Forest Monitoring Data
+    sdgs:
+      - number: 15
+        name: Life on Land
 
   - name: AquaCrop
     description: Tool for crop yield prediction and water use efficiency analysis based on climate data.
@@ -94,6 +138,9 @@ datasets:
     category: Sustainable Agriculture
     subcategory: Crop Yield Prediction
     subsubcategory: Yield Prediction Models
+    sdgs:
+      - number: 2
+        name: Zero Hunger
 
   - name: SoilGrids
     description: Global soil information system that provides soil property data at high resolution.
@@ -102,6 +149,9 @@ datasets:
     category: Sustainable Agriculture
     subcategory: Soil Health Monitoring
     subsubcategory: Soil Property Data
+    sdgs:
+      - number: 15
+        name: Life on Land
 
   - name: Urban Observatory
     description: Provides data for smart city development, including air quality, waste management, and other urban metrics.
@@ -110,6 +160,9 @@ datasets:
     category: Sustainable Cities
     subcategory: Air Quality Monitoring
     subsubcategory: Urban Air Quality Data
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
 
   - name: Copernicus Emergency Management Service
     description: Offers satellite-based data for disaster response and management, including flood and earthquake monitoring.
@@ -118,6 +171,81 @@ datasets:
     category: Disaster Management
     subcategory: Disaster Response
     subsubcategory: Emergency Management Data
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+
+  - name: World Bank Open Data
+    description: Free and open access to global development data from the World Bank.
+    url: https://data.worldbank.org/
+    date: 2023-06-18
+    category: Socioeconomic Data
+    subcategory: Economic Development
+    sdgs:
+      - number: 8
+        name: Decent Work and Economic Growth
+
+  - name: FAOSTAT
+    description: FAO’s database provides food and agricultural statistics for over 245 countries and territories.
+    url: https://www.fao.org/faostat/en/
+    date: 2023-05-15
+    category: Agriculture
+    subcategory: Food Security
+    subsubcategory: Agricultural Statistics
+    sdgs:
+      - number: 2
+        name: Zero Hunger
+
+  - name: UN Environment Programme Data
+    description: UNEP offers data on environmental sustainability, biodiversity, and resource management.
+    url: https://www.unep.org/publications-data
+    date: 2023-07-22
+    category: Environmental Conservation
+    subcategory: Sustainability
+    sdgs:
+      - number: 12
+        name: Responsible Consumption and Production
+
+  - name: WHO Global Health Observatory
+    description: WHO’s GHO offers data on global health indicators, diseases, and public health initiatives.
+    url: https://www.who.int/data/gho
+    date: 2023-04-12
+    category: Health
+    subcategory: Public Health
+    sdgs:
+      - number: 3
+        name: Good Health and Well-being
+
+  - name: Aqueduct Water Risk Atlas
+    description: Provides comprehensive global water risk data to help inform water resource management.
+    url: https://www.wri.org/aqueduct
+    date: 2023-05-28
+    category: Environmental Conservation
+    subcategory: Water Resources
+    subsubcategory: Water Risk Data
+    sdgs:
+      - number: 6
+        name: Clean Water and Sanitation
+
+  - name: SDG Indicators Global Database
+    description: Provides global data on indicators related to the UN’s Sustainable Development Goals.
+    url: https://unstats.un.org/sdgs/indicators/database/
+    date: 2023-08-10
+    category: Global Development
+    subcategory: SDG Monitoring
+    sdgs:
+      - number: 1
+        name: No Poverty
+      - number: 4
+        name: Quality Education
+      - number: 6
+        name: Clean Water and Sanitation
+      - number: 8
+        name: Decent Work and Economic Growth
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 16
+        name: Peace, Justice, and Strong Institutions
 
 models:
   - name: Aurora
@@ -129,6 +257,9 @@ models:
     year: 2024
     resource:
       paper: https://www.microsoft.com/en-us/research/publication/aurora-a-foundation-model-of-the-atmosphere/
+    sdg:
+      - number: 13
+        name: Climate Action
 
   - name: Pangu-Weather
     description: Accurate medium-range global weather forecasting with 3D neural networks, offering advanced prediction capabilities.
@@ -140,6 +271,9 @@ models:
     resource:
       paper: https://www.nature.com/articles/s41586-023-06185-3
       code: https://github.com/198808xc/Pangu-Weather
+    sdg:
+      - number: 13
+        name: Climate Action
 
   - name: ClimaX
     description: Foundation model for weather and climate, utilizing large-scale data for improved weather and climate predictions.
@@ -151,6 +285,9 @@ models:
     resource:
       paper: https://arxiv.org/abs/2301.10343
       code: https://github.com/microsoft/ClimaX
+    sdg:
+      - number: 13
+        name: Climate Action
 
   - name: W-MAE
     description: Pre-trained weather model with masked autoencoder designed for multi-variable weather forecasting.
@@ -162,6 +299,9 @@ models:
     resource:
       paper: https://arxiv.org/abs/2304.08754
       code: https://github.com/Gufrannn/W-MAE
+    sdg:
+      - number: 13
+        name: Climate Action
 
   - name: FengWu
     description: Advances skillful global medium-range weather forecasting, extending prediction capabilities beyond 10 days.
@@ -172,6 +312,9 @@ models:
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2304.02948
+    sdg:
+      - number: 13
+        name: Climate Action
 
   - name: FuXi
     description: Cascade machine learning forecasting system designed for accurate 15-day global weather forecasts.
@@ -183,6 +326,9 @@ models:
     resource:
       paper: https://arxiv.org/abs/2306.12873
       code: https://github.com/tpys/FuXi
+    sdg:
+      - number: 13
+        name: Climate Action
 
   - name: OceanGPT
     description: Large language model tailored for ocean science tasks, enhancing understanding of oceanographic phenomena.
@@ -194,6 +340,9 @@ models:
     resource:
       paper: https://arxiv.org/abs/2310.02031
       code: https://huggingface.co/zjunlp/OceanGPT-7b
+    sdg:
+      - number: 14
+        name: Life Below Water
 
   - name: GraphCast
     description: Learning skillful medium-range global weather forecasting through a novel approach using deep learning techniques.
@@ -205,6 +354,9 @@ models:
     resource:
       paper: https://arxiv.org/abs/2212.12794
       code: https://github.com/google-deepmind/graphcast
+    sdg:
+      - number: 13
+        name: Climate Action
 
   - name: FourCastNet
     description: Global high-resolution weather model using adaptive Fourier neural operators for improved accuracy.
@@ -214,8 +366,11 @@ models:
     publication: arXiv
     year: 2022
     resource:
-      paper: https://arxiv.org/abs/2202.11214
+      paper: https://arxiv.org/abs/2208.05419
       code: https://github.com/NVlabs/FourCastNet
+    sdg:
+      - number: 13
+        name: Climate Action
 
   - name: SatMAE
     description: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery to enhance remote sensing analysis.
@@ -226,6 +381,11 @@ models:
     resource:
       paper: https://proceedings.neurips.cc/paper_files/paper/2022/hash/01c561df365429f33fcd7a7faa44c985-Abstract-Conference.html
       code_and_weights: https://github.com/sustainlab-group/SatMAE
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: DINO-MM
     description: Self-supervised Vision Transformers designed for Joint SAR-optical Representation Learning in remote sensing.
@@ -236,6 +396,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2204.05381
       code_and_weights: https://github.com/zhu-xlab/DINO-MM
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: GeCo
     description: Geographical Supervision Correction enhances remote sensing representation learning through geographical context.
@@ -246,6 +411,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9869651
       code_and_weights: null
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RS-BYOL
     description: Self-Supervised Learning for Invariant Representations From Multi-Spectral and SAR Images for remote sensing applications.
@@ -256,6 +426,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9880533
       code_and_weights: null
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SeCo
     description: Seasonal Contrast model for Unsupervised Pre-Training with Uncurated Remote Sensing Data to improve model robustness.
@@ -266,6 +441,11 @@ models:
     resource:
       paper: https://openaccess.thecvf.com/content/ICCV2021/html/Manas_Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data_ICCV_2021_paper.html
       code_and_weights: https://github.com/ServiceNow/seasonal-contrast
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: GASSL
     description: Geography-Aware Self-Supervised Learning enhances remote sensing representation with geographic context.
@@ -276,6 +456,11 @@ models:
     resource:
       paper: https://openaccess.thecvf.com/content/ICCV2021/html/Ayush_Geography-Aware_Self-Supervised_Learning_ICCV_2021_paper.html
       code_and_weights: https://github.com/sustainlab-group/geography-aware-ssl
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: Self-Supervised Learning of Remote Sensing Scene Representations Using Contrastive Multiview Coding
     description: Advanced self-supervised learning method for enhancing remote sensing scene representations using contrastive coding.
@@ -286,6 +471,11 @@ models:
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/html/Stojnic_Self-Supervised_Learning_of_Remote_Sensing_Scene_Representations_Using_Contrastive_Multiview_CVPRW_2021_paper.html
       code_and_weights: https://github.com/vladan-stojnic/CMC-RSSR
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: GeoKR
     description: Geographical Knowledge-Driven Representation Learning for Remote Sensing Images leveraging geographic knowledge for enhanced learning.
@@ -296,6 +486,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/document/9342115
       code_and_weights: null
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SolarNet
     description: Deep learning model designed for predicting solar energy production from meteorological data.
@@ -307,6 +502,9 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/document/9745726
       code: https://github.com/solar-net/solar-net
+    sdg:
+      - number: 7
+        name: Affordable and Clean Energy
 
   - name: WindPredictor
     description: Machine learning model for accurate wind energy forecasting using historical wind data.
@@ -318,6 +516,9 @@ models:
     resource:
       paper: https://www.sciencedirect.com/science/article/pii/S0960148123001977
       code: https://github.com/wind-predictor/wind-predictor
+    sdg:
+      - number: 7
+        name: Affordable and Clean Energy
 
   - name: AgriVision
     description: Computer vision model for monitoring crop health and predicting yields based on satellite imagery.
@@ -329,6 +530,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/document/9341580
       code: https://github.com/agri-vision/agri-vision
+    sdg:
+      - number: 2
+        name: Zero Hunger
+      - number: 12
+        name: Responsible Consumption and Production
 
   - name: SoilNet
     description: Predictive model for soil health and fertility using machine learning on soil property data.
@@ -340,6 +546,11 @@ models:
     resource:
       paper: https://www.soils.org/publications/sssaj/articles/86/4/1220
       code: https://github.com/soil-net/soil-net
+    sdg:
+      - number: 2
+        name: Zero Hunger
+      - number: 15
+        name: Life on Land
 
   - name: AquaTrack
     description: Model for tracking water quality and predicting contamination in aquatic environments using sensor data.
@@ -351,6 +562,11 @@ models:
     resource:
       paper: https://www.sciencedirect.com/science/article/pii/S0043135423002122
       code: https://github.com/aqua-track/aqua-track
+    sdg:
+      - number: 6
+        name: Clean Water and Sanitation
+      - number: 15
+        name: Life on Land
 
   - name: EcoNet
     description: Environmental monitoring model using satellite data to track deforestation and habitat loss.
@@ -362,6 +578,11 @@ models:
     resource:
       paper: https://iopscience.iop.org/article/10.1088/1748-9326/acf33d
       code: https://github.com/eco-net/eco-net
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SeCo
     description: Seasonal Contrast- Unsupervised Pre-Training From Uncurated Remote Sensing Data.
@@ -370,8 +591,11 @@ models:
     resource:
       paper: https://openaccess.thecvf.com/content/ICCV2021/html/Manas_Seasonal_Contrast_Unsupervised_Pre-Training_From_Uncurated_Remote_Sensing_Data_ICCV_2021_paper.html
       code: https://github.com/ServiceNow/seasonal-contrast
-
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
   - name: DINO-MM
     description: Self-supervised Vision Transformers for Joint SAR-optical Representation Learning.
     category: Remote Sensing
@@ -380,8 +604,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2204.05381
       code: https://github.com/zhu-xlab/DINO-MM
-
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
   - name: SatMAE  
     description: SatMAE- Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery.
     category: Remote Sensing
@@ -390,8 +617,11 @@ models:
     resource:
       paper: https://proceedings.neurips.cc/paper_files/paper/2022/hash/01c561df365429f33fcd7a7faa44c985-Abstract-Conference.html
       code: https://github.com/sustainlab-group/SatMAE
-
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
   - name: RS-BYOL
     description: Self-Supervised Learning for Invariant Representations From Multi-Spectral and SAR Images.
     category: Remote Sensing
@@ -400,8 +630,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9880533
       code: null
-
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
   - name: GeCo  
     description: Geographical Supervision Correction for Remote Sensing Representation Learning.
     category: Remote Sensing
@@ -410,6 +643,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9869651
       code: null
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
 
   - name: RingMo  
@@ -420,7 +658,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9844015
       code: https://github.com/comeony/RingMo
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RVSA  
     description: Advancing plain vision transformer toward remote sensing foundation model.
@@ -430,7 +672,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9956816
       code: https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RSP
     description: An Empirical Study of Remote Sensing Pretraining.
@@ -440,7 +686,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/9782149
       code: https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: MATTER  
     description: Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks.
@@ -450,7 +700,11 @@ models:
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2022/html/Akiva_Self-Supervised_Material_and_Texture_Representation_Learning_for_Remote_Sensing_Tasks_CVPR_2022_paper.html
       code: null
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: CSPT  
     description: Consecutive Pre-Training- A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain.
@@ -460,7 +714,11 @@ models:
     resource:
       paper: https://www.mdpi.com/2072-4292/14/22/5675
       code: https://github.com/ZhAnGToNG1/transfer_learning_cspt
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SVTLSC  
     description: Self-supervised Vision Transformers for Land-cover Segmentation and Classification.
@@ -470,7 +728,11 @@ models:
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/html/Scheibenreif_Self-Supervised_Vision_Transformers_for_Land-Cover_Segmentation_and_Classification_CVPRW_2022_paper.html
       code: https://github.com/HSG-AIML/SSLTransformerRS
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: BFM
     description: A billion-scale foundation model for remote sensing images.
@@ -480,7 +742,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2304.05215
       code: null  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: TOV
     description: TOV- The original vision model for optical remote sensing image understanding via self-supervised learning.
@@ -490,7 +756,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/10110958
       code: https://github.com/GeoX-Lab/G-RSIM/tree/main/TOV_v1   
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: CMID
     description: CMID- A Unified Self-Supervised Learning Framework for Remote Sensing Image Understanding.
@@ -500,7 +770,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/10105625
       code: https://github.com/NJU-LHRS/official-CMID
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RingMo-Sense  
     description: Remote Sensing Foundation Model for Spatiotemporal Prediction via Spatiotemporal Evolution Disentangling.
@@ -510,7 +784,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/10254320
       code: null
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
 
   - name: IaI-SimCL  
@@ -521,7 +799,11 @@ models:
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2023W/EarthVision/html/Prexl_Multi-Modal_Multi-Objective_Contrastive_Learning_for_Sentinel-12_Imagery_CVPRW_2023_paper.html
       code: null
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
   - name: CACo
     description: Change-Aware Sampling and Contrastive Learning for Satellite Images.
     category: Remote Sensing
@@ -530,7 +812,11 @@ models:
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2023/html/Mall_Change-Aware_Sampling_and_Contrastive_Learning_for_Satellite_Images_CVPR_2023_paper.html
       code: https://github.com/utkarshmall13/CACo
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SatLas
     description: A Large-Scale Dataset for Remote Sensing Image Understanding.
@@ -540,7 +826,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2211.15660
       code: https://github.com/allenai/satlas  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: GFM  
     description: Towards Geospatial Foundation Models via Continual Pretraining.
@@ -550,7 +840,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2302.04476
       code: https://github.com/mmendiet/GFM
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: Scale-MAE  
     description: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning.
@@ -560,7 +854,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2212.14532
       code: https://github.com/bair-climate-initiative/scale-mae
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: DINO-MC  
     description: Self-supervised Contrastive Learning for Remote Sensing Imagery with Multi-sized Local Crops.
@@ -570,7 +868,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2303.06670
       code: https://github.com/WennyXY/DINO-MC  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: CROMA
     description: Remote Sensing Representations with Contrastive Radar-Optical Masked Autoencoders.
@@ -580,7 +882,11 @@ models:
     resource:
       paper: https://arxiv.org/pdf/2311.00566
       code: https://github.com/antofuller/CROMA
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: Cross-Scale MAE
     description: A Tale of Multiscale Exploitation in Remote Sensing.
@@ -590,7 +896,11 @@ models:
     resource:
       paper: https://openreview.net/pdf?id=5oEVdOd6TV
       code: https://github.com/aicip/Cross-Scale-MAE  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: DeCUR
     description: Decoupling common & unique representations for multimodal self-supervision.
@@ -600,7 +910,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2309.05300
       code: https://github.com/zhu-xlab/DeCUR  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: Presto
     description: Lightweight, Pre-trained Transformers for Remote Sensing Timeseries.
@@ -610,7 +924,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2304.14065
       code: https://github.com/nasaharvest/presto   
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: CtxMIM
     description: Context-Enhanced Masked Image Modeling for Remote Sensing Image Understanding.
@@ -620,7 +938,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2310.00022
       code: null  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: FG-MAE
     description: Feature Guided Masked Autoencoder for Self-supervised Learning in Remote Sensing.
@@ -629,8 +951,12 @@ models:
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2310.18653
-    code: https://github.com/zhu-xlab/FGMAE   
-
+      code: https://github.com/zhu-xlab/FGMAE   
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: Prithvi
     description: Foundation Models for Generalist Geospatial Artificial Intelligence.
@@ -640,7 +966,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2310.18660
       code: https://huggingface.co/ibm-nasa-geospatial
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RingMo-lite
     description:  A Remote Sensing Multi-task Lightweight Network with CNN-Transformer Hybrid Framework.
@@ -650,7 +980,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2309.09003
       code: null  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
 
   - name: SCRSFMRC
@@ -661,7 +995,11 @@ models:
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/10282433
       code: null
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: EarthPT
     description:  A foundation model for Earth Observation.
@@ -671,7 +1009,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2309.07207
       code: https://github.com/aspiaspace/EarthPT  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: USat
     description:  A Unified Self-Supervised Encoder for Multi-Sensor Satellite Imagery.
@@ -681,7 +1023,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2312.02199
       code: https://github.com/stanfordmlgroup/USat  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: FoMo-Bench
     description:  A multi-modal, multi-scale and multi-task Forest Monitoring Benchmark for remote sensing foundation models.
@@ -691,7 +1037,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2312.10114
       code: https://github.com/RolnickLab/FoMo-Bench  
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: AIEarth
     description:  Analytical Insight of Earth- A Cloud-Platform of Intelligent Computing for Geospatial Big Data.
@@ -701,7 +1051,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2312.16385
       code: https://engine-aiearth.aliyun.com/
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SAR-JEPA
     description:  Self-Supervised Learning for SAR ATR with a Knowledge-Guided Predictive Architecture.
@@ -711,7 +1065,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2311.15153v4
       code: https://github.com/waterdisappear/SAR-JEPA
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: Clay
     description:  Clay Foundation Model.
@@ -721,7 +1079,11 @@ models:
     resource:
       paper: null
       code: https://clay-foundation.github.io/model/                    
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: Hydro
     description:  Hydro--A Foundation Model for Water in Satellite Imagery.
@@ -730,263 +1092,358 @@ models:
     year: 2024
     resource:
       paper: null
-      code: https://github.com/isaaccorley/hydro-foundation-model  
-
+      code: https://github.com/isaaccorley/hydro-foundation-model
+    sdg:
+      - number: 6
+        name: Clean Water and Sanitation
+      - number: 13
+        name: Climate Action
 
   - name: U-BARN
-    description:  Self-Supervised Spatio-Temporal Representation Learning of Satellite Image Time Series.
+    description: Self-Supervised Spatio-Temporal Representation Learning of Satellite Image Time Series.
     category: Remote Sensing
     publication: JSTARS2024
     year: 2024
     resource:
       paper: https://ieeexplore.ieee.org/document/10414422
       code: https://src.koda.cnrs.fr/iris.dumeur/ssl_ubarn   
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: GeRSP
-    description:  Generic Knowledge Boosted Pre-training For Remote Sensing Images.
+    description: Generic Knowledge Boosted Pre-training For Remote Sensing Images.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2401.04614
       code: https://github.com/floatingstarZ/GeRSP      
-
+    sdg:
+      - number: 6
+        name: Clean Water and Sanitation
+      - number: 13
+        name: Climate Action
 
   - name: SwiMDiff
-    description:  Scene-wide Matching Contrastive Learning with Diffusion Constraint for Remote Sensing Image.
+    description: Scene-wide Matching Contrastive Learning with Diffusion Constraint for Remote Sensing Image.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2401.05093
       code: null
-
+    sdg:
+      - number: 11
+        name: Sustainable Cities and Communities
 
   - name: OFA-Net
-    description:  One for All- Toward Unified Foundation Models for Earth Vision.
+    description: One for All- Toward Unified Foundation Models for Earth Vision.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2401.07527
       code: null
-
+    sdg:
+      - number: 15
+        name: Life on Land
 
   - name: SMLFR
-    description:  Enerative ConvNet Foundation Model With Sparse Modeling and Low-Frequency Reconstruction for Remote Sensing Image Interpretation.
+    description: Generative ConvNet Foundation Model With Sparse Modeling and Low-Frequency Reconstruction for Remote Sensing Image Interpretation.
     category: Remote Sensing
     publication: TGRS2024
     year: 2024
     resource:
       paper: https://ieeexplore.ieee.org/abstract/document/10378718
       code: https://github.com/HIT-SIRS/SMLFR
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SpectralGPT
-    description:  SpectralGPT- Spectral Foundation Model.
+    description: SpectralGPT- Spectral Foundation Model.
     category: Remote Sensing
     publication: TPAMI2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2311.07113
       code: https://github.com/danfenghong/IEEE_TPAMI_SpectralGPT
-
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: S2MAE
-    description:  S2MAE- A Spatial-Spectral Pretraining Foundation Model for Spectral Remote Sensing Data.
+    description: S2MAE- A Spatial-Spectral Pretraining Foundation Model for Spectral Remote Sensing Data.
     category: Remote Sensing
     publication: CVPR2024
     year: 2024
     resource:
       paper: https://openaccess.thecvf.com/content/CVPR2024/papers/Li_S2MAE_A_Spatial-Spectral_Pretraining_Foundation_Model_for_Spectral_Remote_Sensing_CVPR_2024_paper.pdf
       code: null
-
+    sdg:
+      - number: 6
+        name: Clean Water and Sanitation
+      - number: 13
+        name: Climate Action
 
   - name: SatMAE++  
-    description:  Rethinking Transformers Pre-training for Multi-Spectral Satellite Imagery.
+    description: Rethinking Transformers Pre-training for Multi-Spectral Satellite Imagery.
     category: Remote Sensing
     publication: CVPR2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2403.05419
       code: https://github.com/techmn/satmae_pp
-
-
+    sdg:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: msGFM
-    description:  Bridging Remote Sensors with Multisensor Geospatial Foundation Models.
+    description: Bridging Remote Sensors with Multisensor Geospatial Foundation Models.
     category: Remote Sensing
     publication: CVPR2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2404.01260
       code: https://github.com/boranhan/Geospatial_Foundation_Models
-
-
+    sdg:
+      - number: 15
+        name: Life on Land
+      - number: 13
+        name: Climate Action
 
   - name: SkySense  
-    description:  A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery.
+    description: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery.
     category: Remote Sensing
     publication: CVPR2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2312.10115
       code: null
-
+    sdg:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: MTP
-    description:  Advancing Remote Sensing Foundation Model via Multi-Task Pretraining.
+    description: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2403.13430
       code: https://github.com/ViTAE-Transformer/MTP
+    sdg:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
-
-  - name: DOFA  
-    description:  Neural Plasticity-Inspired Foundation Model for Observing the Earth Crossing Modalities.
+  - name: DOFA
+    description: Neural Plasticity-Inspired Foundation Model for Observing the Earth Crossing Modalities.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2403.15356
       code: https://github.com/zhu-xlab/DOFA
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: PIS
-    description:  Pretrain A Remote Sensing Foundation Model by Promoting Intra-instance Similarity.
+    description: Pretrain A Remote Sensing Foundation Model by Promoting Intra-instance Similarity.
     category: Remote Sensing
     publication: Not Available
     year: 2024
     resource:
       paper: null
       code: https://github.com/ShawnAn-WHU/PIS
-
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: MMEarth
-    description:  Exploring Multi-Modal Pretext Tasks For Geospatial Representation Learning.
+    description: Exploring Multi-Modal Pretext Tasks For Geospatial Representation Learning.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2405.02771
       code: https://vishalned.github.io/mmearth/
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
-
-  - name: SARATR-X  
-    description:  A Foundation Model for Synthetic Aperture Radar Images Target Recognition.
+  - name: SARATR-X
+    description: A Foundation Model for Synthetic Aperture Radar Images Target Recognition.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2405.09365
       code: https://github.com/waterdisappear/SARATR-X
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: LeMeViT
-    description:  Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation.
+    description: Efficient Vision Transformer with Learnable Meta Tokens for Remote Sensing Image Interpretation.
     category: Remote Sensing
     publication: IJCAI2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2405.09789
       code: https://github.com/ViTAE-Transformer/LeMeViT/tree/main?tab=readme-ov-file
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SoftCon
-    description:  Multi-Label Guided Soft Contrastive Learning for Efficient Earth Observation Pretraining.
+    description: Multi-Label Guided Soft Contrastive Learning for Efficient Earth Observation Pretraining.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2405.20462
       code: https://github.com/zhu-xlab/softcon?tab=readme-ov-file
-
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RS-DFM
-    description:  A Remote Sensing Distributed Foundation Model for Diverse Downstream Tasks.
+    description: A Remote Sensing Distributed Foundation Model for Diverse Downstream Tasks.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2406.07032
       code: null
-
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: A2-MAE
-    description:  A spatial-temporal-spectral unified remote sensing pre-training method based on anchor-aware masked autoencoder.
+    description: A spatial-temporal-spectral unified remote sensing pre-training method based on anchor-aware masked autoencoder.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2406.08079
       code: null
-
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: HyperSIGMA
-    description:  Hyperspectral Intelligence Comprehension Foundation Model.
+    description: Hyperspectral Intelligence Comprehension Foundation Model.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2406.11519
       code: https://github.com/WHU-Sigma/HyperSIGMA?tab=readme-ov-file
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SelectiveMAE
-    description:  Scaling Efficient Masked Autoencoder Learning on Large Remote Sensing Dataset.
+    description: Scaling Efficient Masked Autoencoder Learning on Large Remote Sensing Dataset.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2406.11933
       code: https://github.com/Fengxiang23/SelectiveMAE
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: OmniSat
-    description:  Self-Supervised Modality Fusion for Earth Observation.
+    description: Self-Supervised Modality Fusion for Earth Observation.
     category: Remote Sensing
     publication: ECCV2024
     year: 2024
     resource:
       paper: https://arxiv.org/pdf/2404.08351
       code: https://github.com/gastruc/OmniSat?tab=readme-ov-file
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: MM-VSF
-    description:  Towards a Knowledge guided Multimodal Foundation Model for Spatio-Temporal Remote Sensing Applications.
+    description: Towards a Knowledge guided Multimodal Foundation Model for Spatio-Temporal Remote Sensing Applications.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/pdf/2407.19660
       code: null
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: MA3E
-    description:  Masked Angle-Aware Autoencoder for Remote Sensing Images.
+    description: Masked Angle-Aware Autoencoder for Remote Sensing Images.
     category: Remote Sensing
     publication: ECCV2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2408.01946
       code: https://github.com/benesakitam/MA3E
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SpectralEarth
-    description:   Training Hyperspectral Foundation Models at Scale.
+    description: Training Hyperspectral Foundation Models at Scale.
     category: Remote Sensing
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2408.08447
       code: null
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RSGPT
     description: A Remote Sensing Vision Language Model and Benchmark.
@@ -998,6 +1455,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2307.15266
       code: https://github.com/Lavender105/RSGPT
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RemoteCLIP
     description: A Vision Language Foundation Model for Remote Sensing.
@@ -1009,6 +1471,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2306.11029
       code: https://github.com/ChenDelong1999/RemoteCLIP
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: GeoRSCLIP
     description: RS5M- A Large Scale Vision-Language Dataset for Remote Sensing Vision-Language Foundation Model.
@@ -1020,6 +1487,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2306.11300
       code: https://github.com/om-ai-lab/RS5M?tab=readme-ov-file
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: GRAFT
     description: RS5M- Remote Sensing Vision-Language Foundation Models without Annotations via Ground Remote Alignment.
@@ -1031,6 +1503,11 @@ models:
     resource:
       paper: https://openreview.net/pdf?id=w9tc699w3Z
       code: null
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: CNT
     description: Charting New Territories- Exploring the Geographic and Geospatial Capabilities of Multimodal LLMs.
@@ -1042,6 +1519,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2311.14656
       code: https://github.com/jonathan-roberts1/charting-new-territories
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RSC
     description: Remote Sensing ChatGPT- Solving Remote Sensing Tasks with ChatGPT and Visual Models.
@@ -1053,6 +1535,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2401.09083
       code: https://github.com/HaonanGuo/Remote-Sensing-ChatGPT
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SkyEyeGPT
     description: Unifying Remote Sensing Vision-Language Tasks via Instruction Tuning with Large Language Model.
@@ -1064,7 +1551,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2401.09712
       code: https://github.com/ZhanYang-nwpu/SkyEyeGPT
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: EarthGPT
     description: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain.
@@ -1076,6 +1567,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2401.09712
       code: null
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SkyCLIP
     description: SkyScript- A Large and Semantically Diverse Vision-Language Dataset for Remote Sensing.
@@ -1087,6 +1583,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2312.12856
       code: https://github.com/wangzhecheng/SkyScript
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: GeoChat
     description: Grounded Large Vision-Language Model for Remote Sensing.
@@ -1098,7 +1599,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2311.15826
       code: https://github.com/mbzuai-oryx/GeoChat
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: LHRS-Bot
     description: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model.
@@ -1110,7 +1615,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2402.02544
       code: https://github.com/NJU-LHRS/LHRS-Bot
-
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: H2RSVLM
     description: Towards Helpful and Honest Remote Sensing Large Vision Language Model.
@@ -1122,6 +1631,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2403.20213
       code: https://github.com/opendatalab/H2RSVLM
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: RS-LLaVA
     description: Large Vision Language Model for Joint Captioning and Question Answering in Remote Sensing Imagery.
@@ -1133,6 +1647,11 @@ models:
     resource:
       paper: https://www.mdpi.com/2072-4292/16/9/1477
       code: https://github.com/BigData-KSU/RS-LLaVA?tab=readme-ov-file
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: SkySenseGPT
     description: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding.
@@ -1144,6 +1663,11 @@ models:
     resource:
       paper: https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models/tree/main
       code: https://github.com/Luo-Z13/SkySenseGPT
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: Seg2Sat
     description: Segmentation to aerial view using pretrained diffuser models.
@@ -1155,7 +1679,11 @@ models:
     resource:
       paper: null
       code: https://github.com/RubenGres/Seg2Sat
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: GYOS
     description: Satellite Image Generation Conditioned on Maps.
@@ -1167,6 +1695,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2308.16648
       code: https://github.com/toastyfrosty/map-sat
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: GeoRSSD
     description: RS5M- A Large Scale Vision-Language Dataset for Remote Sensing Vision-Language Foundation Model.
@@ -1178,6 +1711,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2306.11300
       code: https://huggingface.co/Zilun/GeoRSSD
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: DiffusionSat
     description: A Generative Foundation Model for Satellite Imagery.
@@ -1189,91 +1727,123 @@ models:
     resource:
       paper: https://arxiv.org/abs/2312.03606
       code: https://github.com/samar-khanna/DiffusionSat
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: CRS-Diff
     description: Controllable Generative Remote Sensing Foundation Model.
     category: Remote Sensing Generative Foundation
     subcategory: Earth-observation
-    subsubcategory:  Pattern Recognition
+    subsubcategory: Pattern Recognition
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2403.11614
       code: null
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: MetaEarth
     description: A Generative Foundation Model for Global-Scale Remote Sensing Image Generation.
     category: Remote Sensing Generative Foundation
     subcategory: Earth-observation
-    subsubcategory:  Pattern Recognition
+    subsubcategory: Pattern Recognition
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2405.13570
       code: https://jiupinjia.github.io/metaearth/
-
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: CSP
     description: Self-Supervised Contrastive Spatial Pre-Training for Geospatial-Visual Representations.
     category: Remote Sensing Vision-Location Foundation
     subcategory: Earth-observation
-    subsubcategory:  Geospatial-Visual
+    subsubcategory: Geospatial-Visual
     publication: ICML2023
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2305.01118
       code: https://gengchenmai.github.io/csp-website/
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name: Life on Land
 
   - name: GeoCLIP
     description: Clip-Inspired Alignment between Locations and Images for Effective Worldwide Geo-localization.
     category: Remote Sensing Vision-Location Foundation
-    subcategory: GPS-Embeddingsn
-    subsubcategory:  Geolocation-Estimation
+    subcategory: GPS-Embeddings
+    subsubcategory: Geolocation-Estimation
     publication: NeurIPS2023
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2309.16020
       code: https://github.com/VicenteVivan/geo-clip
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name: Life on Land
 
   - name: SatCLIP
     description: Global, General-Purpose Location Embeddings with Satellite Imagery.
     category: Remote Sensing Vision-Location Foundation
     subcategory: Satellite Imagery
-    subsubcategory:  Geolocation-Estimation
+    subsubcategory: Geolocation-Estimation
     publication: Arxiv2023
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2311.17179
       code: https://github.com/microsoft/satclip
-
-
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name: Life on Land
 
   - name: SARL
     description: Self-supervised audiovisual representation learning for remote sensing data.
     category: Remote Sensing Vision-Audio Foundation
     subcategory: Self & Multi-modal learning
-    subsubcategory:  Representation learning
+    subsubcategory: Representation learning
     publication: JAG2022
     year: 2022
     resource:
       paper: https://www.sciencedirect.com/science/article/pii/S1569843222003181
-      code:  https://github.com/khdlr/SoundingEarth
-
-
-
+      code: https://github.com/khdlr/SoundingEarth
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 15
+        name: Life on Land
 
   - name: SS-MAE
     description: Spatial-Spectral Masked Auto-Encoder for Mulit-Source Remote Sensing Image Classification.
     category: Remote Sensing Task-specific Foundation
     subcategory: Image Classification
-    subsubcategory:  Masked image modeling
+    subsubcategory: Masked image modeling
     publication: TGRS2023
     year: 2023
     resource:
       paper: https://ieeexplore.ieee.org/document/10314566
-      code:  https://github.com/summitgao/SS-MAE?tab=readme-ov-file
+      code: https://github.com/summitgao/SS-MAE?tab=readme-ov-file
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name: Life on Land
 
   - name: TTP
     description: Bitemporal Features Integration with Foundation Model for Remote Sensing Image Change Detection.
@@ -1285,6 +1855,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2312.16202
       code: https://github.com/KyanChen/TTP
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: CSMAE
     description: Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing.
@@ -1296,17 +1871,26 @@ models:
     resource:
       paper: https://arxiv.org/abs/2401.07782
       code: https://github.com/jakhac/CSMAE
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
+      
   - name: RSPrompter
-    description:  Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model.
+    description: Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model.
     category: Remote Sensing Task-specific Foundation
     subcategory: Instance Segmentation
-
     publication: TGRS2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2306.16269
       code: https://github.com/KyanChen/RSPrompter
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: BAN
     description: A New Learning Paradigm for Foundation Model-based Remote Sensing Change Detection.
@@ -1318,6 +1902,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2312.01163
       code: https://github.com/likyoo/BAN
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: SAM
     description: Change Detection Between Optical Remote Sensing Imagery and Map Data via Segment Anything Model (SAM).
@@ -1329,6 +1918,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2401.09019
       code: null
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: AnyChange
     description: Segment Any Change.
@@ -1340,7 +1934,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2402.01188
       code: null
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: RS-CapRet
     description: Large Language Models for Captioning and Retrieving Remote Sensing Images.
@@ -1352,17 +1950,27 @@ models:
     resource:
       paper: https://arxiv.org/abs/2402.06475
       code: null
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name: Life on Land
 
   - name: TSP
     description: Task Specific Pretraining with Noisy Labels for Remote sensing Image Segmentation.
     category: Remote Sensing Task-specific Foundation
-    subcategory: Image Segmentation 
+    subcategory: Image Segmentation
     subsubcategory: Noisy labels
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2402.16164
       code: null
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: RSBuilding
     description: Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model.
@@ -1374,6 +1982,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2403.07564
       code: https://github.com/Meize0729/RSBuilding
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: SAM-Road
     description: Segment Anything Model for Road Network Graph Extraction.
@@ -1385,9 +1998,11 @@ models:
     resource:
       paper: https://arxiv.org/abs/2403.16051
       code: https://github.com/htcr/sam_road
-
-
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: GeoLLM-QA
     description: Evaluating Tool-Augmented Agents in Remote Sensing Platforms.
@@ -1399,69 +2014,76 @@ models:
     resource:
       paper: https://arxiv.org/abs/2405.00709
       code: null
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name: Life on Land
 
   - name: RS-Agent
     description: Automating Remote Sensing Tasks through Intelligent Agents.
     category: Remote Sensing Agents
     subcategory: Large Language Models
-    subsubcategory: Pattern Recognition 
+    subsubcategory: Pattern Recognition
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2406.07089
       code: null
-
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: RPRSMB
     description: Revisiting pre-trained remote sensing model benchmarks- resizing and normalization matters.
     category: Benchmarks for RSFMs
     subcategory: Classification
-    subsubcategory: Pattern Recognition 
+    subsubcategory: Pattern Recognition
     publication: Arxiv2023
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2305.13456
       code: https://github.com/isaaccorley/resize-is-all-you-need
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: GEO-Bench
     description: Toward Foundation Models for Earth Monitoring.
     category: Benchmarks for RSFMs
-    subcategory: Classification 
-    subsubcategory: Segmentation 
+    subcategory: Classification
+    subsubcategory: Segmentation
     publication: Arxiv2023
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2306.03831
       code: https://github.com/ServiceNow/geo-bench
-
-
-  - name: GEO-Bench
-    description: Toward Foundation Models for Earth Monitoring.
-    category: Benchmarks for RSFMs
-    subcategory: Classification 
-    subsubcategory: Segmentation 
-    publication: Arxiv2023
-    year: 2023
-    resource:
-      paper: https://arxiv.org/abs/2306.03831
-      code: https://github.com/ServiceNow/geo-bench
-
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 13
+        name: Climate Action
 
   - name: FoMo-Bench
-    description:  A multi-modal, multi-scale and multi-task Forest Monitoring Benchmark for remote sensing foundation models.
+    description: A multi-modal, multi-scale and multi-task Forest Monitoring Benchmark for remote sensing foundation models.
     category: Benchmarks for RSFMs
     subcategory: Classification & Segmentation & Detection
-    subsubcategory: Forest monitoring 
+    subsubcategory: Forest monitoring
     publication: Arxiv2023
     year: 2023
     resource:
       paper: https://arxiv.org/abs/2312.10114
       code: null
+    sdgs:
+      - number: 15
+        name: Life on Land
 
   - name: PhilEO
-    description:  PhilEO Bench- Evaluating Geo-Spatial Foundation Models.
+    description: PhilEO Bench- Evaluating Geo-Spatial Foundation Models.
     category: Benchmarks for RSFMs
     subcategory: Segmentation & Regression estimation
     subsubcategory: Geo-Spatial
@@ -1470,39 +2092,43 @@ models:
     resource:
       paper: https://arxiv.org/abs/2401.04464
       code: https://github.com/91097luke/phileo-bench
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name: Life on Land
 
   - name: SkySense
-    description:  A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery.
+    description: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery.
     category: Benchmarks for RSFMs
     subcategory: Multi-Modal Segmentation
-    subsubcategory: Time-insensitive LandCover Mapping 
+    subsubcategory: Time-insensitive LandCover Mapping
     publication: CVPR2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2312.10115
       code: null
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name: Life on Land
 
   - name: VLEO-Bench
-    description:  Good at captioning, bad at counting- Benchmarking GPT-4V on Earth observation data.
+    description: Good at captioning, bad at counting- Benchmarking GPT-4V on Earth observation data.
     category: Benchmarks for RSFMs
     subcategory: Location Recognition & Captioning & Scene
-    subsubcategory: lassification & Counting & Detection & Change detection
+    subsubcategory: Classification & Counting & Detection & Change detection
     publication: Arxiv2024
     year: 2024
     resource:
       paper: https://arxiv.org/abs/2401.17600
       code: https://vleo.danielz.ch/
-
-  - name: VRSBench
-    description:  A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding.
-    category: Benchmarks for RSFMs
-    subcategory: Image Captioning & Object Referring
-    subsubcategory: Visual Question Answering
-    publication: Arxiv2024
-    year: 2024
-    resource:
-      paper: https://arxiv.org/abs/2406.12384
-      code: https://vrsbench.github.io/
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 15
+        name:
 
 publications:
   - title: PCT-CycleGAN Paired Complementary Temporal Cycle-Consistent Adversarial Networks for Radar-Based Precipitation Nowcasting
@@ -1744,6 +2370,11 @@ tools:
     category: Climate Modeling
     subcategory: Data Generation
     subsubcategory: Generative Adversarial Networks
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 9
+        name: Industry, Innovation, and Infrastructure
 
   - name: Virtual Earth System Laboratory
     description: The Virtual Earth System Laboratory provides real-time simulations of glaciers, ice sheets, and sea levels using advanced models to analyze climate impacts and earth processes.
@@ -1752,6 +2383,11 @@ tools:
     category: Earth Science
     subcategory: Simulations
     subsubcategory: Cryosphere
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 14
+        name: Life Below Water
 
   - name: Climate Data Operators
     description: CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data. Supported data formats are GRIB 1/2, netCDF 3/4, SERVICE, EXTRA and IEG. There are more than 600 operators available.
@@ -1760,6 +2396,11 @@ tools:
     category: Climate Data Operators
     subcategory: Command Line Tools
     subsubcategory: Data Manipulation
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 9
+        name: Industry, Innovation, and Infrastructure
 
   - name: IBM Data Preparation Toolkit
     description: Data Prep Kit simplifies big data preparation for LLMs by offering modular transforms for unstructured data, enabling efficient and scalable data processing.
@@ -1768,14 +2409,22 @@ tools:
     category: Data Prep Kit
     subcategory: LLM Modules
     subsubcategory: Transforms
+    sdgs:
+      - number: 9
+        name: Industry, Innovation, and Infrastructure
 
-  - name: U.S. Climate Resiliance Toolkit
+  - name: U.S. Climate Resilience Toolkit
     description: This framework helps you document climate hazards that could harm the things you care about, decide which situations you most want to avoid, and come up with workable solutions to reduce your climate-related risks.
     url: https://toolkit.climate.gov/
     date: 2024-04-05
-    category: Climate Framework 
+    category: Climate Framework
     subcategory: Risk Management
     subsubcategory: Hazard Documentation
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 11
+        name: Sustainable Cities and Communities
 
   - name: Remote Sensing Toolkit (NASA)
     description: The Remote Sensing Toolkit provides access to NASA's data and analysis tools, promoting the commercialization and application of remote-sensing data for research, business, and conservation.
@@ -1784,6 +2433,11 @@ tools:
     category: Remote Sensing Toolkit
     subcategory: Data Access
     subsubcategory: Analysis Tools
+    sdgs:
+      - number: 15
+        name: Life on Land
+      - number: 14
+        name: Life Below Water
 
   - name: Biodiversity Monitoring Tool
     description: Tool for monitoring and analyzing biodiversity data from various sources.
@@ -1792,6 +2446,11 @@ tools:
     category: Environmental Conservation
     subcategory: Biodiversity Monitoring
     subsubcategory: Remote Sensing Integration
+    sdgs:
+      - number: 15
+        name: Life on Land
+      - number: 14
+        name: Life Below Water
 
   - name: Global Forest Watch (GFW)
     description: Global Forest Watch (GFW) is an online platform that provides data and tools for monitoring forests. By harnessing cutting-edge technology, GFW allows anyone to access near real-time information about where and how forests are changing around the world.
@@ -1800,6 +2459,9 @@ tools:
     category: Environmental Conservation
     subcategory: Deforestation Prevention
     subsubcategory: Satellite Imaging
+    sdgs:
+      - number: 15
+        name: Life on Land
 
   - name: MODFLOW 6
     description: USGS Modular Hydrologic Model
@@ -1808,14 +2470,24 @@ tools:
     category: Environmental Conservation
     subcategory: Water Resource Management
     subsubcategory: Hydrologic Model
+    sdgs:
+      - number: 6
+        name: Clean Water and Sanitation
+      - number: 13
+        name: Climate Action
 
   - name: USGS Web Tools
-    description: The USGS Web Tools provide a suite of online resources designed for accessing, visualizing, and analyzing a wide range of geological and hydrological data. 
+    description: The USGS Web Tools provide a suite of online resources designed for accessing, visualizing, and analyzing a wide range of geological and hydrological data.
     url: https://www.usgs.gov/products/web-tools
-    date: 2024-05-0
+    date: 2024-05-05
     category: Web Tools
     subcategory: Data Analysis
     subsubcategory: Data Visualization
+    sdgs:
+      - number: 9
+        name: Industry, Innovation, and Infrastructure
+      - number: 15
+        name: Life on Land
 
   - name: OpenEMS
     description: Open Source Energy Management System
@@ -1824,6 +2496,11 @@ tools:
     category: Renewable Energy
     subcategory: Energy Management
     subsubcategory: Optimization
+    sdgs:
+      - number: 7
+        name: Affordable and Clean Energy
+      - number: 9
+        name: Industry, Innovation, and Infrastructure
 
   - name: Power System Blocks
     description: The open source set of Power System Blocks in Java, dedicated to grid analysis and simulation.
@@ -1832,14 +2509,24 @@ tools:
     category: Sustainable Cities
     subcategory: Smart Grids
     subsubcategory: Optimization
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 7
+        name: Affordable and Clean Energy
 
-  - name: Urban Waste Management System
-    description: Comprehensive tool for urban waste management and analysis.
-    url: https://www.urbanwastemanagement.org/
+  - name: Landfill Gas and Waste Management Tools - US EPA
+    description: Provides a comprehensive list of tools and resources for managing landfill gas and waste, including analysis, monitoring, and management solutions.
+    url: https://www.epa.gov/lmop/list-tools-related-landfill-gas-and-waste-management
     date: 2024-09-01
     category: Sustainable Cities
     subcategory: Waste Management
     subsubcategory: Data Analysis
+    sdgs:
+      - number: 11
+        name: Sustainable Cities and Communities
+      - number: 12
+        name: Responsible Consumption and Production
 
   - name: Flooding Analysis Tool
     description: The NASA Flooding Analysis Tool enables users to assess future high-tide flooding risks due to sea level rise by analyzing tide gauge data and climate projections for specific locations and scenarios.
@@ -1848,4 +2535,9 @@ tools:
     category: Disaster Management
     subcategory: Flooding Analysis Tool
     subsubcategory: Location-Specific Projections
+    sdgs:
+      - number: 13
+        name: Climate Action
+      - number: 11
+        name: Sustainable Cities and Communities
 

@@ -2,6 +2,11 @@
 
 import React from 'react';
 
+export interface SDG {
+  number: number;
+  name: string;
+}
+
 export interface Tool {
   name: string;
   description: string;
@@ -10,6 +15,7 @@ export interface Tool {
   category?: string;
   subcategory?: string;
   subsubcategory?: string;
+  sdgs?: SDG[];
 }
 
 export interface Tools {
@@ -40,6 +46,13 @@ const AITools: React.FC<Tools> = ({ tools }) => {
                 {tool.subsubcategory}
               </div>
             )}
+          </div>
+          <div className="flex flex-wrap items-center mb-2">
+            {tool.sdgs && tool.sdgs.map((sdg, sdgIndex) => (
+              <div key={sdgIndex} className="bg-blue-100 text-blue-800 rounded px-3 py-1 text-xs mr-2 mb-1">
+                SDG {sdg.number}: {sdg.name}
+              </div>
+            ))}
           </div>
           <a 
             href={tool.url} 
