@@ -45,7 +45,7 @@ We welcome contributions to improve this repository. For guidelines on how to co
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-For any questions or support, please contact us at [support@aisustainabilityhub.org](mailto:support@aisustainabilityhub.org).
+For any questions or support, please contact us at [support@aisustainabilityhub.org](mailto:sheeba@us.ibm.com).
 
 ---
 
