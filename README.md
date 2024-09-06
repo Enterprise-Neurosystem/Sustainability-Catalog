@@ -1,6 +1,6 @@
-# AI Sustainability Hub
+# AI for climate action hub
 
-Welcome to the **AI Sustainability Hub**! This repository provides a collection of resources related to AI and sustainability, including datasets, models, publications, and tools. Our goal is to support and advance research in the intersection of artificial intelligence and environmental sustainability.
+Welcome to the **AI for climate action hub**! This repository provides a collection of resources related to AI and climate action, including datasets, models, publications, and tools. Our goal is to support and advance research in the intersection of artificial intelligence and environmental sustainability.
 
 ## Sections
 
@@ -8,7 +8,7 @@ Welcome to the **AI Sustainability Hub**! This repository provides a collection 
 Discover a range of datasets focused on climate change, environmental monitoring, and more. For the latest datasets, please refer to `public/datasets.yml`. 
 
 ### Models
-Explore AI models designed to address sustainability challenges:
+Explore AI models designed to address climate action challenges:
 - **Aurora**: An atmospheric model for weather forecasting. [Learn more](https://www.microsoft.com/en-us/research/publication/aurora-a-foundation-model-of-the-atmosphere/)
 - **Pangu-Weather**: A medium-range weather forecasting model. [Learn more](https://www.nature.com/articles/s41586-023-06185-3)
 
@@ -18,7 +18,7 @@ Access key papers and reports in the field:
 - **TIP-GAN**: Discovery of climate tipping points. [Read more](https://arxiv.org/abs/2302.10274)
 
 ### Tools
-Utilize tools for AI and sustainability projects:
+Utilize tools for AI and climate action projects:
 - **Climate Prediction Toolkit**: Tools for climate modeling. [Explore](https://www.climateprediction.net/)
 - **Virtual Earth System Laboratory**: Real-time simulations of earth processes. [Discover](https://sealevel.nasa.gov/data_tools/2/)
 
