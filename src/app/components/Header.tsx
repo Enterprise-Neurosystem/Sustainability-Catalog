@@ -13,9 +13,9 @@ const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <div className={styles.overlay}>
-        <h1 className={styles.headerTitle}>AI Sustainability Hub</h1>
+        <h1 className={styles.headerTitle}>AI for climate action hub</h1>
         <p className={styles.headerDescription}>
-          Your go-to resource for AI models, data sources, tools, and publications for sustainability.
+          Your go-to resource for data sources, models, tools, and publications for AI for climate action.
         </p>
         <div className={styles.searchContainer}>
           <div className={styles.searchBox}>
