@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div>
-            <p>&copy; 2024 AI Sustainability Catalog</p>
+            <p>&copy; 2024 AI Sustainability Hub</p>
             <p>
               <Link legacyBehavior href="/about" className="text-white hover:underline">
                   <a>About Us</a>
