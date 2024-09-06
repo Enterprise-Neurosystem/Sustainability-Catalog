@@ -13,7 +13,7 @@ const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <div className={styles.overlay}>
-        <h1 className={styles.headerTitle}>AI for climate action hub</h1>
+        <h1 className={styles.headerTitle}>AI for Climate Action Hub</h1>
         <p className={styles.headerDescription}>
           Your go-to resource for data sources, models, tools, and publications for AI for climate action.
         </p>
