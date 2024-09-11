@@ -2,15 +2,38 @@
 
 import React from 'react';
 import { Construction } from  '@carbon/icons-react';
+import Link from "next/link";
 
 const GrandChallenge: React.FC = () => {
   return (
-    <main className="flex h-full flex-col items-center justify-center gap-2">
-          <Construction className="w-screen h-16 text-orange-600" />
-          <div className="content-text" >
-              <p>Page under construction.</p>
+     <main className="flex h-full flex-col items-center justify-center gap-2">
+          <h2 className="text-xl font-semibold content-column">AI Innovation Grand Challenge</h2>
+          <div className="content-text">
+              <p>
+                  Launched at the United Nations Climate Change Conference in Dubai in December 2023 {' '}
+                  <a href="https://unfccc.int/news/challenge-launched-at-cop28-to-harness-artificial-intelligence-for-climate-action-in-developing" className="text-blue-600 hover:underline">(COP 28)</a>,
+                  the AI Innovation Grand Challenge is a global open-source AI competition. Hosted by the  {' '}
+                  <a href="https://www.enterpriseneurosystem.org/" className="text-blue-600 hover:underline">Enterprise Neurosystem</a>
+                  in partnership with the Technology Executive Committee {' '}
+                  <a href="https://unfccc.int/ttclear/tec/" className="text-blue-600 hover:underline">(TEC)</a>
+                  of the United Nations Framework Convention on Climate Change (UNFCCC) in support of the
+                  UNFCCC Technology Mechanism Initiative on Artificial Intelligence for Climate Action {' '}
+                  <a href="https://unfccc.int/ttclear/artificial_intelligence" className="text-blue-600 hover:underline">(#AI4ClimateAction)</a>,
+                  the contest aims to:
+              {/*</p>*/}
+              {/*<p>*/}
+                  <br />
+                  <br />
+                  <ul style={{ listStyleType: 'disc', color: 'black', paddingLeft: '30px' }} >
+                      <li><strong>Identify #AI4ClimateAction solutions</strong> that drive responsible climate change adaptation and mitigation in developing countries</li>
+                      <li><strong>Support the development & scaling-up</strong> of #AI4ClimateAction solutions</li>
+                      <li><strong>Raise awareness of opportunities, challenges and risks</strong> of the use of AI for climate action</li>
+                  </ul>
+              <br />
+                  Link to 2024 Grand challenge: {' '}
+                  <a href="https://enter.innovationgrandchallenge.ai/2024" className="text-blue-600 hover:underline">https://enter.innovationgrandchallenge.ai/2024</a>.
+              </p>
           </div>
-
       </main>
   );
 };
