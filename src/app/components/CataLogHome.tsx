@@ -16,6 +16,8 @@ import DataSources from "./DataSources";
 import AIModels from "./AIModels";
 import Publications from "./Publications";
 import AITools from "./AITools";
+import ClimateAction from "./ClimateAction";
+import GrandChallenge from "./GrandChallenge";
 import styles from "./CataLogHome.module.css";
 import useSearchStore from "./Searchstore";
 import ScrollToTop from "react-scroll-to-top";
@@ -74,6 +76,8 @@ const CataLogHome = ({ datasets, models, tools, publications }) => {
                 <Tab className="tab-item">AI Models</Tab>
                 <Tab className="tab-item">Publications</Tab>
                 <Tab className="tab-item">AI Tools</Tab>
+                <Tab className="tab-item">Climate Action</Tab>
+                <Tab className="tab-item">Grand Challenge</Tab>
               </TabList>
               <TabPanels>
                 <TabPanel>
@@ -119,6 +123,12 @@ const CataLogHome = ({ datasets, models, tools, publications }) => {
                   ) : (
                     <AITools tools={filteredTools} />
                   )}
+                </TabPanel>
+                <TabPanel>
+                  <ClimateAction />
+                </TabPanel>
+                <TabPanel>
+                  <GrandChallenge />
                 </TabPanel>
               </TabPanels>
             </Tabs>

@@ -82,7 +82,9 @@ body {
   padding: 1rem;
   overflow-y: auto;
   margin-right: 150px;
-  margin-left: 150px
+  margin-left: 150px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* globals.css */
