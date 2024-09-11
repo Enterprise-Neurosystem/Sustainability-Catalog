@@ -6,8 +6,8 @@ import '../app/globals.css';
 
 
 export const metadata: Metadata = {
-  title: 'AI Sustainability Catalog',
-  description: 'AI Sustainability Catalog',
+  title: 'AI Climate Action Catalog',
+  description: 'AI Climate Action Catalog',
 };
 
 export default function RootLayout({
