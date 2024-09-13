@@ -28,11 +28,21 @@ interface Publication {
   url?: string;
 }
 
+interface News {
+  title: string;
+  url: string;
+  date: string;
+  tag: string;
+  author: string;
+  timeReq: string;
+}
+
 const HomePage = async () => {
   let datasets: Dataset[] = [];
   let models: Model[] = [];
   let tools: Tool[] = [];
   let publications: Publication[] = [];
+  let news: News[] = [];
 
   try {
     const filePath = path.join(process.cwd(), "public/datasets.yml");
@@ -52,6 +62,16 @@ const HomePage = async () => {
     console.error("Error reading or parsing YAML file:", error);
   }
 
+  try {
+    const newsFilePath = path.join(process.cwd(), "public/newsdatasets.yml");
+    const newsFileContent = fs.readFileSync(newsFilePath, "utf8");
+    const newsData = yaml.load(newsFileContent) as { newsset: News[] };
+
+    news = newsData.newsset || [];
+  } catch (error) {
+    console.error("Error reading or parsing news YAML file:", error);
+  }
+
   return (
     <section className="section-01">
       <div className="containerX">
@@ -66,7 +86,7 @@ const HomePage = async () => {
           </div>
 
           <aside className="col-lg-4 col-md-12 news-feed">
-            <NewsFeed />
+            <NewsFeed news={news} />
           </aside>
         </div>
       </div>
