@@ -1,7 +1,8 @@
-import path from 'path';
-import fs from 'fs';
-import yaml from 'js-yaml';
-import CataLogHome from './components/CataLogHome';
+import path from "path";
+import fs from "fs";
+import yaml from "js-yaml";
+import CataLogHome from "./components/CataLogHome";
+import NewsFeed from "./components/NewsFeed";
 
 interface Dataset {
   name: string;
@@ -34,8 +35,8 @@ const HomePage = async () => {
   let publications: Publication[] = [];
 
   try {
-    const filePath = path.join(process.cwd(), 'public/datasets.yml');
-    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const filePath = path.join(process.cwd(), "public/datasets.yml");
+    const fileContent = fs.readFileSync(filePath, "utf8");
     const data = yaml.load(fileContent) as {
       datasets: Dataset[];
       models: Model[];
@@ -48,16 +49,28 @@ const HomePage = async () => {
     tools = data.tools || [];
     publications = data.publications || [];
   } catch (error) {
-    console.error('Error reading or parsing YAML file:', error);
+    console.error("Error reading or parsing YAML file:", error);
   }
 
   return (
-    <CataLogHome
-      datasets={datasets}
-      models={models}
-      tools={tools}
-      publications={publications}
-    />
+    <section className="section-01">
+      <div className="containerX">
+        <div className="row main-content">
+          <div className="col-lg-8 col-md-12 catalog-section">
+            <CataLogHome
+              datasets={datasets}
+              models={models}
+              tools={tools}
+              publications={publications}
+            />
+          </div>
+
+          <aside className="col-lg-4 col-md-12 news-feed">
+            <NewsFeed />
+          </aside>
+        </div>
+      </div>
+    </section>
   );
 };
 
