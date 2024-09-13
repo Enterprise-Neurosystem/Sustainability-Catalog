@@ -7,6 +7,7 @@ const NewsFeed: React.FC = () => {
     { id: 1, title: "News 1", description: "Description of news 1" },
     { id: 2, title: "News 2", description: "Description of news 2" },
     { id: 3, title: "News 3", description: "Description of news 3" },
+    { id: 4, title: "News 4", description: "Description of news 4" },
   ];
 
   return (
