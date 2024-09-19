@@ -10,7 +10,7 @@ export default function Page() {
           <h2 className="text-xl font-semibold content-column">About Us</h2>
           <div className="content-text">
               <p>
-                  AI Application Hub serves as a knowledge catalog with the theme "AI for climate action" and is built to bring Subject matter experts in this field in one
+                  AI Application Hub serves as a knowledge catalog with the theme AI for climate action and is built to bring Subject matter experts in this field in one
                   place. This is the place where climate and AI experts come together to gather information as well as contribute (giveback) to the hub. 
               </p>
               <p>
