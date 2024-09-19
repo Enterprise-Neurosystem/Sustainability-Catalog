@@ -15,8 +15,8 @@ export default function Page() {
               </p>
               <p>
                   You can contribute to the contents of this website by submitting a Pull Request (PR) specifying the following information to
-                  our AI Sustainability Hub Git repo in {' '}
-                  <a href="https://github.com/Enterprise-Neurosystem/Sustainability-Catalog" className="text-blue-600 hover:underline">ENG Git Hub</a>.
+                  our Enterprise Neurosystem Git repo in {' '}
+                  <a href="https://github.com/Enterprise-Neurosystem/Sustainability-Catalog" className="text-blue-600 hover:underline">EN GitHub</a>.
                   <br />
                   <br />
                   <ul style={{ listStyleType: 'disc', color: 'black', paddingLeft: '30px' }} >
