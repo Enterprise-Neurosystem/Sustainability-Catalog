@@ -33,8 +33,7 @@ const GrandChallenge: React.FC = () => {
                   Link to 2024 Grand challenge: {' '}
                   <a href="https://enter.innovationgrandchallenge.ai/2024" className="text-blue-600 hover:underline">https://enter.innovationgrandchallenge.ai/2024</a>.
                   <li><strong>2024 Grand Challenge Winner - Dr. Letetia Addison of Trinidad and Tobago</strong> for “AI-Driven Climate Resilience Platform for SIDS.”</li>
-                  <li><strong>Project Description:</strong> AI4SIDS is an AI-driven climate resilience initiative designed to enhance disaster preparedness and response across Small Island Developing States (SIDS). By integrating real-time data from IoT sensors, satellite imagery, and predictive AI models, AI4SIDS provides automated risk assessments, flood detection, and resource allocation insights, ensuring governments and communities can act swiftly to mitigate climate risks. This scalable platform aims to expand beyond flood resilience to multi-hazard disaster management, addressing hurricanes, droughts, and rising sea levels across SIDS.</li>
-               </p>   
+                </p>  
           </div>
       </main>
   );
