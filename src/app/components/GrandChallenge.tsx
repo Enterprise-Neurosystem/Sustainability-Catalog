@@ -32,8 +32,6 @@ const GrandChallenge: React.FC = () => {
               <br />
                   Link to 2024 Grand challenge: {' '}
                   <a href="https://enter.innovationgrandchallenge.ai/2024" className="text-blue-600 hover:underline">https://enter.innovationgrandchallenge.ai/2024</a>.
-
-              
               </p>
           </div>
       </main>
